@@ -9,7 +9,6 @@ with open('ucs.json') as f:
   data = json.load(f)
 
 g = rdflib.Graph()
-ds = rdflib.Dataset()
 url = "http://di.uminho.pt/prc2021/ucs"
 g.bind("owl", OWL)
 g.bind("rdfs", RDFS)
