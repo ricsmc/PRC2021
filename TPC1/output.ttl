@@ -1,0 +1,1078 @@
+@prefix ns1: <http://di.uminho.pt/prc2021/ucs#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:6034de1b00c2f1ce35ff29df a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Faulkner Hale" .
+
+ns1:6034de1b00f4be3e8344c383 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Melanie Marks" .
+
+ns1:6034de1b018f7f859d2aadfe a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Rosa Hartman" .
+
+ns1:6034de1b01c25e7648403e0e a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Billie Leach" .
+
+ns1:6034de1b03bcabd1d7f210cc a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Solis Walsh" .
+
+ns1:6034de1b042f2d909dacec9a a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Esther Giles" .
+
+ns1:6034de1b04f7acec6f040e93 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Levy Pierce" .
+
+ns1:6034de1b05d660a1ddaaa35c a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Chambers Bean" .
+
+ns1:6034de1b05f33f752040a06b a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Helene Fischer" .
+
+ns1:6034de1b098f415ab16775de a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Walters Floyd" .
+
+ns1:6034de1b0b8e8a34f60c2251 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Solomon Kirby" .
+
+ns1:6034de1b0c62a6ac68dd6e8a a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "White Mann" .
+
+ns1:6034de1b0d66354c4f1accef a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Jessie Cash" .
+
+ns1:6034de1b0e17c1e820bc126a a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Weiss Brennan" .
+
+ns1:6034de1b0e6a0e2edcec6944 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Dickson Everett" .
+
+ns1:6034de1b10920c1edfcd81c3 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Simone Ewing" .
+
+ns1:6034de1b1180e4788bc25c03 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Welch Clayton" .
+
+ns1:6034de1b12539c9f1a1c9c74 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Carney Dejesus" .
+
+ns1:6034de1b151d6f543cf61a57 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Petersen Wilcox" .
+
+ns1:6034de1b159203cb7e07df74 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Scott Hodge" .
+
+ns1:6034de1b16003d0e68c94f83 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Laurie Estrada" .
+
+ns1:6034de1b16347cd864f19278 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Clare Gomez" .
+
+ns1:6034de1b18d5de86af81624f a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Ora Holcomb" .
+
+ns1:6034de1b1a5c76bda1234d99 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Sheri Rogers" .
+
+ns1:6034de1b1b6305d929774ecc a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Mckay Bradley" .
+
+ns1:6034de1b1b94d37e44ac3dd9 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Diana Horne" .
+
+ns1:6034de1b1bb11e0016c59725 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Wilma Howe" .
+
+ns1:6034de1b1bfe5eadb0915dc2 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Lamb Kent" .
+
+ns1:6034de1b1c2b4f49d7a6ccbb a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Moran Booker" .
+
+ns1:6034de1b1ca49eec41011d69 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Fleming Murphy" .
+
+ns1:6034de1b1cf43d7f00820307 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Duffy Britt" .
+
+ns1:6034de1b1e6fd65d037ffec9 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Felecia Collins" .
+
+ns1:6034de1b24c62bcfad1e1a6e a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Opal Coleman" .
+
+ns1:6034de1b251710f503a7e298 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Butler Paul" .
+
+ns1:6034de1b26691dd3f237a61f a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Holloway Tate" .
+
+ns1:6034de1b2ae4bc1f4e0b5529 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Baxter Sellers" .
+
+ns1:6034de1b2d0dcc73de729ceb a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Kelsey Leonard" .
+
+ns1:6034de1b2f07cce9d012c3ab a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Byrd Graham" .
+
+ns1:6034de1b2f42391bb9c83ef0 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Mayra Wall" .
+
+ns1:6034de1b30c7bbf034d3ad9c a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Myers Bender" .
+
+ns1:6034de1b30ee13e407fa3ca0 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Avila Navarro" .
+
+ns1:6034de1b312e3837f53df915 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Carroll Rosario" .
+
+ns1:6034de1b33065c9547324ec6 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Spence Harrison" .
+
+ns1:6034de1b37c55f8f799f716e a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Vinson Stevenson" .
+
+ns1:6034de1b37dbfdc7a1ae028e a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Benton Webb" .
+
+ns1:6034de1b39a162cdb18522ea a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Walton Munoz" .
+
+ns1:6034de1b39c1a8bc5375e694 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Casandra Mcintyre" .
+
+ns1:6034de1b3ac91dc40c9e5f8f a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Berger Bishop" .
+
+ns1:6034de1b3bfdd6fe0c4771e9 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Kara Vasquez" .
+
+ns1:6034de1b3d52b08b1ce72df9 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Morgan Cummings" .
+
+ns1:6034de1b3ea43ebe15440760 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Good Gray" .
+
+ns1:6034de1b3ee3a17715efe9a0 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Ellis Gross" .
+
+ns1:6034de1b3fa5995dc16eb870 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Maggie Kennedy" .
+
+ns1:6034de1b3facb1ed87a42ed3 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Sampson Mcpherson" .
+
+ns1:6034de1b40f1fbf6b9f58e70 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Bobbie Kaufman" .
+
+ns1:6034de1b43f1ecfceb443865 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Rose Garza" .
+
+ns1:6034de1b45e34dac21dddb2b a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Annie Newton" .
+
+ns1:6034de1b491a4abb3cd7903f a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Allie Davis" .
+
+ns1:6034de1b4c4b409ce396ada8 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Pam Preston" .
+
+ns1:6034de1b4dd9311d5548310d a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Fry Merritt" .
+
+ns1:6034de1b4e1d7ffcbf7cd717 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Sara Olson" .
+
+ns1:6034de1b4e4a7873f9549b00 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Parsons Austin" .
+
+ns1:6034de1b4e6392ec25f902ad a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Susan Mcmahon" .
+
+ns1:6034de1b4ecc455f37cb4d6a a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Sosa Brooks" .
+
+ns1:6034de1b513c3ea85385850d a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Pitts Medina" .
+
+ns1:6034de1b5241d2c4232fccc9 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Wallace Boone" .
+
+ns1:6034de1b530adb327b8870e6 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Meyers Hicks" .
+
+ns1:6034de1b5711af1d12163e2b a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Francisca Henderson" .
+
+ns1:6034de1b57f0aa4596739040 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Linda Berger" .
+
+ns1:6034de1b58206c1c06cd5338 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Gracie Mcfarland" .
+
+ns1:6034de1b5a6c94512a644e97 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Melton Foster" .
+
+ns1:6034de1b5ab197530f33dbac a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Tran Simpson" .
+
+ns1:6034de1b5cd7c4df7e1d36d0 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Jerry Oneill" .
+
+ns1:6034de1b5fe21fc44974a9c0 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Vargas Norman" .
+
+ns1:6034de1b5ffd9cb7df6a4f42 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Edwards Goodwin" .
+
+ns1:6034de1b61605648066b18c6 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Debora Morrow" .
+
+ns1:6034de1b6339552da31c105b a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Nelda Ochoa" .
+
+ns1:6034de1b64df7c6e98c5c94b a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Carolyn Hughes" .
+
+ns1:6034de1b650e5cff0f7a8816 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Burris Vaughn" .
+
+ns1:6034de1b673d4efff9f521af a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Woodard Gould" .
+
+ns1:6034de1b67be23df388b5219 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Ashlee Ramirez" .
+
+ns1:6034de1b687484515abee0b8 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Matilda Johnson" .
+
+ns1:6034de1b6b26776c4011b30d a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Burks Perry" .
+
+ns1:6034de1b6e02c05947288e77 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Sofia Jenkins" .
+
+ns1:6034de1b6e76d9ab612592e5 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Karla Perez" .
+
+ns1:6034de1b6f142d71071cb39e a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Rachael Barker" .
+
+ns1:6034de1b6f8dc50663426640 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Hancock Nicholson" .
+
+ns1:6034de1b6fa2bda10f511eb6 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Burgess Blair" .
+
+ns1:6034de1b7212b3db3c742aaa a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Jarvis Carlson" .
+
+ns1:6034de1b73904a07373faee8 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Tameka Puckett" .
+
+ns1:6034de1b73bfa565a3322afe a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Houston Herrera" .
+
+ns1:6034de1b73ffb6fc4f706212 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Patton Berg" .
+
+ns1:6034de1b7408527d39f793ba a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Araceli Moses" .
+
+ns1:6034de1b74660c742bef96be a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Delacruz Noel" .
+
+ns1:6034de1b74835c71c753ffd9 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Booth Gilliam" .
+
+ns1:6034de1b75742223cf9a9071 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Lucinda Sanders" .
+
+ns1:6034de1b77bdf102165e5476 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Brittney Nieves" .
+
+ns1:6034de1b78ae23bdeadbbe4d a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Sherman Lewis" .
+
+ns1:6034de1b7909953c0e9e224c a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Armstrong Hopkins" .
+
+ns1:6034de1b7ac146dceb8754fc a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Rodgers Small" .
+
+ns1:6034de1b7d03fec8fc845410 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Stacey Bond" .
+
+ns1:6034de1b8169b0959ce9520c a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Christi Ayers" .
+
+ns1:6034de1b81ed5165db1c162f a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Hooper Nichols" .
+
+ns1:6034de1b8214778f2ed585a9 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Dorothy James" .
+
+ns1:6034de1b88b57e88f4c47e5c a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Monique Mack" .
+
+ns1:6034de1b8909a2604236882e a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Abigail Williamson" .
+
+ns1:6034de1b8aba4fc42be58fa4 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Julia Conner" .
+
+ns1:6034de1b8bcebf93c0b7ed31 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Bryant Buckner" .
+
+ns1:6034de1b8ca6a92c48d40024 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Calhoun Mendoza" .
+
+ns1:6034de1b8ea7c3883386e334 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Payne Mcdaniel" .
+
+ns1:6034de1b8fd1d5c36075f2a1 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Mia Franco" .
+
+ns1:6034de1b905734d0b1b29d70 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Hebert Carroll" .
+
+ns1:6034de1b90d8638c4c33624b a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Barker Luna" .
+
+ns1:6034de1b91e2721860268ff8 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Banks Potter" .
+
+ns1:6034de1b9441e22a074cd947 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Cooley Curry" .
+
+ns1:6034de1b946b8a3e6960e851 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Meadows Warren" .
+
+ns1:6034de1b9608b617caad5117 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Hinton Peterson" .
+
+ns1:6034de1b967e3ff4b8c2a7af a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Hartman Daugherty" .
+
+ns1:6034de1b96862f285cecaf0b a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Sharron Craft" .
+
+ns1:6034de1b97e4eae102916114 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Adeline Donovan" .
+
+ns1:6034de1b99d2a0b9cce93458 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Hughes Melendez" .
+
+ns1:6034de1b99e4122de142bff1 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Miles Kelly" .
+
+ns1:6034de1b99e478583a3ce088 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Manuela Mullins" .
+
+ns1:6034de1b9bf04801561aa2b6 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Oliver Garner" .
+
+ns1:6034de1b9c0f6a89cac3bf56 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Camacho Rocha" .
+
+ns1:6034de1b9dca3092e11e6dd6 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Eula Mclean" .
+
+ns1:6034de1b9e922e2d0ffa3c05 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Hendrix Gentry" .
+
+ns1:6034de1b9ea3d7937f90489a a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Gina Whitaker" .
+
+ns1:6034de1b9fbf103ad9fba91c a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Bridget York" .
+
+ns1:6034de1ba0d85a63ac34456d a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Glenda Stafford" .
+
+ns1:6034de1ba309a731bcdda0de a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Mason Combs" .
+
+ns1:6034de1ba5cfc8d84242afec a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Newton Maddox" .
+
+ns1:6034de1ba5f48d8e665aaac5 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Ginger Montoya" .
+
+ns1:6034de1ba6485092132ebd5c a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Fuentes Barrett" .
+
+ns1:6034de1ba834c0433f6ea224 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Iva Cain" .
+
+ns1:6034de1ba96dafa43edb23c4 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Arline Caldwell" .
+
+ns1:6034de1ba99845105d7d8047 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Alta Buchanan" .
+
+ns1:6034de1baac4f8b16eb5a155 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Deanna Schwartz" .
+
+ns1:6034de1bac17fe76d4f9d01a a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Lenore Payne" .
+
+ns1:6034de1bad20e112be85164f a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Shepard Jackson" .
+
+ns1:6034de1bad5f2d5a80fe459d a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Leona Holder" .
+
+ns1:6034de1bb123834bb06d9211 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Pruitt Ferrell" .
+
+ns1:6034de1bb15a2e1043190d74 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Ida Banks" .
+
+ns1:6034de1bb2ffed04799f4991 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Mollie Frederick" .
+
+ns1:6034de1bb3a9cbf8317e14ab a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Montgomery Snyder" .
+
+ns1:6034de1bb4b72008d1d3bfb6 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Cassandra Bowen" .
+
+ns1:6034de1bb4bd3d5ccd484c2f a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Johanna Drake" .
+
+ns1:6034de1bb57d11529758a670 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Gloria Gates" .
+
+ns1:6034de1bb710ba3c28115ba6 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Caitlin Jefferson" .
+
+ns1:6034de1bb7e1f9c2b07affdc a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Peters Marquez" .
+
+ns1:6034de1bb7f4910c948e1ad3 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Tammi Flynn" .
+
+ns1:6034de1bbb96d33587ba45dd a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Chandra Sharp" .
+
+ns1:6034de1bbd5dbf4e444df1bf a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Jayne Hardin" .
+
+ns1:6034de1bbd8aeb31534d1664 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Harrison Riddle" .
+
+ns1:6034de1bc03fcac58a0df594 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Bryan Wooten" .
+
+ns1:6034de1bc2c30175429ae940 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Compton Mccall" .
+
+ns1:6034de1bc36b3be2914ab383 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Mallory Meyer" .
+
+ns1:6034de1bc731afb4099852f5 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Drake Mays" .
+
+ns1:6034de1bc7bce2ad5a9ffccb a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Gould Fernandez" .
+
+ns1:6034de1bc95a5f22f9178b7b a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Sharp Trujillo" .
+
+ns1:6034de1bc9983f3fd62ac03d a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Alston Spencer" .
+
+ns1:6034de1bc99bed71afa3d15e a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Campos Price" .
+
+ns1:6034de1bca73c9f0925b9172 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Rowena Winters" .
+
+ns1:6034de1bcf096ab9b7ddcc68 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Schneider Vinson" .
+
+ns1:6034de1bd0003194b8bf471f a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Melody Riley" .
+
+ns1:6034de1bd0e37076e78b6745 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Beatriz Macias" .
+
+ns1:6034de1bd5672ffa302d2724 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Angelina Mckee" .
+
+ns1:6034de1bd58c8c7f87bfad1a a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Barber Evans" .
+
+ns1:6034de1bd993073dafa5e2b7 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Fisher Crosby" .
+
+ns1:6034de1bde1976269830442d a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Dee Lamb" .
+
+ns1:6034de1bdf850ad65b830eda a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Leblanc Nolan" .
+
+ns1:6034de1be1d4138121d940c4 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Lillian Hester" .
+
+ns1:6034de1be28a8d5a3a9dcf9d a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Duran Hamilton" .
+
+ns1:6034de1be3bcd28490219371 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Guthrie Garrison" .
+
+ns1:6034de1be3c35fd364aadafb a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Estrada Mccullough" .
+
+ns1:6034de1be3ef5781458911e3 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Jamie Fox" .
+
+ns1:6034de1be457b591bee1a8d9 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Irma Benton" .
+
+ns1:6034de1be57959fe8e68127b a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Lorna Butler" .
+
+ns1:6034de1be58e16800ad392ad a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Joseph Doyle" .
+
+ns1:6034de1be691e02b27dd1d1d a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Rochelle Marshall" .
+
+ns1:6034de1be963518ea4c2159d a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Ruthie Browning" .
+
+ns1:6034de1be9abc173ffe96fee a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Glass Roberts" .
+
+ns1:6034de1bea7b812c6487f9f2 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Hess Patrick" .
+
+ns1:6034de1beb3c05203a2ee9ae a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Beverley Hendrix" .
+
+ns1:6034de1becac4003a2eb4831 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Britt Cantrell" .
+
+ns1:6034de1bedffa8f691080caf a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Anne Page" .
+
+ns1:6034de1bee53b68f25912baf a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Gardner Chambers" .
+
+ns1:6034de1bee6cc6b502f529eb a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Wood Richmond" .
+
+ns1:6034de1bef401166b03e4eb7 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Miller Mccoy" .
+
+ns1:6034de1bf028ea178b0f4b2d a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Candace Mcfadden" .
+
+ns1:6034de1bf22badaaa82cc949 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Rocha Johns" .
+
+ns1:6034de1bf3908368337b8c8d a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Wendi Gilmore" .
+
+ns1:6034de1bf490a86296670a03 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:GGCD2021 ;
+    ns1:nome "Teri Harmon" .
+
+ns1:6034de1bf68d442ebfe0cccb a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Martin Chen" .
+
+ns1:6034de1bf708cf292be36dff a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Caldwell Thompson" .
+
+ns1:6034de1bf878686ea7e13a26 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Mcclain Gaines" .
+
+ns1:6034de1bfa49b5b6f18fe4c2 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Gallagher Stokes" .
+
+ns1:6034de1bfc96b4786c3664b2 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:AAII2021 ;
+    ns1:nome "Shaffer Dixon" .
+
+ns1:6034de1bfd480f3d47da8ba3 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:SPLN2021 ;
+    ns1:nome "Fulton Brewer" .
+
+ns1:6034de1bff0e9f205aa67314 a ns1:Aluno,
+        owl:NamedIndividual ;
+    ns1:frequenta ns1:PRC2021 ;
+    ns1:nome "Miriam Reynolds" .
+
+ns1:anoLetivo a owl:DatatypeProperty .
+
+ns1:descrição a owl:DatatypeProperty .
+
+ns1:frequenta a owl:ObjectProperty ;
+    rdfs:domain ns1:Aluno ;
+    rdfs:range ns1:UnidadeCurricular ;
+    owl:inverseOf ns1:éFrequentadaPor .
+
+ns1:jcr a ns1:Professor,
+        owl:NamedIndividual ;
+    ns1:ensina ns1:PRC2021 ;
+    ns1:nome "JosÃ© Carlos Ramalho" .
+
+ns1:jj a ns1:Professor,
+        owl:NamedIndividual ;
+    ns1:ensina ns1:SPLN2021 ;
+    ns1:nome "JosÃ© JoÃ£o" .
+
+ns1:jop a ns1:Professor,
+        owl:NamedIndividual ;
+    ns1:ensina ns1:GGCD2021 ;
+    ns1:nome "JosÃ© Orlando Pereira" .
+
+ns1:mrocha a ns1:Professor,
+        owl:NamedIndividual ;
+    ns1:ensina ns1:AAII2021 ;
+    ns1:nome "Miguel Rocha" .
+
+ns1:nome a owl:DatatypeProperty .
+
+ns1:éAlunoDe a owl:ObjectProperty ;
+    owl:inverseOf ns1:éProfessorDe .
+
+ns1:ensina a owl:ObjectProperty ;
+    rdfs:domain ns1:Professor ;
+    rdfs:range ns1:UnidadeCurricular ;
+    owl:inverseOf ns1:éEnsinadaPor .
+
+ns1:éEnsinadaPor a owl:ObjectProperty .
+
+ns1:éProfessorDe a owl:ObjectProperty ;
+    owl:propertyChainAxiom [ rdf:first ns1:ensina ;
+            rdf:rest [ rdf:first ns1:éFrequentadaPor ] ] .
+
+ns1:éFrequentadaPor a owl:ObjectProperty .
+
+ns1:Professor a owl:Class .
+
+ns1:UnidadeCurricular a owl:Class .
+
+ns1:AAII2021 a ns1:UnidadeCurricular,
+        owl:NamedIndividual ;
+    ns1:anoLetivo "2020/2021" ;
+    ns1:designação "Aprendizagem AutomÃ¡tica II" .
+
+ns1:GGCD2021 a ns1:UnidadeCurricular,
+        owl:NamedIndividual ;
+    ns1:anoLetivo "2020/2021" ;
+    ns1:designação "GestÃ£o de Grandes Conjuntos de Dados" .
+
+ns1:PRC2021 a ns1:UnidadeCurricular,
+        owl:NamedIndividual ;
+    ns1:anoLetivo "2020/2021" ;
+    ns1:designação "Processamento e RepresentaÃ§Ã£o de Conhecimento" .
+
+ns1:SPLN2021 a ns1:UnidadeCurricular,
+        owl:NamedIndividual ;
+    ns1:anoLetivo "2020/2021" ;
+    ns1:designação "Scripting no Processamento de Linguagem Natural" .
+
+ns1:Aluno a owl:Class .
+
