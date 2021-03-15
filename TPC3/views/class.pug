@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= id
+  -var y = 0
+  for i in rep 
+    a(href="/reps/" + ide + "/" + cla +"/"+ y) #{i.s.value}
+    -y = y +1 
+    p

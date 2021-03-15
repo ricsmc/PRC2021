@@ -1,0 +1,6 @@
+extends layout
+
+block content
+  h1= 'Repositórios'
+  for i in reps 
+    a(href="/reps/" + i.id) #{i.title}
