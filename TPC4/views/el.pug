@@ -1,0 +1,14 @@
+extends layout
+
+block content 
+    h1 Elemento
+    for i in elems 
+        if i.p == "group"
+            a(href="/groups/" + i.o)  #{i.p} : #{i.o}
+            p
+        else if i.p == "period"
+            a(href="/periods/" + i.o)  #{i.p} : #{i.o}
+            p
+        else    
+            p #{i.p} : #{i.o}
+    a(href="/") [Voltar à Página inicial]

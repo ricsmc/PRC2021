@@ -1,0 +1,8 @@
+extends layout
+
+block content 
+    h1 Periodos 
+    for i in elems
+        a(href="/periods/" + i) #{i}
+        p
+    a(href="/") [Voltar à Página inicial]

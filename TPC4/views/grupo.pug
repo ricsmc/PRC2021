@@ -1,0 +1,11 @@
+extends layout
+
+block content 
+    h1 Grupo
+    for i in elems 
+        if i.p == "element"
+            a(href="/elements/" + i.o)  #{i.p} : #{i.o}
+            p
+        else    
+            p #{i.p} : #{i.o}
+    a(href="/") [Voltar à Página inicial]

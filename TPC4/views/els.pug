@@ -1,0 +1,8 @@
+extends layout
+
+block content 
+    h1 Elementos 
+    for i in elems
+        a(href="/elements/" + i) #{i}
+        p
+    a(href="/") [Voltar à Página inicial]

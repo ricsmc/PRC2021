@@ -1,0 +1,8 @@
+extends layout
+
+block content 
+    h1 Grupos
+    for i in elems
+        a(href="/groups/" + i) #{i}
+        p
+    a(href="/") [Voltar à Página inicial]
