@@ -1,0 +1,1922 @@
+@prefix ns1: <http://di.uminho.pt/prc2021/tpc5#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:aa a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:ipres2013 ;
+    ns1:nome "Alan Akbik" .
+
+ns1:aab a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:BKRFBR08,
+        ns1:FBR05-CAPSI,
+        ns1:FBR06-Ariadne,
+        ns1:FBR06-XATA,
+        ns1:FBR07,
+        ns1:FBR07-IJDL ;
+    ns1:nome "Ana Alice Baptista" .
+
+ns1:address a owl:DatatypeProperty .
+
+ns1:ajp a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:SRFP95,
+        ns1:VECPAR93 ;
+    ns1:nome "A. J. Proença" .
+
+ns1:albie a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:editor_de ns1:IGI2013,
+        ns1:RLS06,
+        ns1:RS04,
+        ns1:RSL05 ;
+    ns1:nome "Alberto Simões" .
+
+ns1:alexandra a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:bad2015a,
+        ns1:edicic2015 ;
+    ns1:nome "Alexandra Lourenço" .
+
+ns1:ap a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:cisti2017 ;
+    ns1:nome "André Pereira" .
+
+ns1:ar a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:BKRFBR08 ;
+    ns1:nome "Andreas Rauber" .
+
+ns1:arl a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:LRH97,
+        ns1:RLH98 ;
+    ns1:nome "A. R. Lopes" .
+
+ns1:as a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:RFFLS06,
+        ns1:SFRL07 ;
+    ns1:nome "António Sousa" .
+
+ns1:asantos a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:bad2015b ;
+    ns1:nome "André Santos" .
+
+ns1:autor_de a owl:ObjectProperty ;
+    rdfs:domain ns1:Autor ;
+    rdfs:range ns1:Livro ;
+    owl:inverseOf ns1:escrito_por .
+
+ns1:bf a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:iPRES2016 ;
+    ns1:nome "Bruno Ferreira" .
+
+ns1:booktitle a owl:DatatypeProperty .
+
+ns1:bs a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:ipres2013 ;
+    ns1:nome "Barbara Sierman" .
+
+ns1:cajo a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:LR04,
+        ns1:RL05 ;
+    ns1:nome "Carlos J. Feijó Lopes" .
+
+ns1:cb a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:BKRFBR08,
+        ns1:icadl2012,
+        ns1:ipres2012,
+        ns1:or2013 ;
+    ns1:nome "Christoph Becker" .
+
+ns1:chapter a owl:DatatypeProperty .
+
+ns1:clei04 a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:editor_de ns1:LRH04-Clei ;
+    ns1:nome "Mauricio Solar and David Fernández-Baca and Ernesto Cuadros-Vargas" .
+
+ns1:des a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:SMR03 ;
+    ns1:nome "Daniel Edgar Pinto Soares" .
+
+ns1:doi a owl:DatatypeProperty .
+
+ns1:editor_de a owl:ObjectProperty ;
+    rdfs:domain ns1:Autor ;
+    rdfs:range ns1:Livro ;
+    owl:inverseOf ns1:editado_por .
+
+ns1:eloy a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:bad2015b ;
+    ns1:nome "Eloy Rodrigues" .
+
+ns1:fb a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:FCRBCF07,
+        ns1:RFCFBC06,
+        ns1:RFCFBC07,
+        ns1:RFFCBC08 ;
+    ns1:nome "Francisco Barbedo" .
+
+ns1:grl a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:GARH09,
+        ns1:JLRH02,
+        ns1:JLRH02b,
+        ns1:JLRH03,
+        ns1:JLRHb02,
+        ns1:JLRHc02,
+        ns1:LARH07-EPIA,
+        ns1:LATRH07-CLEI,
+        ns1:LGRH07-CLEI,
+        ns1:LMMFRH07-TMRA,
+        ns1:LMMVRH08-XATA,
+        ns1:LPRH07-TM,
+        ns1:LPRH07-XATA,
+        ns1:LRH03,
+        ns1:LRH03b,
+        ns1:LRH03c,
+        ns1:LRH04,
+        ns1:LRH04-Clei,
+        ns1:LRH04-WWS,
+        ns1:LRH04-XMLw,
+        ns1:LRH05,
+        ns1:LRH05-CLEI,
+        ns1:LRH05b,
+        ns1:LRH06-SBSI06,
+        ns1:LRH06-XATA,
+        ns1:LRH07-SEMINFO,
+        ns1:LRHGT08,
+        ns1:LSRH04,
+        ns1:RHL04-eLes,
+        ns1:RLH03,
+        ns1:RLH03b,
+        ns1:RLH04,
+        ns1:RLH05,
+        ns1:RLH05-revAPSI17,
+        ns1:RLH05b,
+        ns1:RLH06,
+        ns1:RLH07-EML,
+        ns1:RLH2003 ;
+    ns1:editor_de ns1:RHLA03 ;
+    ns1:nome "Giovani Rubert Librelotto" .
+
+ns1:gva a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:editor_de ns1:RHLA03 ;
+    ns1:nome "Gustavo V. Arnold" .
+
+ns1:hm a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:LMMVRH08-XATA ;
+    ns1:nome "Henrique Machado" .
+
+ns1:howpublished a owl:DatatypeProperty .
+
+ns1:hs a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:SRFP95,
+        ns1:VECPAR93 ;
+    ns1:nome "H. Santos" .
+
+ns1:hsilva a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:bad2015b,
+        ns1:dlm2014 ;
+    ns1:nome "Hélder Silva" .
+
+ns1:htm a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:LMMFRH07-TMRA ;
+    ns1:nome "H. T. Machado" .
+
+ns1:isbn a owl:DatatypeProperty .
+
+ns1:issn a owl:DatatypeProperty .
+
+ns1:jcarvalho a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:bad2015b ;
+    ns1:nome "José Carvalho" .
+
+ns1:jcl a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:editor_de ns1:RLA08,
+        ns1:RLC07,
+        ns1:RLS06,
+        ns1:RSL05 ;
+    ns1:nome "João Correia Lopes" .
+
+ns1:jcr a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:BKRFBR08,
+        ns1:FBR05-CAPSI,
+        ns1:FBR06-Ariadne,
+        ns1:FBR06-XATA,
+        ns1:FBR07,
+        ns1:FBR07-IJDL,
+        ns1:FCRBCF07,
+        ns1:FFR10,
+        ns1:FR04,
+        ns1:FR04-capsi,
+        ns1:FR04b,
+        ns1:FR09,
+        ns1:FR10,
+        ns1:FR11,
+        ns1:FR11b,
+        ns1:FR11c,
+        ns1:FR11d,
+        ns1:FR11e,
+        ns1:FRF-XATA,
+        ns1:GARH09,
+        ns1:IGI2013,
+        ns1:JHR00,
+        ns1:JLRH02,
+        ns1:JLRH02b,
+        ns1:JLRH03,
+        ns1:JLRHb02,
+        ns1:JLRHc02,
+        ns1:JRH03,
+        ns1:LARH07-EPIA,
+        ns1:LATRH07-CLEI,
+        ns1:LGRH07-CLEI,
+        ns1:LMMFRH07-TMRA,
+        ns1:LMMVRH08-XATA,
+        ns1:LPRH07-TM,
+        ns1:LPRH07-XATA,
+        ns1:LR04,
+        ns1:LRH03,
+        ns1:LRH03b,
+        ns1:LRH03c,
+        ns1:LRH04,
+        ns1:LRH04-Clei,
+        ns1:LRH04-WWS,
+        ns1:LRH04-XMLw,
+        ns1:LRH05,
+        ns1:LRH05-CLEI,
+        ns1:LRH05b,
+        ns1:LRH06-SBSI06,
+        ns1:LRH06-XATA,
+        ns1:LRH07-SEMINFO,
+        ns1:LRH97,
+        ns1:LRHGT08,
+        ns1:LSRH04,
+        ns1:MRH04,
+        ns1:RAH1998,
+        ns1:RAH95,
+        ns1:RAH96,
+        ns1:RARH98,
+        ns1:RD06-XATA,
+        ns1:RFCFBC06,
+        ns1:RFCFBC07,
+        ns1:RFFC07-EML,
+        ns1:RFFCBC08,
+        ns1:RFFLS06,
+        ns1:RH2002,
+        ns1:RH94,
+        ns1:RH98,
+        ns1:RH98b,
+        ns1:RH98c,
+        ns1:RH98d,
+        ns1:RH99,
+        ns1:RHHRAF98,
+        ns1:RHL04-eLes,
+        ns1:RHb98,
+        ns1:RL05,
+        ns1:RLH03,
+        ns1:RLH03b,
+        ns1:RLH04,
+        ns1:RLH05,
+        ns1:RLH05-revAPSI17,
+        ns1:RLH05b,
+        ns1:RLH06,
+        ns1:RLH07-EML,
+        ns1:RLH2003,
+        ns1:RLH98,
+        ns1:RQR10,
+        ns1:RRAH97,
+        ns1:RS2003,
+        ns1:RTFR04,
+        ns1:Ram01,
+        ns1:Ram03,
+        ns1:Ram05,
+        ns1:Ram2000,
+        ns1:Ram93,
+        ns1:Ram96,
+        ns1:Ram98,
+        ns1:Ram99,
+        ns1:Ram99b,
+        ns1:SFRL07,
+        ns1:SMR03,
+        ns1:SRFP95,
+        ns1:VECPAR93,
+        ns1:archiving2013,
+        ns1:bad2012,
+        ns1:bad2015a,
+        ns1:bad2015b,
+        ns1:cisti2017,
+        ns1:dlm2014,
+        ns1:edicic2015,
+        ns1:guimaramus2012,
+        ns1:iPRES2016,
+        ns1:icadl2012,
+        ns1:ipres2012,
+        ns1:ipres2013,
+        ns1:or2013 ;
+    ns1:editor_de ns1:IGI2013,
+        ns1:RHLA03,
+        ns1:RLA08,
+        ns1:RLC07,
+        ns1:RLS06,
+        ns1:RS04,
+        ns1:RSL05 ;
+    ns1:nome "José Carlos Ramalho" .
+
+ns1:jg a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:LGRH07-CLEI,
+        ns1:LRHGT08 ;
+    ns1:nome "Jonas Gassen" .
+
+ns1:jgr a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:RARH98,
+        ns1:RHHRAF98,
+        ns1:RRAH97 ;
+    ns1:nome "J. G. Rocha" .
+
+ns1:jj a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:RAH1998,
+        ns1:RAH95,
+        ns1:RAH96,
+        ns1:RARH98,
+        ns1:RH99,
+        ns1:RHHRAF98,
+        ns1:RRAH97 ;
+    ns1:nome "José João Almeida" .
+
+ns1:jlf a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:RHHRAF98 ;
+    ns1:nome "J. L. Faria" .
+
+ns1:jls a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:RS2003 ;
+    ns1:nome "José Luis Santos" .
+
+ns1:jmf a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:SRFP95,
+        ns1:VECPAR93 ;
+    ns1:nome "J. M. Fernandes" .
+
+ns1:jmoreira a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:bad2015b ;
+    ns1:nome "João Moreira" .
+
+ns1:journal a owl:DatatypeProperty .
+
+ns1:jv a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:LMMVRH08-XATA ;
+    ns1:nome "Juliana Vizzotto" .
+
+ns1:kd a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:icadl2012,
+        ns1:ipres2012,
+        ns1:or2013 ;
+    ns1:nome "Kresimir Duretec " .
+
+ns1:lc a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:RFFCBC08 ;
+    ns1:editor_de ns1:RLC07 ;
+    ns1:nome "Luis Carriço" .
+
+ns1:lcor a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:FCRBCF07,
+        ns1:RFCFBC06,
+        ns1:RFCFBC07 ;
+    ns1:nome "Luis Corujo" .
+
+ns1:lf a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:FCRBCF07,
+        ns1:RFCFBC06,
+        ns1:RFCFBC07,
+        ns1:RFFC07-EML,
+        ns1:RFFCBC08,
+        ns1:archiving2013,
+        ns1:bad2012,
+        ns1:bad2015b,
+        ns1:cisti2017,
+        ns1:dlm2014,
+        ns1:iPRES2016,
+        ns1:icadl2012,
+        ns1:ipres2012,
+        ns1:ipres2013,
+        ns1:or2013 ;
+    ns1:nome "Luis Faria" .
+
+ns1:lmf a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:FFR10,
+        ns1:FRF-XATA,
+        ns1:RFFLS06,
+        ns1:SFRL07 ;
+    ns1:nome "Luis Miguel Ferros" .
+
+ns1:lutz a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:editor_de ns1:RLH06 ;
+    ns1:nome "Lutz Maicher" .
+
+ns1:mam a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:RQR10 ;
+    ns1:nome "Miguel Ángel Marzal Garcia-Quismondo" .
+
+ns1:mcm a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:SMR03 ;
+    ns1:nome "Maria da Conceição Vieira Mota" .
+
+ns1:mf a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:BKRFBR08,
+        ns1:FBR05-CAPSI,
+        ns1:FBR06-Ariadne,
+        ns1:FBR06-XATA,
+        ns1:FBR07,
+        ns1:FBR07-IJDL,
+        ns1:FCRBCF07,
+        ns1:FFR10,
+        ns1:FR04,
+        ns1:FR04-capsi,
+        ns1:FR04b,
+        ns1:FRF-XATA,
+        ns1:RFCFBC06,
+        ns1:RFCFBC07,
+        ns1:RFFC07-EML,
+        ns1:RFFCBC08,
+        ns1:RFFLS06,
+        ns1:archiving2013,
+        ns1:bad2012,
+        ns1:bad2015b,
+        ns1:cisti2017,
+        ns1:iPRES2016,
+        ns1:icadl2012,
+        ns1:ipres2012,
+        ns1:ipres2013,
+        ns1:or2013 ;
+    ns1:nome "Miguel Ferreira" .
+
+ns1:mhj a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:JHR00,
+        ns1:JLRH02,
+        ns1:JLRH02b,
+        ns1:JLRH03,
+        ns1:JLRHb02,
+        ns1:JLRHc02,
+        ns1:JRH03 ;
+    ns1:nome "M. H.  Jacinto" .
+
+ns1:migaldo a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:RD06-XATA ;
+    ns1:nome "Luis Miguel Alves Domingues" .
+
+ns1:mjc a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:RQR10 ;
+    ns1:nome "Maria Jesus Colmenero Ruiz" .
+
+ns1:mjpl a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:RFFLS06,
+        ns1:SFRL07 ;
+    ns1:nome "Maria João Pires Lima" .
+
+ns1:mk a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:BKRFBR08 ;
+    ns1:nome "Michael Kraxner" .
+
+ns1:mm a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:LMMVRH08-XATA ;
+    ns1:nome "Mirkos Martins" .
+
+ns1:mom a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:LMMFRH07-TMRA ;
+    ns1:nome "M. O. Martins" .
+
+ns1:month a owl:DatatypeProperty .
+
+ns1:mr a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:ipres2013 ;
+    ns1:nome "Marcel Ras" .
+
+ns1:mrh a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:RHHRAF98 ;
+    ns1:nome "M. R. Henriques" .
+
+ns1:nome a owl:DatatypeProperty .
+
+ns1:number a owl:DatatypeProperty .
+
+ns1:pages a owl:DatatypeProperty .
+
+ns1:park a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:editor_de ns1:RLH06 ;
+    ns1:nome "Jack Park" .
+
+ns1:pdf_url a owl:DatatypeProperty .
+
+ns1:penteado a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:bad2015a,
+        ns1:edicic2015 ;
+    ns1:nome "Pedro Penteado" .
+
+ns1:pgf a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:LMMFRH07-TMRA ;
+    ns1:nome "P. G. D. Ferreira" .
+
+ns1:pp a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:icadl2012,
+        ns1:ipres2012 ;
+    ns1:nome "Petar Petrov" .
+
+ns1:prh a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:GARH09,
+        ns1:JHR00,
+        ns1:JLRH02,
+        ns1:JLRH02b,
+        ns1:JLRH03,
+        ns1:JLRHb02,
+        ns1:JLRHc02,
+        ns1:JRH03,
+        ns1:LARH07-EPIA,
+        ns1:LATRH07-CLEI,
+        ns1:LGRH07-CLEI,
+        ns1:LMMFRH07-TMRA,
+        ns1:LMMVRH08-XATA,
+        ns1:LPRH07-TM,
+        ns1:LPRH07-XATA,
+        ns1:LRH03,
+        ns1:LRH03b,
+        ns1:LRH03c,
+        ns1:LRH04,
+        ns1:LRH04-Clei,
+        ns1:LRH04-WWS,
+        ns1:LRH04-XMLw,
+        ns1:LRH05,
+        ns1:LRH05-CLEI,
+        ns1:LRH05b,
+        ns1:LRH06-SBSI06,
+        ns1:LRH06-XATA,
+        ns1:LRH07-SEMINFO,
+        ns1:LRH97,
+        ns1:LRHGT08,
+        ns1:LSRH04,
+        ns1:MRH04,
+        ns1:RAH1998,
+        ns1:RAH95,
+        ns1:RAH96,
+        ns1:RARH98,
+        ns1:RH2002,
+        ns1:RH94,
+        ns1:RH98,
+        ns1:RH98b,
+        ns1:RH98c,
+        ns1:RH98d,
+        ns1:RHHRAF98,
+        ns1:RHL04-eLes,
+        ns1:RHb98,
+        ns1:RLH03,
+        ns1:RLH03b,
+        ns1:RLH04,
+        ns1:RLH05,
+        ns1:RLH05-revAPSI17,
+        ns1:RLH05b,
+        ns1:RLH06,
+        ns1:RLH07-EML,
+        ns1:RLH2003,
+        ns1:RLH98,
+        ns1:RRAH97 ;
+    ns1:editor_de ns1:RHLA03 ;
+    ns1:nome "Pedro Rangel Henriques" .
+
+ns1:pt a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:RTFR04 ;
+    ns1:nome "Pedro Taveira" .
+
+ns1:publisher a owl:DatatypeProperty .
+
+ns1:ram a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:MRH04 ;
+    ns1:nome "Ricardo Martins" .
+
+ns1:rc a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:FCRBCF07,
+        ns1:RFCFBC06,
+        ns1:RFCFBC07,
+        ns1:RFFC07-EML,
+        ns1:RFFCBC08 ;
+    ns1:nome "Rui Castro" .
+
+ns1:rct a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:LATRH07-CLEI,
+        ns1:LRHGT08 ;
+    ns1:nome "Rogério Correa Turchetti" .
+
+ns1:rf a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:FR09,
+        ns1:FR10,
+        ns1:FR11,
+        ns1:FR11b,
+        ns1:FR11c,
+        ns1:FR11d,
+        ns1:FR11e,
+        ns1:IGI2013,
+        ns1:RTFR04 ;
+    ns1:nome "Ricardo Freitas" .
+
+ns1:rpa a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:GARH09,
+        ns1:LARH07-EPIA,
+        ns1:LATRH07-CLEI,
+        ns1:LPRH07-TM,
+        ns1:LPRH07-XATA,
+        ns1:RLH07-EML ;
+    ns1:nome "Renato Preigschadt de Azevedo" .
+
+ns1:rq a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:editor_de ns1:IGI2013 ;
+    ns1:nome "Ricardo Queirós" .
+
+ns1:sa a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:editor_de ns1:RLA08 ;
+    ns1:nome "Salvador Abreu" .
+
+ns1:school a owl:DatatypeProperty .
+
+ns1:title a owl:DatatypeProperty .
+
+ns1:type a owl:DatatypeProperty .
+
+ns1:uri a owl:DatatypeProperty .
+
+ns1:volume a owl:DatatypeProperty .
+
+ns1:vr a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:RTFR04 ;
+    ns1:nome "Vasco Rocha" .
+
+ns1:ws a ns1:Autor,
+        owl:NamedIndividual ;
+    ns1:autor_de ns1:LSRH04 ;
+    ns1:nome "Weber Souza" .
+
+ns1:year a owl:DatatypeProperty .
+
+ns1:Ram01 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Berlin - Germany" ;
+    ns1:booktitle "XML Europe'01" ;
+    ns1:doi "http://hdl.handle.net/1822/623" ;
+    ns1:month "05" ;
+    ns1:title "Constraining Content: specification and processing" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2001" .
+
+ns1:Ram03 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Braga - Portugal" ;
+    ns1:booktitle "XATA 2003 - XML, Aplicações e Tecnologias Associadas" ;
+    ns1:doi "http://hdl.handle.net/1822/554" ;
+    ns1:month "02.13" ;
+    ns1:title "O XML nos curriculae das licenciaturas em informática" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2003" .
+
+ns1:Ram05 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Braga" ;
+    ns1:booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2005)" ;
+    ns1:doi "http://hdl.handle.net/1822/884" ;
+    ns1:isbn "972-99166-1-6" ;
+    ns1:month "02.10" ;
+    ns1:title "Document Composer: uma aplicação XML para extracção de informação de repositórios XML" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2005" .
+
+ns1:Ram2000 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Universidade do Minho" ;
+    ns1:doi "http://hdl.handle.net/1822/5625" ;
+    ns1:month "07" ;
+    ns1:school "Tese de Doutoramento" ;
+    ns1:title "Anotação Estrutural de Documentos e sua Semântica" ;
+    ns1:type "phdthesis" ;
+    ns1:year "2000" .
+
+ns1:Ram93 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:month "10" ;
+    ns1:school "Escola de Engenharia - Universidade do Minho" ;
+    ns1:title "Um Compilador para o GLiTCH" ;
+    ns1:type "masterthesis" ;
+    ns1:year "1993" .
+
+ns1:Ram96 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Universidade do Minho" ;
+    ns1:booktitle "Workshop: Document    Processing and SGML" ;
+    ns1:month "09" ;
+    ns1:title "DSSSL: basic topics" ;
+    ns1:type "inproceedings" ;
+    ns1:year "1996" .
+
+ns1:Ram98 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:howpublished """tutorial at Terceiro Encontro Nacional para a Qualidade nas tecnologias de
+			informação e comunicação, Guimarães - Portugal""" ;
+    ns1:title "Tutorial: Documentação Estruturada - Será que a minha empresa deve migrar para uma tecnologia baseada em SGML?" ;
+    ns1:type "misc" ;
+    ns1:year "1998" .
+
+ns1:Ram99 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "London - England" ;
+    ns1:booktitle "Digital Resources for the Humanities - DRH99" ;
+    ns1:title "Recovering Old Paper Historical Documents Through SGML/XML Modelling" ;
+    ns1:type "inproceedings" ;
+    ns1:year "1999" .
+
+ns1:Ram99b a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:chapter "Extensible Markup Language (XML)- A promessa e a esperança?..." ;
+    ns1:month "11.23-26" ;
+    ns1:pages "49-76" ;
+    ns1:publisher "Sociedade Brasileira de Computação (SBC)" ;
+    ns1:title "EINE'99 - II Escola de Informática da Sociedade Brasileira de Computação" ;
+    ns1:type "inbook" ;
+    ns1:year "1999" .
+
+ns1:editado_por a owl:ObjectProperty .
+
+ns1:escrito_por a owl:ObjectProperty .
+
+ns1:guimaramus2012 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Palácio Vila Flor, Guimarães" ;
+    ns1:booktitle "Pensar a Música" ;
+    ns1:doi "http://hdl.handle.net/1822/21660" ;
+    ns1:month "03.23" ;
+    ns1:title "	MuseCode: à procura da linearidade na música tonal" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2012" .
+
+ns1:FR04 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Faculdade de Engenharia da Universidade do Porto - Porto" ;
+    ns1:booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2004)" ;
+    ns1:doi "http://hdl.handle.net/1822/614" ;
+    ns1:isbn "972-99166-0-8" ;
+    ns1:month "02.12" ;
+    ns1:title "Aquisição e Armazenamento de Metainformação no Contexto de um Arquivo" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2004" .
+
+ns1:FR04-capsi a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Instituto Superior Técnico, Lisboa, Portugal" ;
+    ns1:booktitle "5ª Conferência da APSI - Associação Portuguesa dos Sistemas de Informação" ;
+    ns1:doi "http://hdl.handle.net/1822/718" ;
+    ns1:month "11.03" ;
+    ns1:title "DigitArq: Creating a Historical Digital Archive" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2004" .
+
+ns1:FR04b a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Department of Information and Documentation Science at the University of Brasilia, in Brazil" ;
+    ns1:booktitle "Electronic Publishing 2004 - Building Digital Bridges: linking cultures, commerce and science" ;
+    ns1:doi "http://hdl.handle.net/1822/615" ;
+    ns1:isbn "85-88130-02-05" ;
+    ns1:month "06.23-26" ;
+    ns1:title "DIGITARQ - CREATING AND MANAGING A DIGITAL ARCHIVE" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2004" .
+
+ns1:FR09 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Lisboa - Portugal" ;
+    ns1:booktitle "INFORUM : SIMPÓSIO DE INFORMÁTICA, Lisboa, 2009" ;
+    ns1:doi "http://hdl.handle.net/1822/9740" ;
+    ns1:isbn "978-972-9348-18-1" ;
+    ns1:month "11.09" ;
+    ns1:title "Relational databases digital preservation" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2009" .
+
+ns1:FR10 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Glasgow, UK" ;
+    ns1:booktitle "Research and Advanced Technology for Digital Libraries, 14th European Conference, ECDL2010" ;
+    ns1:doi "http://hdl.handle.net/1822/13702" ;
+    ns1:isbn "978-3-642-15463-8" ;
+    ns1:month "09.06" ;
+    ns1:title "Significant Properties in the Preservation of Relational Databases" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2010" .
+
+ns1:FR11 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "ESEIG -IPP, Vila do Conde - Portugal" ;
+    ns1:booktitle "9th Conference on XML: Aplicações e Tecnologias Associadas, XATA 2011" ;
+    ns1:doi "http://hdl.handle.net/1822/13703" ;
+    ns1:month "06.01" ;
+    ns1:title "Using Ontologies in Database Preservation" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2011" .
+
+ns1:FR11b a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Universidade Lusíada, Vila Nova de Famalicão, Portugal" ;
+    ns1:booktitle "MSKE2011- International Conference on Managing Services in the Knowledge Economy" ;
+    ns1:doi "http://hdl.handle.net/1822/13704" ;
+    ns1:month "07.13" ;
+    ns1:title "Preservation of Relational Databases" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2011" .
+
+ns1:FR11c a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Lisboa, Portugal" ;
+    ns1:booktitle "EPIA2011 - 15th Portuguese Conference on Artificial Intelligence" ;
+    ns1:doi "http://hdl.handle.net/1822/16113" ;
+    ns1:month "10.10" ;
+    ns1:title "Using Ontologies to Abstract Relational Databases Conceptual Model" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2011" .
+
+ns1:FR11d a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Berlin, Germany" ;
+    ns1:booktitle "VLDL2011 - Fourth Workshop on Very Large Digital Libraries (In conjunction with the International Conference on Theory and Practice of Digital Libraries (TPDL2011))" ;
+    ns1:doi "http://hdl.handle.net/1822/16019" ;
+    ns1:month "09.29" ;
+    ns1:title "Relational Databases Conceptual Preservation" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2011" .
+
+ns1:FR11e a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Singapore" ;
+    ns1:booktitle "iPRES 2011 - 8th International Conference on Preservation of Digital Objects" ;
+    ns1:doi "http://hdl.handle.net/1822/15859" ;
+    ns1:month "11.04" ;
+    ns1:title "New dimension in relational database preservation: raising the abstraction level" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2011" .
+
+ns1:LR04 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Faculdade de Engenharia da Universidade do Porto - Porto" ;
+    ns1:booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2004)" ;
+    ns1:doi "http://hdl.handle.net/1822/559" ;
+    ns1:isbn "972-99166-0-8" ;
+    ns1:month "02.12" ;
+    ns1:title "Web Services: Metodologias de Desenvolvimento" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2004" .
+
+ns1:RD06-XATA a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Portalegre - Portugal" ;
+    ns1:booktitle "XATA - XML: Aplicações e Tecnologias Associadas" ;
+    ns1:doi "http://hdl.handle.net/1822/4576" ;
+    ns1:isbn "972-99166-2-4" ;
+    ns1:month "02.09" ;
+    ns1:title "Especificação e Geração Automática de Navegadores para Redes Semânticas Baseados em Interfaces Web" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2006" .
+
+ns1:RH2002 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "FCA - Editora de Informática" ;
+    ns1:month "11" ;
+    ns1:publisher "Colecção Tecnologias da Informação" ;
+    ns1:title "XML e XSL: da teoria à prática" ;
+    ns1:type "book" ;
+    ns1:year "2002" .
+
+ns1:RH94 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Universidade do Minho" ;
+    ns1:booktitle "I Conferência Nacional WWW,    Informação Multimédia na Internet" ;
+    ns1:month "07" ;
+    ns1:title "Uma experiência de utilização da Internet na gestão pedagógica e sua formalização" ;
+    ns1:type "inproceedings" ;
+    ns1:year "1995" .
+
+ns1:RH98 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:journal "Sistemas de Informação" ;
+    ns1:title "Qualidade na Publicação Electrónica: como controlá-la?" ;
+    ns1:type "article" ;
+    ns1:volume "journal, num. 9, pg 69-83, Associação Portuguesa de Sistemas de Informação" ;
+    ns1:year "1998" .
+
+ns1:RH98b a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Guimarães - Portugal" ;
+    ns1:booktitle """Quatic 98: III Encontro Nacional para a Qualidade nas Tecnologias da Informação e
+			Comunicação""" ;
+    ns1:doi "http://hdl.handle.net/1822/621" ;
+    ns1:title "Qualidade na Publicação Electrónica: como controlá-la?" ;
+    ns1:type "inproceedings" ;
+    ns1:year "1998" .
+
+ns1:RH98c a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Porto - Portugal" ;
+    ns1:booktitle "Workshop internacional Informação e documentos de arquivo em ambientes digitais" ;
+    ns1:title "Informatics and Archives: a present needed symbiosis" ;
+    ns1:type "inproceedings" ;
+    ns1:year "1998" .
+
+ns1:RH98d a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Loures - Portugal " ;
+    ns1:booktitle "IX encontro nacional de Museus e Autarquias" ;
+    ns1:title "Os desafios colocados pela informação estruturada no contexto dos arquivos: o arquivo distrital de Braga" ;
+    ns1:type "inproceedings" ;
+    ns1:year "1998" .
+
+ns1:RH99 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Granada - Espanha" ;
+    ns1:booktitle "XML Europe'99" ;
+    ns1:doi "http://hdl.handle.net/1822/632" ;
+    ns1:title "XML::DT - a Perl Down Translation Module" ;
+    ns1:type "inproceedings" ;
+    ns1:year "1999" .
+
+ns1:RHb98 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Paris - France" ;
+    ns1:booktitle "SGML Europe 98 Conference" ;
+    ns1:doi "http://hdl.handle.net/1822/636" ;
+    ns1:month "05" ;
+    ns1:title "Beyond DTDs: Constraining Data Content" ;
+    ns1:type "inproceedings" ;
+    ns1:year "1998" .
+
+ns1:RL05 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "FCA - Editora de Informática" ;
+    ns1:isbn "972-722-421-0" ;
+    ns1:month "03" ;
+    ns1:publisher "Colecção Web Pro" ;
+    ns1:title "Web Services: Aplicações Distribuídas sobre Protocolos Internet" ;
+    ns1:type "book" ;
+    ns1:year "2005" .
+
+ns1:RS04 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Faculdade de Engenharia do Porto - Portugal" ;
+    ns1:doi "http://hdl.handle.net/1822/602" ;
+    ns1:isbn "972-99166-0-8" ;
+    ns1:month "02.12-13" ;
+    ns1:title "XATA2004 (1ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas" ;
+    ns1:type "proceedings" ;
+    ns1:year "2004" .
+
+ns1:RS2003 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Universidade do Minho - Guimarães - Portugal" ;
+    ns1:booktitle "Electronic Publishing 2003: From information to knowledge" ;
+    ns1:doi "http://hdl.handle.net/1822/552" ;
+    ns1:month "06.25" ;
+    ns1:title "Electronic Publishing of ADB editions" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2003" .
+
+ns1:FBR05-CAPSI a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Bragança - Portugal" ;
+    ns1:booktitle "6ª Conferência da Associação Portuguesa de Sistemas de Informação" ;
+    ns1:doi "http://hdl.handle.net/1822/3616" ;
+    ns1:month "10.26" ;
+    ns1:title """Avaliação Automática de Migração em Redes Distribuídas de
+Conversores""" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2005" .
+
+ns1:FBR06-Ariadne a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:doi "http://hdl.handle.net/1822/5571" ;
+    ns1:issn "1361-3200" ;
+    ns1:journal "Ariadne" ;
+    ns1:month "July" ;
+    ns1:number "48" ;
+    ns1:title "A foundation for automatic digital preservation" ;
+    ns1:type "article" ;
+    ns1:year "2006" .
+
+ns1:FBR06-XATA a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Portalegre - Portugal" ;
+    ns1:booktitle "XATA - XML: Aplicações e Tecnologias Associadas" ;
+    ns1:doi "http://hdl.handle.net/1822/4457" ;
+    ns1:isbn "972-99166-2-4" ;
+    ns1:month "02.09" ;
+    ns1:title "CRIB : a service oriented architecture for digital preservation outsourcing" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2006" .
+
+ns1:FBR07 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:doi "http://hdl.handle.net/1822/6195" ;
+    ns1:howpublished """Apresentação efectuada na International Conference Open Repositories, 2, San
+		Antonio, Texas, United States of America, 2007.""" ;
+    ns1:title "CRiB : preservation services for Digital Repositories" ;
+    ns1:type "misc" ;
+    ns1:year "2007" .
+
+ns1:FBR07-IJDL a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:doi "http://hdl.handle.net/1822/6648" ;
+    ns1:issn "1432-5012 (Print) 1432-1300 (Online)" ;
+    ns1:journal "International Journal on Digital Libraries" ;
+    ns1:month "05" ;
+    ns1:publisher "Springer Berlin / Heidelberg" ;
+    ns1:title "An intelligent decision support system for digital preservation" ;
+    ns1:type "article" ;
+    ns1:year "2007" .
+
+ns1:FFR10 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Guimarães, Portugal" ;
+    ns1:booktitle "10º CONGRESSO NACIONAL DE BIBLIOTECÁRIOS, ARQUIVISTAS E DOCUMENTALISTAS" ;
+    ns1:doi "http://hdl.handle.net/1822/10532" ;
+    ns1:month "04.08" ;
+    ns1:title "DigitArq e o novo módulo de interoperabilidade OAI-PMH" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2010" .
+
+ns1:FRF-XATA a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Évora - Portugal" ;
+    ns1:booktitle "XATA 2008 -  XML: Aplicações e Tecnologias Associadas (6ª Conferência Nacional)" ;
+    ns1:doi "http://hdl.handle.net/1822/7821" ;
+    ns1:month "02.14" ;
+    ns1:title "Creating a National Federation of Archives using OAI-PMH" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2008" .
+
+ns1:JHR00 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Instituto de Lógica, Lenguaje e Información, Universidad de Sevilla, Espanha" ;
+    ns1:booktitle "Logic, Language and Information: Proceedings of the First Workshop on Logic and Language" ;
+    ns1:doi "http://hdl.handle.net/1822/597" ;
+    ns1:month "11.29" ;
+    ns1:title "XML and Semantic Validation" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2000" .
+
+ns1:JRH03 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Vila Verde - Portugal" ;
+    ns1:booktitle "XATA2003 - XML: Aplicações e Tecnologias Associadas" ;
+    ns1:doi "http://hdl.handle.net/1822/4911" ;
+    ns1:month "02.13-14" ;
+    ns1:title """XML Templates for Constraints (XTC), Um Nível de Abstracção para Linguagens de
+			Especificação de Restrições""" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2003" .
+
+ns1:LRH03 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Braga - Portugal" ;
+    ns1:booktitle "XATA 2003 - XML, Aplicações e Tecnologias Associadas" ;
+    ns1:doi "http://hdl.handle.net/1822/620" ;
+    ns1:month "02.13" ;
+    ns1:title "XML Topic Map Builder: Specification and Generation" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2003" .
+
+ns1:LRH03b a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "La Paz, Bolívia" ;
+    ns1:booktitle "CLEI'03" ;
+    ns1:doi "http://hdl.handle.net/1822/555" ;
+    ns1:month "09.29" ;
+    ns1:title "TM-Builder: Um Construtor de Ontologias baseado em Topic Maps" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2003" .
+
+ns1:LRH03c a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "ISEP, Porto, Portugal" ;
+    ns1:booktitle "COOPMedia 2003" ;
+    ns1:doi "http://hdl.handle.net/1822/556" ;
+    ns1:month "10.08" ;
+    ns1:title "Geração automática de interfaces Web para sistemas de informação: Metamorphosis" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2003" .
+
+ns1:LRH04 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Faculdade de Engenharia da Universidade do Porto - Porto" ;
+    ns1:booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2004)" ;
+    ns1:doi "http://hdl.handle.net/1822/613" ;
+    ns1:isbn "972-99166-0-8" ;
+    ns1:month "02.12" ;
+    ns1:title "Um Extractor de Topic Maps a partir de Recursos Heterogéneos de Informação" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2004" .
+
+ns1:LRH04-WWS a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Brasília, Brasil" ;
+    ns1:booktitle "I  Workshop de Web Semântica (WWS2004)" ;
+    ns1:month "10.22" ;
+    ns1:pdf_url "http://www.di.uminho.pt/~jcr/XML/publicacoes/artigos/2004/LRH04-WWS.pdf" ;
+    ns1:title "Achieving Semantic Interoperability in Heterogeneous Information Systems with Topic Maps" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2004" .
+
+ns1:LRH04-XMLw a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Washington, USA" ;
+    ns1:booktitle "XML Conference and Exhibition 2004 Proceedings" ;
+    ns1:doi "http://hdl.handle.net/1822/681" ;
+    ns1:month "12" ;
+    ns1:title "XTche - A Language for Topic Maps Schema and Constraints" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2004" .
+
+ns1:LRH05 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Braga" ;
+    ns1:booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2005)" ;
+    ns1:doi "http://hdl.handle.net/1822/1020" ;
+    ns1:isbn "972-99166-1-6" ;
+    ns1:month "02.10" ;
+    ns1:title "Obtendo Interoperabilidade Semântica em Sistemas Heterogéneos de Informação com Metamorphosis" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2005" .
+
+ns1:LRH05-CLEI a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Santiago de Cali - Colombia" ;
+    ns1:booktitle "XXXI Conferência Latinoamericana de Informática" ;
+    ns1:doi "http://hdl.handle.net/1822/3532" ;
+    ns1:isbn "958-670-422-X" ;
+    ns1:month "10.10" ;
+    ns1:title "Ulisses: Um Navegador Conceptual para Topic Maps" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2005" .
+
+ns1:LRH05b a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Braga" ;
+    ns1:booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2005)" ;
+    ns1:doi "http://hdl.handle.net/1822/994" ;
+    ns1:isbn "972-99166-1-6" ;
+    ns1:month "02.10" ;
+    ns1:title "Constraining XML Topic Maps with XTche" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2005" .
+
+ns1:LRH06-SBSI06 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Curitiba, Paraná - Brasil" ;
+    ns1:booktitle "III Simpósio Brasileiro de Sistemas de Informação" ;
+    ns1:doi "http://hdl.handle.net/1822/7359" ;
+    ns1:title "Metamorphosis: An Environment to Achieve Semantic Interoperability with Topic Maps" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2006" .
+
+ns1:LRH06-XATA a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Portalegre - Portugal" ;
+    ns1:booktitle "XATA - XML: Aplicações e Tecnologias Associadas" ;
+    ns1:doi "http://hdl.handle.net/1822/4910" ;
+    ns1:isbn "972-99166-2-4" ;
+    ns1:month "02.09" ;
+    ns1:title "Topic Maps Aplicados ao Sistema de Informação do Museu da Emigração" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2006" .
+
+ns1:LRH07-SEMINFO a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Torres, RS - Brasil" ;
+    ns1:booktitle "VI Seminário de Informática - SEMINFO, 2007, Torres, RS, Brasil." ;
+    ns1:title "Estruturando o conhecimento com a norma ISO 13250 Topic Maps" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2007" .
+
+ns1:LRH97 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Campinas-SP -- Brasil" ;
+    ns1:booktitle "II Brasilian Symposium on Programming Languages (SBLP'97)" ;
+    ns1:doi "http://hdl.handle.net/1822/616" ;
+    ns1:month "09" ;
+    ns1:title "INES, an Environment for Structured Editions of SGML Documents" ;
+    ns1:type "inproceedings" ;
+    ns1:year "1997" .
+
+ns1:MRH04 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Faculdade de Engenharia da Universidade do Porto - Porto" ;
+    ns1:booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2004)" ;
+    ns1:doi "http://hdl.handle.net/1822/562" ;
+    ns1:isbn "972-99166-0-8" ;
+    ns1:month "02.12" ;
+    ns1:title "Comparação de Linguagens para descrição de Interfaces baseadas em XML" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2004" .
+
+ns1:RAH1998 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:journal "Theoretical Computer Science journal, volume 199" ;
+    ns1:month "06" ;
+    ns1:title "Algebraic Specification of Documents" ;
+    ns1:type "article" ;
+    ns1:volume "Elsevier" ;
+    ns1:year "1998" .
+
+ns1:RAH95 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Twente - Holanda" ;
+    ns1:booktitle "Algebraic Methods in Language Processing" ;
+    ns1:doi "http://hdl.handle.net/1822/618" ;
+    ns1:issn "0929-0672" ;
+    ns1:month "12" ;
+    ns1:title "DAVID, Algebraic Specification of Documents" ;
+    ns1:type "inproceedings" ;
+    ns1:year "1995" .
+
+ns1:RAH96 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Boston - USA" ;
+    ns1:booktitle "SGML96" ;
+    ns1:doi "http://hdl.handle.net/1822/622" ;
+    ns1:month "12" ;
+    ns1:title "Document Semantics: two approaches" ;
+    ns1:type "inproceedings" ;
+    ns1:year "1996" .
+
+ns1:RHL04-eLes a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Universidade de Aveiro, Portugal" ;
+    ns1:booktitle "Conferência eLes'04 - E-Learning no Ensino Superior" ;
+    ns1:doi "http://hdl.handle.net/1822/733" ;
+    ns1:isbn "972-789-134-9" ;
+    ns1:month "Outubro" ;
+    ns1:title "ADRIAN: Sistema de Suporte à Produção de Conteúdos" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2004" .
+
+ns1:RLA08 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Departamento de Informática da Universidade de Évora, Évora - Portugal" ;
+    ns1:doi "http://hdl.handle.net/1822/7708" ;
+    ns1:isbn "978-972-99166-5-6" ;
+    ns1:month "02.14" ;
+    ns1:title "XATA2008 (6ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas" ;
+    ns1:type "proceedings" ;
+    ns1:year "2008" .
+
+ns1:RLC07 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Faculdade de Ciências - Universidade de Lisboa, Lisboa - Portugal" ;
+    ns1:doi "http://hdl.handle.net/1822/6234" ;
+    ns1:isbn "978-972-99166-4-9" ;
+    ns1:month "02.14-15" ;
+    ns1:title "XATA2007 (5ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas" ;
+    ns1:type "proceedings" ;
+    ns1:year "2007" .
+
+ns1:RLH03 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:journal "III International Conference on Web Engineering (ICWE)" ;
+    ns1:month "07.15" ;
+    ns1:pdf_url "http://www.di.uminho.pt/~jcr/XML/publicacoes/artigos/2003/icwe.pdf" ;
+    ns1:title "Ontology driven websites with Topic Maps" ;
+    ns1:type "article" ;
+    ns1:volume "Oviedo - Espanha" ;
+    ns1:year "2003" .
+
+ns1:RLH03b a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Badajoz - Espanha" ;
+    ns1:booktitle "Second International Conference on Multimedia and ICTs in Education" ;
+    ns1:doi "http://hdl.handle.net/1822/558" ;
+    ns1:month "12.04" ;
+    ns1:title "Adrian: a platform for E-Learning Content Prodution" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2003" .
+
+ns1:RLH04 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Department of Information and Documentation Science at the University of Brasilia, in Brazil" ;
+    ns1:booktitle "Electronic Publishing 2004 - Building Digital Bridges: linking cultures, commerce and science" ;
+    ns1:doi "http://hdl.handle.net/1822/608" ;
+    ns1:isbn "85-88130-02-05" ;
+    ns1:month "06.23-26" ;
+    ns1:title "Adrian - E-Learning Content Production (creating online exams)" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2004" .
+
+ns1:RLH05 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Montréal - Canada" ;
+    ns1:booktitle "Extreme Markup Languages 2005, Montréal - Canada, 1-5 August 2005." ;
+    ns1:doi "http://hdl.handle.net/1822/3117" ;
+    ns1:month "08.04" ;
+    ns1:title "Constraining Topic Maps: A TMCL declarative implementation" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2005" .
+
+ns1:RLH05-revAPSI17 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:doi "http://hdl.handle.net/1822/4365" ;
+    ns1:issn "0872-7031" ;
+    ns1:journal "Revista da Associação Portuguesa de Sistemas de Informação" ;
+    ns1:publisher "APSI" ;
+    ns1:title """Geração automática de interfaces Web para Sistemas de Informação:
+Metamorphosis""" ;
+    ns1:type "article" ;
+    ns1:volume "17" ;
+    ns1:year "2005" .
+
+ns1:RLH05b a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Leipzig - Germany" ;
+    ns1:booktitle "TMRA'05 - International Workshop on  Topic Map Research and Applications " ;
+    ns1:month "10.06" ;
+    ns1:pdf_url "http://www.di.uminho.pt/~jcr/XML/publicacoes/artigos/2005/RLH05-TMRA.pdf" ;
+    ns1:title "Metamorphosis - a Topic Maps based Environment to Handle Heterogeneous Information Resources" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2005" .
+
+ns1:RLH2003 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Universidade do Minho - Guimarães - Portugal" ;
+    ns1:booktitle "Electronic Publishing 2003: From information to knowledge" ;
+    ns1:doi "http://hdl.handle.net/1822/553" ;
+    ns1:month "06.25" ;
+    ns1:title "Ontology driven Websites - Metamorphosis: a framework to specify and manage ontology driven websites" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2003" .
+
+ns1:RLH98 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Chicago - USA" ;
+    ns1:booktitle "Markup Technologies'98" ;
+    ns1:doi "http://hdl.handle.net/1822/637" ;
+    ns1:month "12" ;
+    ns1:title "Generating SGML specific editors: from DTDs to Attribute Grammars" ;
+    ns1:type "inproceedings" ;
+    ns1:year "1998" .
+
+ns1:RLS06 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Instituto Politécnico de Portalegre, Portalegre - Portugal" ;
+    ns1:doi "http://hdl.handle.net/1822/4744" ;
+    ns1:isbn "972-99166-2-4" ;
+    ns1:month "02.09-10" ;
+    ns1:title "XATA2006 (4ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas" ;
+    ns1:type "proceedings" ;
+    ns1:year "2006" .
+
+ns1:RQR10 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Guimarães, Portugal" ;
+    ns1:booktitle "10º Congresso Nacional de Bibliotecários, Arquivistas e Documentalistas" ;
+    ns1:doi "http://hdl.handle.net/1822/11081" ;
+    ns1:isbn "978-972-9067-39-6" ;
+    ns1:month "04.08" ;
+    ns1:title "Criação e Aplicação de um modelo baseado em Topic Maps à Documentação Educativa" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2010" .
+
+ns1:RSL05 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Casa da Torre, Vila Verde - Portugal" ;
+    ns1:doi "http://hdl.handle.net/1822/865" ;
+    ns1:isbn "972-99166-1-6" ;
+    ns1:month "02.10-11" ;
+    ns1:title "XATA2005 (3ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas" ;
+    ns1:type "proceedings" ;
+    ns1:year "2005" .
+
+ns1:SMR03 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Vila Verde - Portugal" ;
+    ns1:booktitle "XATA2003 - XML: Aplicações e Tecnologias Associadas" ;
+    ns1:doi "http://hdl.handle.net/1822/557" ;
+    ns1:month "02.13-14" ;
+    ns1:title "Xexam: uma linguagem de suporte para exames online (e-learning)" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2003" .
+
+ns1:archiving2013 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Washington DC, Estados Unidos" ;
+    ns1:booktitle "IS&T Archiving 2013" ;
+    ns1:doi "http://hdl.handle.net/1822/23978" ;
+    ns1:month "04.02-05" ;
+    ns1:title "	Guidelines for legacy repository migration" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2013" .
+
+ns1:bad2012 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Fundação Calouste Gulbenkian, Lisboa" ;
+    ns1:booktitle "11º Congresso Nacional de Bibliotecários, Arquivistas e Documentalistas" ;
+    ns1:doi "http://hdl.handle.net/1822/21611" ;
+    ns1:month "10.20" ;
+    ns1:title "Boas Práticas na Migração de Repositórios: lições aprendidas com o CALM e o ARQBASE" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2012" .
+
+ns1:bad2015a a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Universidade de Évora, Portugal" ;
+    ns1:booktitle "12º Congresso Nacional BAD" ;
+    ns1:doi "http://hdl.handle.net/1822/38497" ;
+    ns1:month "10.21" ;
+    ns1:title "Uma ontologia para os processos de negócio da Administração" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2015" .
+
+ns1:dlm2014 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Lisbon, Portugal" ;
+    ns1:booktitle "DLM Forum – 7th Triennial Conference: Making the Information Governance Landscape in Europe" ;
+    ns1:doi "http://hdl.handle.net/1822/35183" ;
+    ns1:month "11.12" ;
+    ns1:title "Database Preservation Toolkit: a flexible tool to normalize and give access to databases" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2014" .
+
+ns1:edicic2015 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Madrid, Espanha" ;
+    ns1:booktitle "VII Encuentro Ibérico EDICIC 2015" ;
+    ns1:doi "http://hdl.handle.net/1822/38496" ;
+    ns1:month "11.16" ;
+    ns1:title "Da gestão da informação à gestão do conhecimento: uma proposta para a e-Administração em Portugal" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2015" .
+
+ns1:GARH09 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:doi "http://hdl.handle.net/1822/9741" ;
+    ns1:issn "1755-0556. 1:3-4 (2009) 173 - 181" ;
+    ns1:journal "International Journal of Reasoning-based Intelligent Systems" ;
+    ns1:publisher "Inderscience" ;
+    ns1:title "Topic maps constraint languages : understanding and comparing" ;
+    ns1:type "article" ;
+    ns1:year "2009" .
+
+ns1:JLRH02 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Montevideo, Uruguai," ;
+    ns1:booktitle "CLEI'02" ;
+    ns1:doi "http://hdl.handle.net/1822/612" ;
+    ns1:month "11" ;
+    ns1:title "XCSL: XML Constraint Specification Language" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2002" .
+
+ns1:JLRH02b a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:doi "http://hdl.handle.net/1822/610" ;
+    ns1:journal "ACM Crossroads" ;
+    ns1:publisher "ACM Press" ;
+    ns1:title "XCSL tutorial" ;
+    ns1:type "article" ;
+    ns1:uri "http://doi.acm.org/10.1145/991118.991122" ;
+    ns1:volume "8.5" ;
+    ns1:year "2002" .
+
+ns1:JLRH03 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:journal "CLEI Electronic Journal,  ISSN 0717-5000. 2003. " ;
+    ns1:title "XCSL: XML Constraint Specification Language" ;
+    ns1:type "article" ;
+    ns1:volume "Best papers of XXVIII Conferencia Latinoamericana de Informática - CLEI, 2002" ;
+    ns1:year "2003" .
+
+ns1:JLRHb02 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Rio de Janeiro - Brasil" ;
+    ns1:booktitle "7th International Conference on CSCW in  Design" ;
+    ns1:doi "http://hdl.handle.net/1822/601" ;
+    ns1:month "09.25" ;
+    ns1:title "Bidirectional Conversion between XML Documents and Relational Data Bases" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2002" .
+
+ns1:JLRHc02 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Barcelona - Espanha" ;
+    ns1:booktitle "XML Europe'02" ;
+    ns1:doi "http://hdl.handle.net/1822/619" ;
+    ns1:month "05.20" ;
+    ns1:title "Constraint Specification Languages: comparing XCSL, Schematron and XML-Schema" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2002" .
+
+ns1:LARH07-EPIA a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Guimarães - Portugal" ;
+    ns1:booktitle "Portuguese Conference on Artificial Intelligence (EPIA2007)" ;
+    ns1:doi "http://hdl.handle.net/1822/7368" ;
+    ns1:title "Topic Maps Constraint Languages: understanding and comparing" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2007" .
+
+ns1:LGRH07-CLEI a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "San José - Costa Rica" ;
+    ns1:booktitle "XXXIII Conferencia Latinoamericana de Informática (CLEI2007)" ;
+    ns1:doi "http://hdl.handle.net/1822/7354" ;
+    ns1:title "Using Web Services to put Metamorphosis on the Web" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2007" .
+
+ns1:LPRH07-TM a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Oslo - Norway" ;
+    ns1:booktitle "Topic Maps 2007 -  The First International Topic Maps User Conference" ;
+    ns1:doi "http://hdl.handle.net/1822/6474" ;
+    ns1:month "03.21" ;
+    ns1:title "Topic Maps Constraint Specification Languages: comparing AsTMa!, OSL, and XTche" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2007" .
+
+ns1:LPRH07-XATA a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Lisboa - Portugal" ;
+    ns1:booktitle "XATA 2007 -  XML: Aplicações e Tecnologias Associadas (5ª Conferência Nacional)" ;
+    ns1:doi "http://hdl.handle.net/1822/6482" ;
+    ns1:month "02.14" ;
+    ns1:title "Navegando na Rede Semântica dos Topic Maps com o Ulisses" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2007" .
+
+ns1:LRH04-Clei a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Sociedad Peruana de Computación, Peru" ;
+    ns1:booktitle """30ma Conferencia Latinoamericana de
+Informática (CLEI2004)""" ;
+    ns1:doi "http://hdl.handle.net/1822/594" ;
+    ns1:isbn "9972-9876-2-0" ;
+    ns1:month "Sept." ;
+    ns1:title "Extração de Topic Maps no Oveia: Especificação e Processamento" ;
+    ns1:type "inproceedings" ;
+    ns1:uri "http://clei2004.spc.org.pe/es/html/pdfs/140.pdf" ;
+    ns1:year "2004" .
+
+ns1:LSRH04 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Porto - Portugal" ;
+    ns1:booktitle "International Conference on Knowledge Engineering and Decision Support" ;
+    ns1:doi "http://hdl.handle.net/1822/584" ;
+    ns1:month "07.21-23" ;
+    ns1:title "Using the Ontology Paradigm to integrate Information Systems" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2004" .
+
+ns1:RARH98 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:doi "http://hdl.handle.net/1822/644" ;
+    ns1:issn "1099-6621" ;
+    ns1:journal "Markup Languages: theory and practice " ;
+    ns1:month "01" ;
+    ns1:title "SGML Documents: Where does quality go?" ;
+    ns1:type "article" ;
+    ns1:volume "journal, num. 1 vol. 1, MIT Press" ;
+    ns1:year "1999" .
+
+ns1:RFFC07-EML a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Montréal - Canada" ;
+    ns1:booktitle "Extreme Markup Languages 2007, Montréal - Canada, August 2007." ;
+    ns1:doi "http://hdl.handle.net/1822/7120" ;
+    ns1:month "08" ;
+    ns1:title "Relational database preservation through XML modelling" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2007" .
+
+ns1:RHLA03 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Vila Verde - Portugal" ;
+    ns1:doi "http://hdl.handle.net/1822/607" ;
+    ns1:month "02.13-14" ;
+    ns1:title "XATA2003 - XML: Aplicações e Tecnologias Associadas" ;
+    ns1:type "proceedings" ;
+    ns1:year "2003" .
+
+ns1:RLH07-EML a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Montréal - Canada" ;
+    ns1:booktitle "Extreme Markup Languages 2007, Montréal - Canada, August 2007." ;
+    ns1:doi "http://hdl.handle.net/1822/7330" ;
+    ns1:month "08" ;
+    ns1:title "Topic Maps applied to PubMed" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2007" .
+
+ns1:RRAH97 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Washinton - USA" ;
+    ns1:booktitle "SGML/XML'97" ;
+    ns1:doi "http://hdl.handle.net/1822/617" ;
+    ns1:month "12.08" ;
+    ns1:title "SGML Documents: Where Does Quality Go?" ;
+    ns1:type "inproceedings" ;
+    ns1:year "1997" .
+
+ns1:RTFR04 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Faculdade de Engenharia da Universidade do Porto - Porto" ;
+    ns1:booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2004)" ;
+    ns1:doi "http://hdl.handle.net/1822/561" ;
+    ns1:isbn "972-99166-0-8" ;
+    ns1:month "02.12" ;
+    ns1:title "Gerador de Web Services para cadeias de transformações de documentos XML" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2004" .
+
+ns1:SFRL07 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Ponta Delgada, Açores, Portugal" ;
+    ns1:booktitle "9º CONGRESSO NACIONAL DE BIBLIOTECÁRIOS, ARQUIVISTAS E DOCUMENTALISTAS" ;
+    ns1:doi "http://hdl.handle.net/1822/6432" ;
+    ns1:month "03.29" ;
+    ns1:title "Consulta Real em Ambiente Virtual: implementação de uma sala de referência e leitura virtual num arquivo" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2007" .
+
+ns1:SRFP95 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:journal "Computing Systems in Engineering" ;
+    ns1:title "A Heterogeneous Computer Vision Architecture: Implementation Issues" ;
+    ns1:type "article" ;
+    ns1:volume "volume 6, número 4/5, páginas 401-408" ;
+    ns1:year "1995" .
+
+ns1:VECPAR93 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:booktitle "1st International Meeting on Vector and Paralell Processing" ;
+    ns1:title "A Heterogeneous Computer Vision Architecture: Implementation Issues" ;
+    ns1:type "inproceedings" ;
+    ns1:year "1993" .
+
+ns1:cisti2017 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "ISCTE, Lisboa, Portugal" ;
+    ns1:booktitle "12th Iberian Conference on Information Systems and Technologies (CISTI)," ;
+    ns1:doi "http://hdl.handle.net/1822/46093" ;
+    ns1:month "06.24" ;
+    ns1:title "RODA-in: A generic tool for the mass creation of Submission Information Packages" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2017" .
+
+ns1:iPRES2016 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Bern, Switzerland" ;
+    ns1:booktitle "iPRES: 13th International Conference on Digital Preservation" ;
+    ns1:doi "http://hdl.handle.net/1822/43479" ;
+    ns1:month "10.04" ;
+    ns1:title "Database Preservation Toolkit: A relational database conversion and normalization tool" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2016" .
+
+ns1:IGI2013 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:chapter "New Dimension in Relational Database Preservation: Using Ontologies" ;
+    ns1:doi "10.4018/978-1-4666-2669-0.ch009" ;
+    ns1:month "06" ;
+    ns1:pages "160-173" ;
+    ns1:publisher "IGI Global" ;
+    ns1:title "Innovations in XML Applications and Metadata Management: Advancing Technologies" ;
+    ns1:type "inbook" ;
+    ns1:year "2013" .
+
+ns1:LATRH07-CLEI a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "San José - Costa Rica" ;
+    ns1:booktitle "XXXIII Conferencia Latinoamericana de Informática (CLEI2007)" ;
+    ns1:doi "http://hdl.handle.net/1822/7364" ;
+    ns1:title "Implementing TMCL: XTche - a topic map schema and constraint specification language" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2007" .
+
+ns1:LRHGT08 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Lisboa, Portugal" ;
+    ns1:booktitle "SIGDOC'08 -- 26th ACM International Conference on Design of Communication" ;
+    ns1:doi "http://hdl.handle.net/1822/8236" ;
+    ns1:month "09-23" ;
+    ns1:title "A Framework to specify, extract and manage Topic Maps driven by ontologies" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2008" .
+
+ns1:RFFLS06 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Seixal, Portugal" ;
+    ns1:booktitle "2ª Conferência Internacional de Arquivos Empresariais" ;
+    ns1:doi "http://hdl.handle.net/1822/6038" ;
+    ns1:month "11.27" ;
+    ns1:title "Digitarq2 : nova arquitectura aplicacional para gestão de Arquivos Definitivos" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2006" .
+
+ns1:RLH06 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:chapter "Metamorphosis - A Topic Maps Based Environment to Handle Heterogeneous Information Resources" ;
+    ns1:doi "10.1007/11676904_2" ;
+    ns1:isbn "3-540-32527-1" ;
+    ns1:month "02" ;
+    ns1:pages "14-25" ;
+    ns1:publisher "Springer-Verlag GmbH" ;
+    ns1:title "Lecture Notes in Computer Science" ;
+    ns1:type "inbook" ;
+    ns1:volume "3873 / 2006" ;
+    ns1:year "2006" .
+
+ns1:or2013 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Charlottetown, Canada" ;
+    ns1:booktitle "Open Repositories 2013" ;
+    ns1:doi " http://hdl.handle.net/1822/25101" ;
+    ns1:month "07.08" ;
+    ns1:title "Supporting the preservation lifecycle in repositories" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2013" .
+
+ns1:BKRFBR08 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Aarhus, Danmark" ;
+    ns1:booktitle "ECDL2008 - European Conference on Research and Advanced Technology for Digital Libraries" ;
+    ns1:doi "http://hdl.handle.net/1822/8239" ;
+    ns1:month "09" ;
+    ns1:title "Distributed Preservation Services: Integrating Planning and Actions" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2008" .
+
+ns1:FCRBCF07 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Ponta Delgada, Açores, Portugal" ;
+    ns1:booktitle "9º CONGRESSO NACIONAL DE BIBLIOTECÁRIOS, ARQUIVISTAS E DOCUMENTALISTAS" ;
+    ns1:doi "http://hdl.handle.net/1822/6330" ;
+    ns1:month "03.29" ;
+    ns1:title "RODA : Repositório de Objectos Digitais Autênticos" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2007" .
+
+ns1:LMMFRH07-TMRA a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Leipzig - Germany" ;
+    ns1:booktitle "International Conference on Topic Maps Research and Applications (TMRA2007)" ;
+    ns1:doi "http://hdl.handle.net/1822/7399" ;
+    ns1:title "Comparing Topic Maps Constraint Specification Languages" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2007" .
+
+ns1:LMMVRH08-XATA a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Évora - Portugal" ;
+    ns1:booktitle "XATA 2008 -  XML: Aplicações e Tecnologias Associadas (6ª Conferência Nacional)" ;
+    ns1:month "02.14" ;
+    ns1:title "Generating a Semantic Network for PubMed" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2008" .
+
+ns1:RFCFBC06 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:doi "http://hdl.handle.net/1822/6420" ;
+    ns1:howpublished "Apresentação efectuada no Encontro Sofware Livre na Administração Pública, Torre do Tombo, Lisboa - Portugal, em 29 de Novembro de 2006." ;
+    ns1:title "RODA - Desenvolvimento de uma plataforma tecnológica para suporte de Arquivos Digitais" ;
+    ns1:type "misc" ;
+    ns1:year "2006" .
+
+ns1:RFCFBC07 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Lisboa, Portugal" ;
+    ns1:booktitle "XATA2007 : XML : aplicações e tecnologias associadas : actas da Conferência Nacional" ;
+    ns1:doi "http://hdl.handle.net/1822/6224" ;
+    ns1:month "02.15" ;
+    ns1:title "XML e preservação digital" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2007" .
+
+ns1:RFFCBC08 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "London, England" ;
+    ns1:booktitle "iPRES 2008: The Fifth International Conference on Preservation of Digital Objects" ;
+    ns1:doi "http://hdl.handle.net/1822/8226" ;
+    ns1:month "09" ;
+    ns1:title "RODA and Crib: A Service-Oriented Digital Repository" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2008" .
+
+ns1:RHHRAF98 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Toronto, Canada" ;
+    ns1:booktitle "Museums and the Web: An International Conference" ;
+    ns1:doi "http://hdl.handle.net/1822/624" ;
+    ns1:month "04.22" ;
+    ns1:title "Adapting Museum Structures for the Web: No Changes Needed!" ;
+    ns1:type "inproceedings" ;
+    ns1:year "1998" .
+
+ns1:icadl2012 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Taipei, Taiwan" ;
+    ns1:booktitle "14th International Conference on Asia-Pacific Digital Libraries, ICADL 2012" ;
+    ns1:doi "http://hdl.handle.net/1822/21447" ;
+    ns1:month "11.12" ;
+    ns1:title "Design and architecture of a novel preservation watch system" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2012" .
+
+ns1:ipres2012 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Toronto, Canada" ;
+    ns1:booktitle "iPRES 2012 - 9th International Conference on Preservation of Digital Objects" ;
+    ns1:doi "http://hdl.handle.net/1822/20666" ;
+    ns1:month "11.01" ;
+    ns1:title "Preservation watch : what to monitor and how" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2012" .
+
+ns1:ipres2013 a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Lisbon, Portugal" ;
+    ns1:booktitle "iPRES 2013 - 10th International Conference on Preservation of Digital Objects" ;
+    ns1:doi "http://hdl.handle.net/1822/25214" ;
+    ns1:month "09.20" ;
+    ns1:title "Automatic preservation watch using information extraction on the Web : a case study on semantic extraction of natural language for digital preservation" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2013" .
+
+ns1:bad2015b a ns1:Livro,
+        owl:NamedIndividual ;
+    ns1:address "Universidade de Évora, Portugal" ;
+    ns1:booktitle "12º Congresso Nacional BAD" ;
+    ns1:doi "http://hdl.handle.net/1822/37856" ;
+    ns1:month "10.21" ;
+    ns1:title "PT-CRIS: Um miradouro sobre o universo científico nacional" ;
+    ns1:type "inproceedings" ;
+    ns1:year "2015" .
+
+ns1:Autor a owl:Class .
+
+ns1:Livro a owl:Class .
+
