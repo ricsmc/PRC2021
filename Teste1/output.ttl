@@ -1,0 +1,549 @@
+@prefix ns1: <http://di.uminho.pt/prc2021/avaliacao1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:1Esq a ns1:Fração,
+        owl:NamedIndividual ;
+    ns1:descrição "G" ;
+    ns1:mensalidade "51.63"^^xsd:integer ;
+    ns1:não_pagou ns1:Abr,
+        ns1:Ago,
+        ns1:Dez,
+        ns1:Jul,
+        ns1:Jun,
+        ns1:Mai,
+        ns1:Nov,
+        ns1:Out,
+        ns1:Set ;
+    ns1:pagou ns1:Fev,
+        ns1:Jan,
+        ns1:Mar ;
+    ns1:permilagem "34" .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/001> a ns1:Despesa,
+        owl:NamedIndividual ;
+    ns1:data "2020-01-04" ;
+    ns1:descrição "Manutenção da conta" ;
+    ns1:entidade "CGD" ;
+    ns1:valor "7.28"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/002> a ns1:Receita,
+        owl:NamedIndividual ;
+    ns1:data "2020-01-06" ;
+    ns1:descrição "Janeiro" ;
+    ns1:receita_de ns1:7Esq ;
+    ns1:valor "64.00"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/003> a ns1:Receita,
+        owl:NamedIndividual ;
+    ns1:data "2020-01-06" ;
+    ns1:descrição "Abril a Dezembro de 2019" ;
+    ns1:receita_de ns1:2Dto ;
+    ns1:valor "406.62"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/004> a ns1:Despesa,
+        owl:NamedIndividual ;
+    ns1:data "2020-01-08" ;
+    ns1:descrição "Luz" ;
+    ns1:entidade "EDP" ;
+    ns1:valor "222.65"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/005> a ns1:Receita,
+        owl:NamedIndividual ;
+    ns1:data "2020-01-16" ;
+    ns1:descrição "Janeiro" ;
+    ns1:receita_de ns1:7Dto ;
+    ns1:valor "45.18"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/006> a ns1:Despesa,
+        owl:NamedIndividual ;
+    ns1:data "2020-02-01" ;
+    ns1:descrição "Manutenção da conta" ;
+    ns1:entidade "CGD" ;
+    ns1:valor "7.28"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/007> a ns1:Receita,
+        owl:NamedIndividual ;
+    ns1:data "2020-02-04" ;
+    ns1:descrição "Fevereiro" ;
+    ns1:receita_de ns1:5Esq ;
+    ns1:valor "64.00"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/008> a ns1:Receita,
+        owl:NamedIndividual ;
+    ns1:data "2020-02-06" ;
+    ns1:descrição "Fevereiro" ;
+    ns1:receita_de ns1:7Esq ;
+    ns1:valor "64.00"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/009> a ns1:Despesa,
+        owl:NamedIndividual ;
+    ns1:data "2020-01-20" ;
+    ns1:descrição "Manutenção dos elevadores: 1º trimestre" ;
+    ns1:entidade "Kone" ;
+    ns1:valor "439.77"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/010> a ns1:Receita,
+        owl:NamedIndividual ;
+    ns1:data "2020-02-12" ;
+    ns1:descrição "Janeiro, Fevereiro e Março" ;
+    ns1:receita_de ns1:3Esq ;
+    ns1:valor "384.00"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/011> a ns1:Receita,
+        owl:NamedIndividual ;
+    ns1:data "2020-02-20" ;
+    ns1:descrição "Fevereiro" ;
+    ns1:receita_de ns1:7Dto ;
+    ns1:valor "45.18"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/012> a ns1:Despesa,
+        owl:NamedIndividual ;
+    ns1:data "2020-02-24" ;
+    ns1:descrição "Concerto do trinco da porta" ;
+    ns1:entidade "Serralheiro" ;
+    ns1:valor "20.00"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/013> a ns1:Despesa,
+        owl:NamedIndividual ;
+    ns1:data "2020-02-24" ;
+    ns1:descrição "Inspeção dos elevadores" ;
+    ns1:entidade "CMB" ;
+    ns1:valor "174.30"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/014> a ns1:Receita,
+        owl:NamedIndividual ;
+    ns1:data "2020-02-24" ;
+    ns1:descrição "Acertos: Janeiro, Fevereiro, Março, Abril e 13.58 de Maio" ;
+    ns1:receita_de ns1:1Dto ;
+    ns1:valor "194.30"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/015> a ns1:Receita,
+        owl:NamedIndividual ;
+    ns1:data "2020-03-11" ;
+    ns1:descrição "Janeiro a Junho" ;
+    ns1:receita_de ns1:5Dto ;
+    ns1:valor "271.08"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/016> a ns1:Despesa,
+        owl:NamedIndividual ;
+    ns1:data "2020-03-11" ;
+    ns1:descrição "Reparação das fachadas" ;
+    ns1:entidade "PluriRapel" ;
+    ns1:valor "1655.00"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/017> a ns1:Receita,
+        owl:NamedIndividual ;
+    ns1:data "2020-02-26" ;
+    ns1:descrição "Março" ;
+    ns1:receita_de ns1:5Esq ;
+    ns1:valor "64.00"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/018> a ns1:Receita,
+        owl:NamedIndividual ;
+    ns1:data "2020-02-29" ;
+    ns1:descrição "Janeiro a Dezembro" ;
+    ns1:receita_de ns1:3Dto ;
+    ns1:valor "542.16"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/019> a ns1:Despesa,
+        owl:NamedIndividual ;
+    ns1:data "2020-03-04" ;
+    ns1:descrição "Luz" ;
+    ns1:entidade "EDP" ;
+    ns1:valor "236.59"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/020> a ns1:Receita,
+        owl:NamedIndividual ;
+    ns1:data "2020-03-06" ;
+    ns1:descrição "Março" ;
+    ns1:receita_de ns1:7Esq ;
+    ns1:valor "64.00"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/021> a ns1:Despesa,
+        owl:NamedIndividual ;
+    ns1:data "2020-03-07" ;
+    ns1:descrição "Manutenção da conta" ;
+    ns1:entidade "CGD" ;
+    ns1:valor "7.28"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/022> a ns1:Receita,
+        owl:NamedIndividual ;
+    ns1:data "2020-03-15" ;
+    ns1:descrição "Março" ;
+    ns1:receita_de ns1:7Dto ;
+    ns1:valor "45.18"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/023> a ns1:Receita,
+        owl:NamedIndividual ;
+    ns1:data "2020-03-30" ;
+    ns1:descrição "Abril " ;
+    ns1:receita_de ns1:5Esq ;
+    ns1:valor "64.00"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/024> a ns1:Despesa,
+        owl:NamedIndividual ;
+    ns1:data "2020-04-04" ;
+    ns1:descrição "Manutenção da conta" ;
+    ns1:entidade "CGD" ;
+    ns1:valor "7.28"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/025> a ns1:Receita,
+        owl:NamedIndividual ;
+    ns1:data "2020-04-06" ;
+    ns1:descrição "Abril" ;
+    ns1:receita_de ns1:7Esq ;
+    ns1:valor "64.00"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/026> a ns1:Receita,
+        owl:NamedIndividual ;
+    ns1:data "2020-04-07" ;
+    ns1:descrição "Abril a Agosto" ;
+    ns1:receita_de ns1:6Dto ;
+    ns1:valor "225.90"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/027> a ns1:Receita,
+        owl:NamedIndividual ;
+    ns1:data "2020-04-14" ;
+    ns1:descrição "Abril" ;
+    ns1:receita_de ns1:7Dto ;
+    ns1:valor "45.18"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/028> a ns1:Despesa,
+        owl:NamedIndividual ;
+    ns1:data "2020-04-15" ;
+    ns1:descrição "Luz Comum" ;
+    ns1:entidade "Vizinhos" ;
+    ns1:valor "207.98"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/029> a ns1:Despesa,
+        owl:NamedIndividual ;
+    ns1:data "2020-04-15" ;
+    ns1:descrição "Limpeza 2020" ;
+    ns1:entidade "Limpeza" ;
+    ns1:valor "1080.00"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/030> a ns1:Receita,
+        owl:NamedIndividual ;
+    ns1:data "2020-04-15" ;
+    ns1:descrição "Janeiro a Dezembro" ;
+    ns1:receita_de ns1:4Dto ;
+    ns1:valor "542.16"^^xsd:integer .
+
+<http://di.uminho.pt/prc2021/avaliacao1#2020/031> a ns1:Despesa,
+        owl:NamedIndividual ;
+    ns1:data "2020-04-01" ;
+    ns1:descrição "Manutenção dos elevadores: 2º trimestre" ;
+    ns1:entidade "Kone" ;
+    ns1:valor "439.77"^^xsd:integer .
+
+ns1:8Dto a ns1:Fração,
+        owl:NamedIndividual ;
+    ns1:descrição "R" ;
+    ns1:mensalidade "36.45"^^xsd:integer ;
+    ns1:não_pagou ns1:Abr,
+        ns1:Ago,
+        ns1:Dez,
+        ns1:Fev,
+        ns1:Jan,
+        ns1:Jul,
+        ns1:Jun,
+        ns1:Mai,
+        ns1:Mar,
+        ns1:Nov,
+        ns1:Out,
+        ns1:Set ;
+    ns1:permilagem "24" .
+
+ns1:Condomínio a owl:Class .
+
+ns1:Descrição a ns1:Fração,
+        owl:NamedIndividual ;
+    ns1:descrição "Fração" ;
+    ns1:mensalidade "Mensalidade"^^xsd:integer ;
+    ns1:permilagem "Permilagem" .
+
+ns1:Loja a ns1:Fração,
+        owl:NamedIndividual ;
+    ns1:descrição "A" ;
+    ns1:mensalidade "6.06"^^xsd:integer ;
+    ns1:não_pagou ns1:Abr,
+        ns1:Ago,
+        ns1:Dez,
+        ns1:Fev,
+        ns1:Jan,
+        ns1:Jul,
+        ns1:Jun,
+        ns1:Mai,
+        ns1:Mar,
+        ns1:Nov,
+        ns1:Out,
+        ns1:Set ;
+    ns1:permilagem "50" .
+
+ns1:Número a ns1:Tipo,
+        owl:NamedIndividual ;
+    ns1:data "Data" ;
+    ns1:descrição "Descrição" ;
+    ns1:entidade "Entidade" ;
+    ns1:valor "Valor"^^xsd:integer .
+
+ns1:Proprietário a owl:Class .
+
+ns1:Sete a owl:Class ;
+    rdfs:subClassOf ns1:Pagamentos .
+
+ns1:data a owl:DatatypeProperty .
+
+ns1:descrição a owl:DatatypeProperty .
+
+ns1:email a owl:DatatypeProperty .
+
+ns1:entidade a owl:DatatypeProperty .
+
+ns1:foi_pago_por a owl:ObjectProperty ;
+    owl:inverseOf ns1:pagou .
+
+ns1:mensalidade a owl:DatatypeProperty .
+
+ns1:nome a owl:DatatypeProperty .
+
+ns1:não_pagou a owl:ObjectProperty .
+
+ns1:permilagem a owl:DatatypeProperty .
+
+ns1:propriedade_de a owl:ObjectProperty ;
+    owl:inverseOf ns1:dono_de .
+
+ns1:receita_de a owl:ObjectProperty .
+
+ns1:telefone a owl:DatatypeProperty .
+
+ns1:valor a owl:DatatypeProperty .
+
+ns1:1Dto a ns1:Fração,
+        owl:NamedIndividual ;
+    ns1:descrição "F" ;
+    ns1:mensalidade "36.45"^^xsd:integer ;
+    ns1:não_pagou ns1:Ago,
+        ns1:Dez,
+        ns1:Jul,
+        ns1:Jun,
+        ns1:Mai,
+        ns1:Nov,
+        ns1:Out,
+        ns1:Set ;
+    ns1:pagou ns1:Abr,
+        ns1:Fev,
+        ns1:Jan,
+        ns1:Mar ;
+    ns1:permilagem "24" .
+
+ns1:2Dto a ns1:Fração,
+        owl:NamedIndividual ;
+    ns1:descrição "H" ;
+    ns1:mensalidade "36.45"^^xsd:integer ;
+    ns1:não_pagou ns1:Abr,
+        ns1:Ago,
+        ns1:Dez,
+        ns1:Fev,
+        ns1:Jan,
+        ns1:Jul,
+        ns1:Jun,
+        ns1:Mai,
+        ns1:Mar,
+        ns1:Nov,
+        ns1:Out,
+        ns1:Set ;
+    ns1:permilagem "24" .
+
+ns1:3Dto a ns1:Fração,
+        owl:NamedIndividual ;
+    ns1:descrição "I" ;
+    ns1:mensalidade "36.45"^^xsd:integer ;
+    ns1:pagou ns1:Abr,
+        ns1:Ago,
+        ns1:Dez,
+        ns1:Fev,
+        ns1:Jan,
+        ns1:Jul,
+        ns1:Jun,
+        ns1:Mai,
+        ns1:Mar,
+        ns1:Nov,
+        ns1:Out,
+        ns1:Set ;
+    ns1:permilagem "24" .
+
+ns1:3Esq a ns1:Fração,
+        owl:NamedIndividual ;
+    ns1:descrição "J" ;
+    ns1:mensalidade "51.63"^^xsd:integer ;
+    ns1:não_pagou ns1:Abr,
+        ns1:Ago,
+        ns1:Dez,
+        ns1:Jul,
+        ns1:Jun,
+        ns1:Mai,
+        ns1:Nov,
+        ns1:Out,
+        ns1:Set ;
+    ns1:pagou ns1:Fev,
+        ns1:Jan,
+        ns1:Mar ;
+    ns1:permilagem "34" .
+
+ns1:4Dto a ns1:Fração,
+        owl:NamedIndividual ;
+    ns1:descrição "L" ;
+    ns1:mensalidade "36.45"^^xsd:integer ;
+    ns1:pagou ns1:Abr,
+        ns1:Ago,
+        ns1:Dez,
+        ns1:Fev,
+        ns1:Jan,
+        ns1:Jul,
+        ns1:Jun,
+        ns1:Mai,
+        ns1:Mar,
+        ns1:Nov,
+        ns1:Out,
+        ns1:Set ;
+    ns1:permilagem "24" .
+
+ns1:5Dto a ns1:Fração,
+        owl:NamedIndividual ;
+    ns1:descrição "M" ;
+    ns1:mensalidade "36.45"^^xsd:integer ;
+    ns1:não_pagou ns1:Ago,
+        ns1:Dez,
+        ns1:Jul,
+        ns1:Nov,
+        ns1:Out,
+        ns1:Set ;
+    ns1:pagou ns1:Abr,
+        ns1:Fev,
+        ns1:Jan,
+        ns1:Jun,
+        ns1:Mai,
+        ns1:Mar ;
+    ns1:permilagem "24" .
+
+ns1:6Dto a ns1:Fração,
+        owl:NamedIndividual ;
+    ns1:descrição "O" ;
+    ns1:mensalidade "36.45"^^xsd:integer ;
+    ns1:não_pagou ns1:Dez,
+        ns1:Nov,
+        ns1:Out,
+        ns1:Set ;
+    ns1:pagou ns1:Abr,
+        ns1:Ago,
+        ns1:Fev,
+        ns1:Jan,
+        ns1:Jul,
+        ns1:Jun,
+        ns1:Mai,
+        ns1:Mar ;
+    ns1:permilagem "24" .
+
+ns1:dono_de a owl:ObjectProperty .
+
+ns1:pagou a owl:ObjectProperty .
+
+ns1:5Esq a ns1:Fração,
+        owl:NamedIndividual ;
+    ns1:descrição "N" ;
+    ns1:mensalidade "51.63"^^xsd:integer ;
+    ns1:não_pagou ns1:Ago,
+        ns1:Dez,
+        ns1:Jul,
+        ns1:Jun,
+        ns1:Mai,
+        ns1:Nov,
+        ns1:Out,
+        ns1:Set ;
+    ns1:pagou ns1:Abr,
+        ns1:Fev,
+        ns1:Jan,
+        ns1:Mar ;
+    ns1:permilagem "34" .
+
+ns1:7Dto a ns1:Fração,
+        owl:NamedIndividual ;
+    ns1:descrição "P" ;
+    ns1:mensalidade "36.45"^^xsd:integer ;
+    ns1:não_pagou ns1:Ago,
+        ns1:Dez,
+        ns1:Jul,
+        ns1:Jun,
+        ns1:Mai,
+        ns1:Nov,
+        ns1:Out,
+        ns1:Set ;
+    ns1:pagou ns1:Abr,
+        ns1:Fev,
+        ns1:Jan,
+        ns1:Mar ;
+    ns1:permilagem "24" .
+
+ns1:7Esq a ns1:Fração,
+        owl:NamedIndividual ;
+    ns1:descrição "Q" ;
+    ns1:mensalidade "51.63"^^xsd:integer ;
+    ns1:não_pagou ns1:Ago,
+        ns1:Dez,
+        ns1:Jul,
+        ns1:Jun,
+        ns1:Mai,
+        ns1:Nov,
+        ns1:Out,
+        ns1:Set ;
+    ns1:pagou ns1:Abr,
+        ns1:Fev,
+        ns1:Jan,
+        ns1:Mar ;
+    ns1:permilagem "34" .
+
+ns1:Pagamentos a owl:Class .
+
+ns1:Abr a owl:Class ;
+    rdfs:subClassOf ns1:Pagamentos .
+
+ns1:Ago a owl:Class ;
+    rdfs:subClassOf ns1:Pagamentos .
+
+ns1:Despesa a owl:Class .
+
+ns1:Dez a owl:Class ;
+    rdfs:subClassOf ns1:Pagamentos .
+
+ns1:Fev a owl:Class ;
+    rdfs:subClassOf ns1:Pagamentos .
+
+ns1:Jan a owl:Class ;
+    rdfs:subClassOf ns1:Pagamentos .
+
+ns1:Jul a owl:Class ;
+    rdfs:subClassOf ns1:Pagamentos .
+
+ns1:Jun a owl:Class ;
+    rdfs:subClassOf ns1:Pagamentos .
+
+ns1:Mai a owl:Class ;
+    rdfs:subClassOf ns1:Pagamentos .
+
+ns1:Mar a owl:Class ;
+    rdfs:subClassOf ns1:Pagamentos .
+
+ns1:Nov a owl:Class ;
+    rdfs:subClassOf ns1:Pagamentos .
+
+ns1:Out a owl:Class ;
+    rdfs:subClassOf ns1:Pagamentos .
+
+ns1:Fração a owl:Class .
+
+ns1:Receita a owl:Class .
+
