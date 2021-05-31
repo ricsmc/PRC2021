@@ -1,0 +1,46 @@
+CONSTRUCT {
+    ?irmao1 :irmao ?irmao2.
+    ?irmao2 :irmao ?irmao1.
+} WHERE { 
+    ?irmao1 :temProgenitor ?t1.
+    ?irmao2 :temProgenitor ?t1.
+    ?irmao1 :temProgenitor ?t2.
+    ?irmao2 :temProgenitor ?t2.
+
+}
+
+CONSTRUCT {
+    ?bis :bisavo ?neto.
+    ?neto :bisneto ?bis.
+} WHERE {
+    ?bis rdf:type :Pessoa.
+    ?neto :temProgenitor ?p.
+    ?p :temProgenitor ?a.
+    ?a temProgenitor ?bis.
+}
+
+CONSTRUCT {
+    ?pessoa1 :descendentes ?pessoa2.
+} WHERE {
+    {?pessoa2 rdf:type :Pessoa.
+    ?pessoa2 :temProgenitor ?pessoa1.}
+    UNION
+    {?pessoa2 rdf:type :Pessoa.
+    ?pessoa2 :temProgenitor ?pr.
+    ?pr :temProgenitor ?pessoa1.}
+    UNION
+    {?pessoa2 rdf:type :Pessoa.
+    ?pessoa2 :temProgenitor ?pr.
+    ?pr :temProgenitor ?pr2.
+    ?pr2 :temProgenitor ?pessoa1}
+}
+
+CONSTRUCT {
+    ?primo1 :primo ?primo2.
+    ?primo2 :primo ?primo1.
+} WHERE {
+    ?primo1 :temProgenitor ?pr1.
+    ?primo2 :temProgenitor ?pr2.
+    ?pr1 :temProgenitor ?pr.
+    ?pr2     :temProgenitor ?pr.
+}

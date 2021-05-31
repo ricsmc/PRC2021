@@ -1,0 +1,6008 @@
+@prefix ns1: <http://di.uminho.pt/prc2021/teste#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:Adams_Cecelia a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Adams" ;
+    ns1:email "cecelia.adams@amigosmontanha.tv" ;
+    ns1:exame_feito_em ns1:60b3ee0ef3bfaf77b4e67849 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 28 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Fairlee" ;
+    ns1:nome_próprio "Cecelia" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Aguirre_Mcintosh a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Aguirre" ;
+    ns1:email "mcintosh.aguirre@vitoria.name" ;
+    ns1:exame_feito_em ns1:60b3eeb9a2085e98659a2f5b ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 35 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Emory" ;
+    ns1:nome_próprio "Mcintosh" ;
+    ns1:pratica ns1:Basquetebol .
+
+ns1:Alexander_Conway a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Alexander" ;
+    ns1:email "conway.alexander@scbraga.biz" ;
+    ns1:exame_feito_em ns1:60b3ee811a2021b6b24ffbc2 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 24 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Darrtown" ;
+    ns1:nome_próprio "Conway" ;
+    ns1:pratica ns1:BTT .
+
+ns1:Allen_Elaine a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Allen" ;
+    ns1:email "elaine.allen@acdrcrespos.us" ;
+    ns1:exame_feito_em ns1:60b3eeb97aabcddbffca43f3 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 32 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Kaka" ;
+    ns1:nome_próprio "Elaine" ;
+    ns1:pratica ns1:Equitação .
+
+ns1:Alvarez_Fowler a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Alvarez" ;
+    ns1:email "fowler.alvarez@amigosmontanha.tv" ;
+    ns1:exame_feito_em ns1:60b3ee0e0ee0185da196c9ab ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Choctaw" ;
+    ns1:nome_próprio "Fowler" ;
+    ns1:pratica ns1:Esgrima .
+
+ns1:Alvarez_Jordan a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Alvarez" ;
+    ns1:email "jordan.alvarez@edviana.biz" ;
+    ns1:exame_feito_em ns1:60b3ee81145de55fffb7bdfa ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Riviera" ;
+    ns1:nome_próprio "Jordan" ;
+    ns1:pratica ns1:Atletismo .
+
+ns1:Andrews_Lancaster a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Andrews" ;
+    ns1:email "lancaster.andrews@vitoria.biz" ;
+    ns1:exame_feito_em ns1:60b3ee811426bce48b453191 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 24 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Longoria" ;
+    ns1:nome_próprio "Lancaster" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Anthony_Montoya a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Anthony" ;
+    ns1:email "montoya.anthony@acrroriz.ca" ;
+    ns1:exame_feito_em ns1:60b3ee81051fe3467036095a ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Clara" ;
+    ns1:nome_próprio "Montoya" ;
+    ns1:pratica ns1:Basquetebol .
+
+ns1:Armstrong_Leanne a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Armstrong" ;
+    ns1:email "leanne.armstrong@amigosmontanha.ca" ;
+    ns1:exame_feito_em ns1:60b3eeb93a24ff700a3928d5 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 28 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Cochranville" ;
+    ns1:nome_próprio "Leanne" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Arnold_Key a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Arnold" ;
+    ns1:email "key.arnold@amigosmontanha.me" ;
+    ns1:exame_feito_em ns1:60b3ee0ebab436c1d23c2a84 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 27 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Orason" ;
+    ns1:nome_próprio "Key" ;
+    ns1:pratica ns1:Ciclismo .
+
+ns1:Ashley_Hodges a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Ashley" ;
+    ns1:email "hodges.ashley@abcbraga.net" ;
+    ns1:exame_feito_em ns1:60b3eeb99d4b85092734ded4 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Crawfordsville" ;
+    ns1:nome_próprio "Hodges" ;
+    ns1:pratica ns1:Andebol .
+
+ns1:Avila_Terri a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Avila" ;
+    ns1:email "terri.avila@avcfamalicão.biz" ;
+    ns1:exame_feito_em ns1:60b3ee0ecfbe9bf6149ba53b ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 22 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Crown" ;
+    ns1:nome_próprio "Terri" ;
+    ns1:pratica ns1:Esgrima .
+
+ns1:Baird_Wolfe a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Baird" ;
+    ns1:email "wolfe.baird@avcfamalicão.org" ;
+    ns1:exame_feito_em ns1:60b3ee81839f04840d199de9 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 24 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Faxon" ;
+    ns1:nome_próprio "Wolfe" ;
+    ns1:pratica ns1:Esgrima .
+
+ns1:Baldwin_Liz a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Baldwin" ;
+    ns1:email "liz.baldwin@abcbraga.co.uk" ;
+    ns1:exame_feito_em ns1:60b3eeb94d27b52fe1b15f19 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Basye" ;
+    ns1:nome_próprio "Liz" ;
+    ns1:pratica ns1:Orientação .
+
+ns1:Ballard_Crane a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Ballard" ;
+    ns1:email "crane.ballard@vitoria.name" ;
+    ns1:exame_feito_em ns1:60b3ee0ed7a60ecd07dadb9e ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Fedora" ;
+    ns1:nome_próprio "Crane" ;
+    ns1:pratica ns1:BTT .
+
+ns1:Barber_Michele a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Barber" ;
+    ns1:email "michele.barber@clube de orientação do minho.tv" ;
+    ns1:exame_feito_em ns1:60b3ee0e559fb2fd0142f64c ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 27 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Oberlin" ;
+    ns1:nome_próprio "Michele" ;
+    ns1:pratica ns1:Karaté .
+
+ns1:Barker_Mccray a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Barker" ;
+    ns1:email "mccray.barker@vitoria.tv" ;
+    ns1:exame_feito_em ns1:60b3ee8187b3e7d863bbaf97 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 35 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Blairstown" ;
+    ns1:nome_próprio "Mccray" ;
+    ns1:pratica ns1:Dança .
+
+ns1:Barlow_Ball a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Barlow" ;
+    ns1:email "ball.barlow@amigosmontanha.info" ;
+    ns1:exame_feito_em ns1:60b3ee0e57b3659681466acf ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 28 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Hobucken" ;
+    ns1:nome_próprio "Ball" ;
+    ns1:pratica ns1:Parapente .
+
+ns1:Barnes_Valdez a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Barnes" ;
+    ns1:email "valdez.barnes@acdrcrespos.io" ;
+    ns1:exame_feito_em ns1:60b3ee81e02e5fb35760bec3 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 22 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Islandia" ;
+    ns1:nome_próprio "Valdez" ;
+    ns1:pratica ns1:Parapente .
+
+ns1:Bartlett_Ethel a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Bartlett" ;
+    ns1:email "ethel.bartlett@acrroriz.info" ;
+    ns1:exame_feito_em ns1:60b3ee817ca74f6cb607c6f9 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 26 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Muir" ;
+    ns1:nome_próprio "Ethel" ;
+    ns1:pratica ns1:Orientação .
+
+ns1:Bauer_Hendrix a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Bauer" ;
+    ns1:email "hendrix.bauer@scbraga.io" ;
+    ns1:exame_feito_em ns1:60b3ee81f5035e13f1db0069 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Ryderwood" ;
+    ns1:nome_próprio "Hendrix" ;
+    ns1:pratica ns1:Karaté .
+
+ns1:Baxter_Oneil a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Baxter" ;
+    ns1:email "oneil.baxter@clube de orientação do minho.org" ;
+    ns1:exame_feito_em ns1:60b3ee0e651ec286b869976d ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 24 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Sanders" ;
+    ns1:nome_próprio "Oneil" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Beck_Jimmie a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Beck" ;
+    ns1:email "jimmie.beck@avcfamalicão.org" ;
+    ns1:exame_feito_em ns1:60b3eeb9077997c0e212f286 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 34 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Walker" ;
+    ns1:nome_próprio "Jimmie" ;
+    ns1:pratica ns1:Atletismo .
+
+ns1:Bell_Zelma a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Bell" ;
+    ns1:email "zelma.bell@clube de orientação do minho.com" ;
+    ns1:exame_feito_em ns1:60b3eeb9080a93e404ab974a ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Shasta" ;
+    ns1:nome_próprio "Zelma" ;
+    ns1:pratica ns1:Equitação .
+
+ns1:Benjamin_Roseann a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Benjamin" ;
+    ns1:email "roseann.benjamin@abcbraga.org" ;
+    ns1:exame_feito_em ns1:60b3ee81828ee0dba6850475 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 21 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Stewart" ;
+    ns1:nome_próprio "Roseann" ;
+    ns1:pratica ns1:BTT .
+
+ns1:Bennett_Woodard a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Bennett" ;
+    ns1:email "woodard.bennett@edviana.ca" ;
+    ns1:exame_feito_em ns1:60b3ee0e3f327a6ba71f77b0 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Ruckersville" ;
+    ns1:nome_próprio "Woodard" ;
+    ns1:pratica ns1:SUP .
+
+ns1:Bentley_Brianna a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Bentley" ;
+    ns1:email "brianna.bentley@acdrcrespos.org" ;
+    ns1:exame_feito_em ns1:60b3ee812f35f4ff3c2edecf ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 28 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Ypsilanti" ;
+    ns1:nome_próprio "Brianna" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Bishop_Church a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Bishop" ;
+    ns1:email "church.bishop@vitoria.com" ;
+    ns1:exame_feito_em ns1:60b3ee0e0539642b38645cb3 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 28 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Vallonia" ;
+    ns1:nome_próprio "Church" ;
+    ns1:pratica ns1:Orientação .
+
+ns1:Bishop_Heath a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Bishop" ;
+    ns1:email "heath.bishop@amigosmontanha.name" ;
+    ns1:exame_feito_em ns1:60b3ee81e62094c1d0bfca5c ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 32 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Grantville" ;
+    ns1:nome_próprio "Heath" ;
+    ns1:pratica ns1:Esgrima .
+
+ns1:Blackburn_Mccoy a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Blackburn" ;
+    ns1:email "mccoy.blackburn@amigosmontanha.tv" ;
+    ns1:exame_feito_em ns1:60b3eeb97aecf09da8650e19 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 29 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Osmond" ;
+    ns1:nome_próprio "Mccoy" ;
+    ns1:pratica ns1:SUP .
+
+ns1:Blake_Betty a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Blake" ;
+    ns1:email "betty.blake@abcbraga.ca" ;
+    ns1:exame_feito_em ns1:60b3ee0ee3f58fda00f17cc6 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Teasdale" ;
+    ns1:nome_próprio "Betty" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Blankenship_Tina a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Blankenship" ;
+    ns1:email "tina.blankenship@acdrcrespos.info" ;
+    ns1:exame_feito_em ns1:60b3ee0e553355b77862ea98 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Longoria" ;
+    ns1:nome_próprio "Tina" ;
+    ns1:pratica ns1:SUP .
+
+ns1:Blevins_Ramirez a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Blevins" ;
+    ns1:email "ramirez.blevins@vitoria.me" ;
+    ns1:exame_feito_em ns1:60b3eeb966fd425e94c59395 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 35 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Bluetown" ;
+    ns1:nome_próprio "Ramirez" ;
+    ns1:pratica ns1:Orientação .
+
+ns1:Bonner_Jordan a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Bonner" ;
+    ns1:email "jordan.bonner@vitoria.info" ;
+    ns1:exame_feito_em ns1:60b3ee0e6dbcbe60effe125d ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Northchase" ;
+    ns1:nome_próprio "Jordan" ;
+    ns1:pratica ns1:SUP .
+
+ns1:Bowen_Holly a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Bowen" ;
+    ns1:email "holly.bowen@acdrcrespos.us" ;
+    ns1:exame_feito_em ns1:60b3eeb9a78fd4bfe9e36453 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 29 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Adamstown" ;
+    ns1:nome_próprio "Holly" ;
+    ns1:pratica ns1:Orientação .
+
+ns1:Bowman_Casey a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Bowman" ;
+    ns1:email "casey.bowman@abcbraga.ca" ;
+    ns1:exame_feito_em ns1:60b3ee813905ebb273d5d9a0 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 22 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Tryon" ;
+    ns1:nome_próprio "Casey" ;
+    ns1:pratica ns1:Patinagem .
+
+ns1:Boyd_Christensen a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Boyd" ;
+    ns1:email "christensen.boyd@abcbraga.tv" ;
+    ns1:exame_feito_em ns1:60b3ee817c1ce5b6cb67302a ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 34 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Wells" ;
+    ns1:nome_próprio "Christensen" ;
+    ns1:pratica ns1:Esgrima .
+
+ns1:Boyd_Ophelia a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Boyd" ;
+    ns1:email "ophelia.boyd@amigosmontanha.name" ;
+    ns1:exame_feito_em ns1:60b3ee0e1f3d25c518678bd7 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 21 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Chaparrito" ;
+    ns1:nome_próprio "Ophelia" ;
+    ns1:pratica ns1:Atletismo .
+
+ns1:Bradshaw_Burgess a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Bradshaw" ;
+    ns1:email "burgess.bradshaw@abcbraga.net" ;
+    ns1:exame_feito_em ns1:60b3ee817468bb467a39e2f8 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Bluffview" ;
+    ns1:nome_próprio "Burgess" ;
+    ns1:pratica ns1:Patinagem .
+
+ns1:Bradshaw_Ida a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Bradshaw" ;
+    ns1:email "ida.bradshaw@clube de orientação do minho.ca" ;
+    ns1:exame_feito_em ns1:60b3eeb9bfd86db079523f51 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 21 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Lowgap" ;
+    ns1:nome_próprio "Ida" ;
+    ns1:pratica ns1:Dança .
+
+ns1:Bray_Margaret a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Bray" ;
+    ns1:email "margaret.bray@clube de orientação do minho.biz" ;
+    ns1:exame_feito_em ns1:60b3eeb967d2dd4be3e2c87d ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 22 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Sardis" ;
+    ns1:nome_próprio "Margaret" ;
+    ns1:pratica ns1:Karaté .
+
+ns1:Brewer_Martin a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Brewer" ;
+    ns1:email "martin.brewer@acrroriz.us" ;
+    ns1:exame_feito_em ns1:60b3ee0ea5d75fed720e4820 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Taycheedah" ;
+    ns1:nome_próprio "Martin" ;
+    ns1:pratica ns1:Patinagem .
+
+ns1:Bryan_Tonia a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Bryan" ;
+    ns1:email "tonia.bryan@edviana.ca" ;
+    ns1:exame_feito_em ns1:60b3ee81b71a63346d0243e7 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 35 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Corinne" ;
+    ns1:nome_próprio "Tonia" ;
+    ns1:pratica ns1:Basquetebol .
+
+ns1:Bryant_Sheppard a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Bryant" ;
+    ns1:email "sheppard.bryant@avcfamalicão.com" ;
+    ns1:exame_feito_em ns1:60b3ee0ee48920a886a461e2 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Brandermill" ;
+    ns1:nome_próprio "Sheppard" ;
+    ns1:pratica ns1:Karaté .
+
+ns1:Bryant_Tammy a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Bryant" ;
+    ns1:email "tammy.bryant@acdrcrespos.info" ;
+    ns1:exame_feito_em ns1:60b3eeb9d9f01093dc14973f ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 32 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Fidelis" ;
+    ns1:nome_próprio "Tammy" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Buck_Kim a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Buck" ;
+    ns1:email "kim.buck@avcfamalicão.tv" ;
+    ns1:exame_feito_em ns1:60b3eeb9fa4e587712a640d4 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Rosine" ;
+    ns1:nome_próprio "Kim" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Buckner_Knapp a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Buckner" ;
+    ns1:email "knapp.buckner@abcbraga.me" ;
+    ns1:exame_feito_em ns1:60b3eeb95b00f32d469ef4b2 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Rose" ;
+    ns1:nome_próprio "Knapp" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Buckner_Mendoza a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Buckner" ;
+    ns1:email "mendoza.buckner@scbraga.ca" ;
+    ns1:exame_feito_em ns1:60b3ee0ed16d4695ffdf5f17 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Brogan" ;
+    ns1:nome_próprio "Mendoza" ;
+    ns1:pratica ns1:Patinagem .
+
+ns1:Bullock_Warner a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Bullock" ;
+    ns1:email "warner.bullock@gdgoma.biz" ;
+    ns1:exame_feito_em ns1:60b3eeb91ab516aa15e1199a ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 35 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Valle" ;
+    ns1:nome_próprio "Warner" ;
+    ns1:pratica ns1:Parapente .
+
+ns1:Burton_Chambers a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Burton" ;
+    ns1:email "chambers.burton@vitoria.biz" ;
+    ns1:exame_feito_em ns1:60b3ee0eb2087f8cccef830d ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Boling" ;
+    ns1:nome_próprio "Chambers" ;
+    ns1:pratica ns1:SUP .
+
+ns1:Cabrera_Meghan a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Cabrera" ;
+    ns1:email "meghan.cabrera@edviana.info" ;
+    ns1:exame_feito_em ns1:60b3eeb9bc920eef418c62ac ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 28 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Shawmut" ;
+    ns1:nome_próprio "Meghan" ;
+    ns1:pratica ns1:Andebol .
+
+ns1:Caldwell_Sheila a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Caldwell" ;
+    ns1:email "sheila.caldwell@avcfamalicão.ca" ;
+    ns1:exame_feito_em ns1:60b3ee81e97e332884e1299a ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 22 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Leroy" ;
+    ns1:nome_próprio "Sheila" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Calhoun_Summer a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Calhoun" ;
+    ns1:email "summer.calhoun@clube de orientação do minho.info" ;
+    ns1:exame_feito_em ns1:60b3ee0ecf1638e25755912c ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 26 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "National" ;
+    ns1:nome_próprio "Summer" ;
+    ns1:pratica ns1:Esgrima .
+
+ns1:Cameron_Klein a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Cameron" ;
+    ns1:email "klein.cameron@scbraga.me" ;
+    ns1:exame_feito_em ns1:60b3ee0ee3d27702cac0b7cd ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Twilight" ;
+    ns1:nome_próprio "Klein" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Campbell_Suarez a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Campbell" ;
+    ns1:email "suarez.campbell@acdrcrespos.us" ;
+    ns1:exame_feito_em ns1:60b3ee81956a3fcc57d06c8c ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 34 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Hamilton" ;
+    ns1:nome_próprio "Suarez" ;
+    ns1:pratica ns1:Atletismo .
+
+ns1:Carroll_Ayers a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Carroll" ;
+    ns1:email "ayers.carroll@gdgoma.com" ;
+    ns1:exame_feito_em ns1:60b3ee812d50aad901e7e243 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 35 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Sylvanite" ;
+    ns1:nome_próprio "Ayers" ;
+    ns1:pratica ns1:Ciclismo .
+
+ns1:Carter_Meagan a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Carter" ;
+    ns1:email "meagan.carter@scbraga.info" ;
+    ns1:exame_feito_em ns1:60b3ee81655cc723f988a62d ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 35 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Martinsville" ;
+    ns1:nome_próprio "Meagan" ;
+    ns1:pratica ns1:SUP .
+
+ns1:Castaneda_Araceli a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Castaneda" ;
+    ns1:email "araceli.castaneda@avcfamalicão.biz" ;
+    ns1:exame_feito_em ns1:60b3ee81c1515414ac1fb549 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 28 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Magnolia" ;
+    ns1:nome_próprio "Araceli" ;
+    ns1:pratica ns1:Ciclismo .
+
+ns1:Chambers_Daniel a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Chambers" ;
+    ns1:email "daniel.chambers@gdgoma.biz" ;
+    ns1:exame_feito_em ns1:60b3eeb9ec44aba1040d2e1e ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 22 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Nicholson" ;
+    ns1:nome_próprio "Daniel" ;
+    ns1:pratica ns1:Patinagem .
+
+ns1:Chambers_Dominguez a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Chambers" ;
+    ns1:email "dominguez.chambers@abcbraga.name" ;
+    ns1:exame_feito_em ns1:60b3ee0ed5dd8522cc53e7b0 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 35 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Malott" ;
+    ns1:nome_próprio "Dominguez" ;
+    ns1:pratica ns1:Equitação .
+
+ns1:Chaney_Terry a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Chaney" ;
+    ns1:email "terry.chaney@scbraga.us" ;
+    ns1:exame_feito_em ns1:60b3ee0e07cb41f968328e60 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Blanco" ;
+    ns1:nome_próprio "Terry" ;
+    ns1:pratica ns1:Karaté .
+
+ns1:Chapman_Olive a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Chapman" ;
+    ns1:email "olive.chapman@avcfamalicão.net" ;
+    ns1:exame_feito_em ns1:60b3eeb9edcbd2a0befa0a74 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Wikieup" ;
+    ns1:nome_próprio "Olive" ;
+    ns1:pratica ns1:Dança .
+
+ns1:Cherry_Jamie a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Cherry" ;
+    ns1:email "jamie.cherry@abcbraga.io" ;
+    ns1:exame_feito_em ns1:60b3ee816e416ff33c21634a ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Forbestown" ;
+    ns1:nome_próprio "Jamie" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Clay_Berta a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Clay" ;
+    ns1:email "berta.clay@clube de orientação do minho.info" ;
+    ns1:exame_feito_em ns1:60b3ee0e3b279f45e79cd6fa ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 29 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Barclay" ;
+    ns1:nome_próprio "Berta" ;
+    ns1:pratica ns1:Atletismo .
+
+ns1:Clements_Christian a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Clements" ;
+    ns1:email "christian.clements@acdrcrespos.biz" ;
+    ns1:exame_feito_em ns1:60b3ee81451b811209c3deef ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Cochranville" ;
+    ns1:nome_próprio "Christian" ;
+    ns1:pratica ns1:Atletismo .
+
+ns1:Clemons_English a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Clemons" ;
+    ns1:email "english.clemons@gdgoma.com" ;
+    ns1:exame_feito_em ns1:60b3ee0ed8819374df399b72 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Ticonderoga" ;
+    ns1:nome_próprio "English" ;
+    ns1:pratica ns1:Basquetebol .
+
+ns1:Cline_Blevins a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Cline" ;
+    ns1:email "blevins.cline@clube de orientação do minho.me" ;
+    ns1:exame_feito_em ns1:60b3eeb983fb3181e8f43d12 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 22 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Delshire" ;
+    ns1:nome_próprio "Blevins" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Cobb_Maureen a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Cobb" ;
+    ns1:email "maureen.cobb@amigosmontanha.info" ;
+    ns1:exame_feito_em ns1:60b3ee0e16fc834f28234ef4 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 24 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Venice" ;
+    ns1:nome_próprio "Maureen" ;
+    ns1:pratica ns1:Patinagem .
+
+ns1:Coffey_Chasity a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Coffey" ;
+    ns1:email "chasity.coffey@edviana.biz" ;
+    ns1:exame_feito_em ns1:60b3ee0e6cb88f8d26691e15 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Kersey" ;
+    ns1:nome_próprio "Chasity" ;
+    ns1:pratica ns1:Karaté .
+
+ns1:Coffey_Small a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Coffey" ;
+    ns1:email "small.coffey@vitoria.name" ;
+    ns1:exame_feito_em ns1:60b3eeb9217c0274b8a1022b ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 29 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Waumandee" ;
+    ns1:nome_próprio "Small" ;
+    ns1:pratica ns1:Dança .
+
+ns1:Combs_Marcella a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Combs" ;
+    ns1:email "marcella.combs@clube de orientação do minho.com" ;
+    ns1:exame_feito_em ns1:60b3ee0e6ab8471af29e2014 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 24 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Manila" ;
+    ns1:nome_próprio "Marcella" ;
+    ns1:pratica ns1:Ciclismo .
+
+ns1:Conley_Jean a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Conley" ;
+    ns1:email "jean.conley@gdgoma.io" ;
+    ns1:exame_feito_em ns1:60b3ee8182b8712a2f15e41a ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 21 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Tilleda" ;
+    ns1:nome_próprio "Jean" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Copeland_Sellers a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Copeland" ;
+    ns1:email "sellers.copeland@clube de orientação do minho.net" ;
+    ns1:exame_feito_em ns1:60b3ee0e2707c21708cc3418 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 28 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Spelter" ;
+    ns1:nome_próprio "Sellers" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Cotton_Etta a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Cotton" ;
+    ns1:email "etta.cotton@avcfamalicão.us" ;
+    ns1:exame_feito_em ns1:60b3eeb944e8f43647ed05f2 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 32 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Graniteville" ;
+    ns1:nome_próprio "Etta" ;
+    ns1:pratica ns1:SUP .
+
+ns1:Cox_Stanton a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Cox" ;
+    ns1:email "stanton.cox@edviana.net" ;
+    ns1:exame_feito_em ns1:60b3eeb96e988bb711c0c940 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 22 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Foxworth" ;
+    ns1:nome_próprio "Stanton" ;
+    ns1:pratica ns1:BTT .
+
+ns1:Crawford_Dennis a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Crawford" ;
+    ns1:email "dennis.crawford@amigosmontanha.com" ;
+    ns1:exame_feito_em ns1:60b3eeb9868c63b27774163f ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Wanship" ;
+    ns1:nome_próprio "Dennis" ;
+    ns1:pratica ns1:Atletismo .
+
+ns1:Cummings_Wilkins a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Cummings" ;
+    ns1:email "wilkins.cummings@acrroriz.us" ;
+    ns1:exame_feito_em ns1:60b3eeb9ef81456a2178baca ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Gila" ;
+    ns1:nome_próprio "Wilkins" ;
+    ns1:pratica ns1:Dança .
+
+ns1:Curry_Lila a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Curry" ;
+    ns1:email "lila.curry@amigosmontanha.com" ;
+    ns1:exame_feito_em ns1:60b3eeb9c05f073a238c4aa6 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Alden" ;
+    ns1:nome_próprio "Lila" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Curtis_Cabrera a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Curtis" ;
+    ns1:email "cabrera.curtis@avcfamalicão.name" ;
+    ns1:exame_feito_em ns1:60b3ee8122f33125935e59d3 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 22 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Beechmont" ;
+    ns1:nome_próprio "Cabrera" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Daniels_Hicks a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Daniels" ;
+    ns1:email "hicks.daniels@abcbraga.ca" ;
+    ns1:exame_feito_em ns1:60b3eeb9cc832d080dd2c0e0 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 32 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Frizzleburg" ;
+    ns1:nome_próprio "Hicks" ;
+    ns1:pratica ns1:Ciclismo .
+
+ns1:David_Slater a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "David" ;
+    ns1:email "slater.david@vitoria.org" ;
+    ns1:exame_feito_em ns1:60b3ee0e2fac3611c3cd7291 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Chicopee" ;
+    ns1:nome_próprio "Slater" ;
+    ns1:pratica ns1:BTT .
+
+ns1:Davidson_Duncan a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Davidson" ;
+    ns1:email "duncan.davidson@amigosmontanha.biz" ;
+    ns1:exame_feito_em ns1:60b3ee0e926c1d538dfaabd3 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 35 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Cedarville" ;
+    ns1:nome_próprio "Duncan" ;
+    ns1:pratica ns1:Karaté .
+
+ns1:Davidson_Kelley a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Davidson" ;
+    ns1:email "kelley.davidson@avcfamalicão.com" ;
+    ns1:exame_feito_em ns1:60b3eeb9bc3d74e0cb400631 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Ruckersville" ;
+    ns1:nome_próprio "Kelley" ;
+    ns1:pratica ns1:Equitação .
+
+ns1:Dejesus_Raquel a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Dejesus" ;
+    ns1:email "raquel.dejesus@acrroriz.biz" ;
+    ns1:exame_feito_em ns1:60b3eeb92b1debc068c42080 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Greenfields" ;
+    ns1:nome_próprio "Raquel" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Delaney_Paula a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Delaney" ;
+    ns1:email "paula.delaney@edviana.co.uk" ;
+    ns1:exame_feito_em ns1:60b3ee0e0797a9f03b138d18 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 29 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Disautel" ;
+    ns1:nome_próprio "Paula" ;
+    ns1:pratica ns1:Dança .
+
+ns1:Diaz_Bonnie a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Diaz" ;
+    ns1:email "bonnie.diaz@scbraga.biz" ;
+    ns1:exame_feito_em ns1:60b3eeb9860033876d65f5f7 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Gerton" ;
+    ns1:nome_próprio "Bonnie" ;
+    ns1:pratica ns1:Ténis .
+
+ns1:Diaz_Nguyen a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Diaz" ;
+    ns1:email "nguyen.diaz@amigosmontanha.info" ;
+    ns1:exame_feito_em ns1:60b3ee0e20e993d5010857a4 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 35 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Watchtower" ;
+    ns1:nome_próprio "Nguyen" ;
+    ns1:pratica ns1:BTT .
+
+ns1:Dillon_Curtis a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Dillon" ;
+    ns1:email "curtis.dillon@amigosmontanha.tv" ;
+    ns1:exame_feito_em ns1:60b3eeb96b4950f33f42c5b6 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 29 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Beason" ;
+    ns1:nome_próprio "Curtis" ;
+    ns1:pratica ns1:Parapente .
+
+ns1:Dillon_Gertrude a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Dillon" ;
+    ns1:email "gertrude.dillon@acrroriz.co.uk" ;
+    ns1:exame_feito_em ns1:60b3ee0ea6339abf19460649 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 27 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Oneida" ;
+    ns1:nome_próprio "Gertrude" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Dominguez_Davenport a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Dominguez" ;
+    ns1:email "davenport.dominguez@acrroriz.biz" ;
+    ns1:exame_feito_em ns1:60b3eeb9a57cc0f98a998c9a ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Vallonia" ;
+    ns1:nome_próprio "Davenport" ;
+    ns1:pratica ns1:Patinagem .
+
+ns1:Dotson_Lloyd a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Dotson" ;
+    ns1:email "lloyd.dotson@abcbraga.com" ;
+    ns1:exame_feito_em ns1:60b3ee81864959e7fb8bc864 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 21 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Winesburg" ;
+    ns1:nome_próprio "Lloyd" ;
+    ns1:pratica ns1:Patinagem .
+
+ns1:Douglas_Guzman a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Douglas" ;
+    ns1:email "guzman.douglas@abcbraga.org" ;
+    ns1:exame_feito_em ns1:60b3ee818e25f41f67491f02 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 21 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Alderpoint" ;
+    ns1:nome_próprio "Guzman" ;
+    ns1:pratica ns1:Orientação .
+
+ns1:Drake_Ewing a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Drake" ;
+    ns1:email "ewing.drake@acdrcrespos.org" ;
+    ns1:exame_feito_em ns1:60b3ee0e172e761f8d52c213 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 21 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Nanafalia" ;
+    ns1:nome_próprio "Ewing" ;
+    ns1:pratica ns1:Ciclismo .
+
+ns1:Drake_Guy a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Drake" ;
+    ns1:email "guy.drake@abcbraga.info" ;
+    ns1:exame_feito_em ns1:60b3ee81efda597f9d074638 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Helen" ;
+    ns1:nome_próprio "Guy" ;
+    ns1:pratica ns1:Karaté .
+
+ns1:Duffy_Hudson a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Duffy" ;
+    ns1:email "hudson.duffy@edviana.name" ;
+    ns1:exame_feito_em ns1:60b3ee8151ebf5ddaa5ca13c ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 22 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Whitestone" ;
+    ns1:nome_próprio "Hudson" ;
+    ns1:pratica ns1:Orientação .
+
+ns1:Eaton_Booth a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Eaton" ;
+    ns1:email "booth.eaton@scbraga.us" ;
+    ns1:exame_feito_em ns1:60b3ee0e28ab1329e2ed0888 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Terlingua" ;
+    ns1:nome_próprio "Booth" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Ellis_Milagros a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Ellis" ;
+    ns1:email "milagros.ellis@acdrcrespos.net" ;
+    ns1:exame_feito_em ns1:60b3eeb9c82e74bc1831a3be ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 21 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Why" ;
+    ns1:nome_próprio "Milagros" ;
+    ns1:pratica ns1:Patinagem .
+
+ns1:Erickson_Jaime a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Erickson" ;
+    ns1:email "jaime.erickson@abcbraga.co.uk" ;
+    ns1:exame_feito_em ns1:60b3eeb9dbbc9f23e5c888ac ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Yardville" ;
+    ns1:nome_próprio "Jaime" ;
+    ns1:pratica ns1:Dança .
+
+ns1:Espinoza_Tonia a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Espinoza" ;
+    ns1:email "tonia.espinoza@avcfamalicão.ca" ;
+    ns1:exame_feito_em ns1:60b3eeb9b701a941937c0dd8 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 24 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Fillmore" ;
+    ns1:nome_próprio "Tonia" ;
+    ns1:pratica ns1:Andebol .
+
+ns1:Evans_Joyce a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Evans" ;
+    ns1:email "joyce.evans@amigosmontanha.name" ;
+    ns1:exame_feito_em ns1:60b3ee815cb65367e6de0b3c ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 27 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Rivers" ;
+    ns1:nome_próprio "Joyce" ;
+    ns1:pratica ns1:Andebol .
+
+ns1:Ferrell_Lambert a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Ferrell" ;
+    ns1:email "lambert.ferrell@vitoria.me" ;
+    ns1:exame_feito_em ns1:60b3eeb9d7265f5ab15e4fed ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Rowe" ;
+    ns1:nome_próprio "Lambert" ;
+    ns1:pratica ns1:SUP .
+
+ns1:Figueroa_Natalie a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Figueroa" ;
+    ns1:email "natalie.figueroa@clube de orientação do minho.biz" ;
+    ns1:exame_feito_em ns1:60b3eeb91afe89807606d176 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Jugtown" ;
+    ns1:nome_próprio "Natalie" ;
+    ns1:pratica ns1:Esgrima .
+
+ns1:Finch_Harrison a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Finch" ;
+    ns1:email "harrison.finch@edviana.us" ;
+    ns1:exame_feito_em ns1:60b3ee817af5fb3fb1e153ef ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 21 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Harrison" ;
+    ns1:nome_próprio "Harrison" ;
+    ns1:pratica ns1:Esgrima .
+
+ns1:Fitzgerald_Valentine a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Fitzgerald" ;
+    ns1:email "valentine.fitzgerald@abcbraga.us" ;
+    ns1:exame_feito_em ns1:60b3ee81422fd173977583e5 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 32 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Kersey" ;
+    ns1:nome_próprio "Valentine" ;
+    ns1:pratica ns1:BTT .
+
+ns1:Fitzpatrick_Althea a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Fitzpatrick" ;
+    ns1:email "althea.fitzpatrick@edviana.me" ;
+    ns1:exame_feito_em ns1:60b3eeb9235de1538781611d ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 24 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Marne" ;
+    ns1:nome_próprio "Althea" ;
+    ns1:pratica ns1:Basquetebol .
+
+ns1:Fletcher_Cathryn a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Fletcher" ;
+    ns1:email "cathryn.fletcher@clube de orientação do minho.ca" ;
+    ns1:exame_feito_em ns1:60b3ee81d74bfab7c22b5eaa ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 29 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Oasis" ;
+    ns1:nome_próprio "Cathryn" ;
+    ns1:pratica ns1:Patinagem .
+
+ns1:Fowler_Nina a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Fowler" ;
+    ns1:email "nina.fowler@amigosmontanha.us" ;
+    ns1:exame_feito_em ns1:60b3ee0ee95a95d0c9bc3e5f ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Turah" ;
+    ns1:nome_próprio "Nina" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Francis_Magdalena a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Francis" ;
+    ns1:email "magdalena.francis@acdrcrespos.biz" ;
+    ns1:exame_feito_em ns1:60b3ee0e3d4f8a3a439f8b7a ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 27 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Fostoria" ;
+    ns1:nome_próprio "Magdalena" ;
+    ns1:pratica ns1:Esgrima .
+
+ns1:Franks_Workman a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Franks" ;
+    ns1:email "workman.franks@amigosmontanha.co.uk" ;
+    ns1:exame_feito_em ns1:60b3ee81cdbf91a4db1113eb ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Greenfields" ;
+    ns1:nome_próprio "Workman" ;
+    ns1:pratica ns1:Andebol .
+
+ns1:Frederick_Barrett a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Frederick" ;
+    ns1:email "barrett.frederick@avcfamalicão.net" ;
+    ns1:exame_feito_em ns1:60b3ee8128adc82a45f8023d ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 29 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Stollings" ;
+    ns1:nome_próprio "Barrett" ;
+    ns1:pratica ns1:BTT .
+
+ns1:French_Best a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "French" ;
+    ns1:email "best.french@gdgoma.biz" ;
+    ns1:exame_feito_em ns1:60b3ee0e3f165afa6f23a0eb ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Longbranch" ;
+    ns1:nome_próprio "Best" ;
+    ns1:pratica ns1:Ciclismo .
+
+ns1:Fulton_Merrill a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Fulton" ;
+    ns1:email "merrill.fulton@amigosmontanha.org" ;
+    ns1:exame_feito_em ns1:60b3eeb9e966a3cf1239840a ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 29 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Berlin" ;
+    ns1:nome_próprio "Merrill" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Gallegos_Chelsea a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Gallegos" ;
+    ns1:email "chelsea.gallegos@avcfamalicão.co.uk" ;
+    ns1:exame_feito_em ns1:60b3eeb968346da5d651b20d ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 21 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Warren" ;
+    ns1:nome_próprio "Chelsea" ;
+    ns1:pratica ns1:Andebol .
+
+ns1:Gibbs_Sweet a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Gibbs" ;
+    ns1:email "sweet.gibbs@avcfamalicão.biz" ;
+    ns1:exame_feito_em ns1:60b3ee8162c5de4569ccfe2f ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 35 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Stagecoach" ;
+    ns1:nome_próprio "Sweet" ;
+    ns1:pratica ns1:Esgrima .
+
+ns1:Gibson_Effie a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Gibson" ;
+    ns1:email "effie.gibson@acrroriz.me" ;
+    ns1:exame_feito_em ns1:60b3ee0ea9b4c2114abcf6d7 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Virgie" ;
+    ns1:nome_próprio "Effie" ;
+    ns1:pratica ns1:Andebol .
+
+ns1:Gill_Claudine a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Gill" ;
+    ns1:email "claudine.gill@acrroriz.me" ;
+    ns1:exame_feito_em ns1:60b3ee0ec14a4ad7e917ed36 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Katonah" ;
+    ns1:nome_próprio "Claudine" ;
+    ns1:pratica ns1:Orientação .
+
+ns1:Glover_Ola a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Glover" ;
+    ns1:email "ola.glover@clube de orientação do minho.us" ;
+    ns1:exame_feito_em ns1:60b3ee0ee78616dd040e4dca ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 34 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Barronett" ;
+    ns1:nome_próprio "Ola" ;
+    ns1:pratica ns1:Equitação .
+
+ns1:Gonzales_Mosley a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Gonzales" ;
+    ns1:email "mosley.gonzales@scbraga.ca" ;
+    ns1:exame_feito_em ns1:60b3eeb9354e8a0e1817c201 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 26 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Driftwood" ;
+    ns1:nome_próprio "Mosley" ;
+    ns1:pratica ns1:BTT .
+
+ns1:Gonzalez_Rodriguez a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Gonzalez" ;
+    ns1:email "rodriguez.gonzalez@gdgoma.biz" ;
+    ns1:exame_feito_em ns1:60b3ee0e538d62e10eba66b6 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Coaldale" ;
+    ns1:nome_próprio "Rodriguez" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Good_Mendez a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Good" ;
+    ns1:email "mendez.good@clube de orientação do minho.us" ;
+    ns1:exame_feito_em ns1:60b3ee81d9e0e05421b4d08e ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Westmoreland" ;
+    ns1:nome_próprio "Mendez" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Goodman_Massey a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Goodman" ;
+    ns1:email "massey.goodman@amigosmontanha.co.uk" ;
+    ns1:exame_feito_em ns1:60b3ee0ea0dc6768a6ca7192 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 32 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Garfield" ;
+    ns1:nome_próprio "Massey" ;
+    ns1:pratica ns1:BTT .
+
+ns1:Graham_Lamb a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Graham" ;
+    ns1:email "lamb.graham@avcfamalicão.info" ;
+    ns1:exame_feito_em ns1:60b3ee81375cc4e9aba8bc6e ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Bluetown" ;
+    ns1:nome_próprio "Lamb" ;
+    ns1:pratica ns1:SUP .
+
+ns1:Grant_Joanna a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Grant" ;
+    ns1:email "joanna.grant@amigosmontanha.com" ;
+    ns1:exame_feito_em ns1:60b3ee0e7524108bf9936414 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Noblestown" ;
+    ns1:nome_próprio "Joanna" ;
+    ns1:pratica ns1:Parapente .
+
+ns1:Green_Alston a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Green" ;
+    ns1:email "alston.green@scbraga.biz" ;
+    ns1:exame_feito_em ns1:60b3ee0e9488e742d1600f58 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 29 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Thornport" ;
+    ns1:nome_próprio "Alston" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Green_Osborn a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Green" ;
+    ns1:email "osborn.green@acrroriz.co.uk" ;
+    ns1:exame_feito_em ns1:60b3eeb92a2f391cda5b305e ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 32 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Jacksonwald" ;
+    ns1:nome_próprio "Osborn" ;
+    ns1:pratica ns1:Karaté .
+
+ns1:Greene_Wilder a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Greene" ;
+    ns1:email "wilder.greene@vitoria.com" ;
+    ns1:exame_feito_em ns1:60b3ee0e9dc10b681d5212b5 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 34 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Heil" ;
+    ns1:nome_próprio "Wilder" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Guzman_Elliott a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Guzman" ;
+    ns1:email "elliott.guzman@clube de orientação do minho.org" ;
+    ns1:exame_feito_em ns1:60b3eeb9f430b0e9e81165c4 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 29 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Rutherford" ;
+    ns1:nome_próprio "Elliott" ;
+    ns1:pratica ns1:Dança .
+
+ns1:Hale_Stafford a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Hale" ;
+    ns1:email "stafford.hale@acdrcrespos.tv" ;
+    ns1:exame_feito_em ns1:60b3eeb9e81cdbbee14cab97 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 29 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Bowden" ;
+    ns1:nome_próprio "Stafford" ;
+    ns1:pratica ns1:Dança .
+
+ns1:Hardy_Torres a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Hardy" ;
+    ns1:email "torres.hardy@clube de orientação do minho.info" ;
+    ns1:exame_feito_em ns1:60b3eeb9e6ca114d8ab96bc4 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Fairfield" ;
+    ns1:nome_próprio "Torres" ;
+    ns1:pratica ns1:Dança .
+
+ns1:Harper_Santana a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Harper" ;
+    ns1:email "santana.harper@scbraga.biz" ;
+    ns1:exame_feito_em ns1:60b3eeb97b17e786bdf88e29 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 32 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Malo" ;
+    ns1:nome_próprio "Santana" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Harper_Valdez a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Harper" ;
+    ns1:email "valdez.harper@amigosmontanha.me" ;
+    ns1:exame_feito_em ns1:60b3ee0e472001f8e05a40ee ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Jacksonwald" ;
+    ns1:nome_próprio "Valdez" ;
+    ns1:pratica ns1:Karaté .
+
+ns1:Hart_Hubbard a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Hart" ;
+    ns1:email "hubbard.hart@gdgoma.org" ;
+    ns1:exame_feito_em ns1:60b3eeb9cf9c078af09a7b74 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 22 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Trucksville" ;
+    ns1:nome_próprio "Hubbard" ;
+    ns1:pratica ns1:Esgrima .
+
+ns1:Hartman_Medina a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Hartman" ;
+    ns1:email "medina.hartman@avcfamalicão.name" ;
+    ns1:exame_feito_em ns1:60b3ee0e62b59d062f2018a3 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 34 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Orick" ;
+    ns1:nome_próprio "Medina" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Hawkins_Bobbi a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Hawkins" ;
+    ns1:email "bobbi.hawkins@scbraga.co.uk" ;
+    ns1:exame_feito_em ns1:60b3ee81ea2bed08bf81e861 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 26 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Takilma" ;
+    ns1:nome_próprio "Bobbi" ;
+    ns1:pratica ns1:Esgrima .
+
+ns1:Hayes_Addie a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Hayes" ;
+    ns1:email "addie.hayes@acrroriz.net" ;
+    ns1:exame_feito_em ns1:60b3ee81034e5cb2050e882a ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Bennett" ;
+    ns1:nome_próprio "Addie" ;
+    ns1:pratica ns1:Ténis .
+
+ns1:Heath_Mercedes a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Heath" ;
+    ns1:email "mercedes.heath@gdgoma.tv" ;
+    ns1:exame_feito_em ns1:60b3eeb9a78530cac96a3f79 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Chaparrito" ;
+    ns1:nome_próprio "Mercedes" ;
+    ns1:pratica ns1:Dança .
+
+ns1:Hendrix_Nixon a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Hendrix" ;
+    ns1:email "nixon.hendrix@avcfamalicão.info" ;
+    ns1:exame_feito_em ns1:60b3ee819d5bb33e21ff7e16 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Bethpage" ;
+    ns1:nome_próprio "Nixon" ;
+    ns1:pratica ns1:Ténis .
+
+ns1:Herman_Lawrence a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Herman" ;
+    ns1:email "lawrence.herman@gdgoma.tv" ;
+    ns1:exame_feito_em ns1:60b3ee815e7f792d741f2228 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Wakulla" ;
+    ns1:nome_próprio "Lawrence" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Herman_Robert a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Herman" ;
+    ns1:email "robert.herman@clube de orientação do minho.com" ;
+    ns1:exame_feito_em ns1:60b3eeb9468961b15e8e1277 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Weogufka" ;
+    ns1:nome_próprio "Robert" ;
+    ns1:pratica ns1:Basquetebol .
+
+ns1:Hester_Jeanine a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Hester" ;
+    ns1:email "jeanine.hester@avcfamalicão.name" ;
+    ns1:exame_feito_em ns1:60b3eeb933e50bd455af89a9 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Baden" ;
+    ns1:nome_próprio "Jeanine" ;
+    ns1:pratica ns1:Patinagem .
+
+ns1:Hickman_Olson a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Hickman" ;
+    ns1:email "olson.hickman@acrroriz.org" ;
+    ns1:exame_feito_em ns1:60b3eeb910808af364c63729 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 35 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Madrid" ;
+    ns1:nome_próprio "Olson" ;
+    ns1:pratica ns1:Equitação .
+
+ns1:Hogan_Burnett a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Hogan" ;
+    ns1:email "burnett.hogan@acrroriz.biz" ;
+    ns1:exame_feito_em ns1:60b3ee813611a9e67c3546a3 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 24 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Valmy" ;
+    ns1:nome_próprio "Burnett" ;
+    ns1:pratica ns1:Parapente .
+
+ns1:Holland_Kellie a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Holland" ;
+    ns1:email "kellie.holland@scbraga.org" ;
+    ns1:exame_feito_em ns1:60b3eeb9af56ea737b79ac30 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Bloomington" ;
+    ns1:nome_próprio "Kellie" ;
+    ns1:pratica ns1:Equitação .
+
+ns1:Holman_Dee a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Holman" ;
+    ns1:email "dee.holman@avcfamalicão.org" ;
+    ns1:exame_feito_em ns1:60b3ee0efe55045feaaea0d0 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 35 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Brenton" ;
+    ns1:nome_próprio "Dee" ;
+    ns1:pratica ns1:Parapente .
+
+ns1:Holt_May a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Holt" ;
+    ns1:email "may.holt@amigosmontanha.com" ;
+    ns1:exame_feito_em ns1:60b3ee81a545dd3ccaea41b0 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 34 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Springdale" ;
+    ns1:nome_próprio "May" ;
+    ns1:pratica ns1:SUP .
+
+ns1:Hopkins_Golden a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Hopkins" ;
+    ns1:email "golden.hopkins@avcfamalicão.io" ;
+    ns1:exame_feito_em ns1:60b3ee818db2661d700d6ea3 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Courtland" ;
+    ns1:nome_próprio "Golden" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Horn_Dunn a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Horn" ;
+    ns1:email "dunn.horn@clube de orientação do minho.us" ;
+    ns1:exame_feito_em ns1:60b3ee81874f8871966eedd1 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Ripley" ;
+    ns1:nome_próprio "Dunn" ;
+    ns1:pratica ns1:Andebol .
+
+ns1:Howard_Alyssa a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Howard" ;
+    ns1:email "alyssa.howard@scbraga.info" ;
+    ns1:exame_feito_em ns1:60b3eeb9fc87ff10010ae517 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 26 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Conestoga" ;
+    ns1:nome_próprio "Alyssa" ;
+    ns1:pratica ns1:SUP .
+
+ns1:Howe_Ray a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Howe" ;
+    ns1:email "ray.howe@vitoria.info" ;
+    ns1:exame_feito_em ns1:60b3ee81e20d4412bdf4f468 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Nicut" ;
+    ns1:nome_próprio "Ray" ;
+    ns1:pratica ns1:Atletismo .
+
+ns1:Huber_Flynn a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Huber" ;
+    ns1:email "flynn.huber@clube de orientação do minho.biz" ;
+    ns1:exame_feito_em ns1:60b3eeb97c9c1d91087c47a4 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 26 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Teasdale" ;
+    ns1:nome_próprio "Flynn" ;
+    ns1:pratica ns1:Atletismo .
+
+ns1:Hunter_Sellers a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Hunter" ;
+    ns1:email "sellers.hunter@scbraga.co.uk" ;
+    ns1:exame_feito_em ns1:60b3ee81afbc52a666850b8c ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Omar" ;
+    ns1:nome_próprio "Sellers" ;
+    ns1:pratica ns1:Parapente .
+
+ns1:Jackson_Stella a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Jackson" ;
+    ns1:email "stella.jackson@acdrcrespos.ca" ;
+    ns1:exame_feito_em ns1:60b3ee0e47a5478e9b66110d ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Kaka" ;
+    ns1:nome_próprio "Stella" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Jacobs_Irma a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Jacobs" ;
+    ns1:email "irma.jacobs@edviana.biz" ;
+    ns1:exame_feito_em ns1:60b3ee0e54b12900f5e6c314 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 27 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Driftwood" ;
+    ns1:nome_próprio "Irma" ;
+    ns1:pratica ns1:Atletismo .
+
+ns1:Jacobson_Laura a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Jacobson" ;
+    ns1:email "laura.jacobson@acrroriz.com" ;
+    ns1:exame_feito_em ns1:60b3ee8117de88dc519ae9d3 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 27 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Kirk" ;
+    ns1:nome_próprio "Laura" ;
+    ns1:pratica ns1:Parapente .
+
+ns1:Johns_Martinez a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Johns" ;
+    ns1:email "martinez.johns@abcbraga.info" ;
+    ns1:exame_feito_em ns1:60b3eeb95632a2a2915ae72b ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 32 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Hebron" ;
+    ns1:nome_próprio "Martinez" ;
+    ns1:pratica ns1:SUP .
+
+ns1:Joseph_Haley a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Joseph" ;
+    ns1:email "haley.joseph@avcfamalicão.net" ;
+    ns1:exame_feito_em ns1:60b3ee0eddf26117e9d32bcb ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 28 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Brantleyville" ;
+    ns1:nome_próprio "Haley" ;
+    ns1:pratica ns1:Ciclismo .
+
+ns1:Joseph_Salas a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Joseph" ;
+    ns1:email "salas.joseph@amigosmontanha.net" ;
+    ns1:exame_feito_em ns1:60b3eeb90fc3f9678fed0903 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Greenwich" ;
+    ns1:nome_próprio "Salas" ;
+    ns1:pratica ns1:Parapente .
+
+ns1:Joyce_Claire a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Joyce" ;
+    ns1:email "claire.joyce@acdrcrespos.biz" ;
+    ns1:exame_feito_em ns1:60b3ee0e63cc2530b136daef ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Belgreen" ;
+    ns1:nome_próprio "Claire" ;
+    ns1:pratica ns1:Basquetebol .
+
+ns1:Joyce_Maryann a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Joyce" ;
+    ns1:email "maryann.joyce@acdrcrespos.net" ;
+    ns1:exame_feito_em ns1:60b3ee81c44446a9eceefd87 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 21 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Harmon" ;
+    ns1:nome_próprio "Maryann" ;
+    ns1:pratica ns1:Andebol .
+
+ns1:Kane_Lenora a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Kane" ;
+    ns1:email "lenora.kane@abcbraga.ca" ;
+    ns1:exame_feito_em ns1:60b3ee81963e6ecf70e3d586 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Axis" ;
+    ns1:nome_próprio "Lenora" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Key_Evangelina a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Key" ;
+    ns1:email "evangelina.key@acdrcrespos.co.uk" ;
+    ns1:exame_feito_em ns1:60b3ee0e8a311b08fca3541b ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 26 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Whitewater" ;
+    ns1:nome_próprio "Evangelina" ;
+    ns1:pratica ns1:Ciclismo .
+
+ns1:Kim_Charles a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Kim" ;
+    ns1:email "charles.kim@acdrcrespos.tv" ;
+    ns1:exame_feito_em ns1:60b3ee0e3d51473e1b41004b ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 24 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Bennett" ;
+    ns1:nome_próprio "Charles" ;
+    ns1:pratica ns1:BTT .
+
+ns1:Kirby_Hooper a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Kirby" ;
+    ns1:email "hooper.kirby@acrroriz.name" ;
+    ns1:exame_feito_em ns1:60b3ee8152ddb1911c44b96a ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 26 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Roosevelt" ;
+    ns1:nome_próprio "Hooper" ;
+    ns1:pratica ns1:BTT .
+
+ns1:Kirk_Mathis a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Kirk" ;
+    ns1:email "mathis.kirk@edviana.co.uk" ;
+    ns1:exame_feito_em ns1:60b3eeb9e387855b0de81d09 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Klondike" ;
+    ns1:nome_próprio "Mathis" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Kramer_Kathy a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Kramer" ;
+    ns1:email "kathy.kramer@edviana.co.uk" ;
+    ns1:exame_feito_em ns1:60b3ee812a4b8125a96689a0 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 24 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Williams" ;
+    ns1:nome_próprio "Kathy" ;
+    ns1:pratica ns1:Karaté .
+
+ns1:Le_Elba a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Le" ;
+    ns1:email "elba.le@acrroriz.biz" ;
+    ns1:exame_feito_em ns1:60b3eeb91485796dedd2444b ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Ebro" ;
+    ns1:nome_próprio "Elba" ;
+    ns1:pratica ns1:SUP .
+
+ns1:Le_Shaffer a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Le" ;
+    ns1:email "shaffer.le@avcfamalicão.biz" ;
+    ns1:exame_feito_em ns1:60b3ee8125e3c7f8ae2daa67 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 32 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Shepardsville" ;
+    ns1:nome_próprio "Shaffer" ;
+    ns1:pratica ns1:Ciclismo .
+
+ns1:Lindsey_Carole a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Lindsey" ;
+    ns1:email "carole.lindsey@amigosmontanha.ca" ;
+    ns1:exame_feito_em ns1:60b3eeb9c7550e5dc5a5ddb1 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 34 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Weedville" ;
+    ns1:nome_próprio "Carole" ;
+    ns1:pratica ns1:Orientação .
+
+ns1:Lowery_Dee a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Lowery" ;
+    ns1:email "dee.lowery@vitoria.name" ;
+    ns1:exame_feito_em ns1:60b3ee810078ab3f7321a731 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 21 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Rodman" ;
+    ns1:nome_próprio "Dee" ;
+    ns1:pratica ns1:Basquetebol .
+
+ns1:Lowery_Susanna a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Lowery" ;
+    ns1:email "susanna.lowery@edviana.biz" ;
+    ns1:exame_feito_em ns1:60b3eeb9c65ee38149a83dfc ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Cawood" ;
+    ns1:nome_próprio "Susanna" ;
+    ns1:pratica ns1:Orientação .
+
+ns1:Luna_Buckner a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Luna" ;
+    ns1:email "buckner.luna@edviana.us" ;
+    ns1:exame_feito_em ns1:60b3ee81ce306eb25d963bb0 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 22 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Veguita" ;
+    ns1:nome_próprio "Buckner" ;
+    ns1:pratica ns1:Esgrima .
+
+ns1:Lynch_Watson a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Lynch" ;
+    ns1:email "watson.lynch@gdgoma.tv" ;
+    ns1:exame_feito_em ns1:60b3ee0e9f0c3dbf2ecc854f ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Fillmore" ;
+    ns1:nome_próprio "Watson" ;
+    ns1:pratica ns1:Dança .
+
+ns1:Lyons_Allie a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Lyons" ;
+    ns1:email "allie.lyons@acrroriz.ca" ;
+    ns1:exame_feito_em ns1:60b3eeb9dd4dc919156890ee ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Welch" ;
+    ns1:nome_próprio "Allie" ;
+    ns1:pratica ns1:Equitação .
+
+ns1:Manning_Lester a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Manning" ;
+    ns1:email "lester.manning@acdrcrespos.name" ;
+    ns1:exame_feito_em ns1:60b3ee0e2573d42d411cc591 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 35 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Grandview" ;
+    ns1:nome_próprio "Lester" ;
+    ns1:pratica ns1:Dança .
+
+ns1:Martinez_Ursula a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Martinez" ;
+    ns1:email "ursula.martinez@amigosmontanha.us" ;
+    ns1:exame_feito_em ns1:60b3ee0e25015995bacd5bed ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 32 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Lorraine" ;
+    ns1:nome_próprio "Ursula" ;
+    ns1:pratica ns1:Dança .
+
+ns1:Massey_Barton a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Massey" ;
+    ns1:email "barton.massey@amigosmontanha.biz" ;
+    ns1:exame_feito_em ns1:60b3eeb94b33eaa274778def ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 26 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Ribera" ;
+    ns1:nome_próprio "Barton" ;
+    ns1:pratica ns1:Parapente .
+
+ns1:Mathews_Shari a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Mathews" ;
+    ns1:email "shari.mathews@acdrcrespos.ca" ;
+    ns1:exame_feito_em ns1:60b3eeb909f2540c651ec8ff ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 22 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Joes" ;
+    ns1:nome_próprio "Shari" ;
+    ns1:pratica ns1:Andebol .
+
+ns1:Maxwell_Holloway a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Maxwell" ;
+    ns1:email "holloway.maxwell@avcfamalicão.biz" ;
+    ns1:exame_feito_em ns1:60b3ee0ee90bdefcc8703185 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Waikele" ;
+    ns1:nome_próprio "Holloway" ;
+    ns1:pratica ns1:Ciclismo .
+
+ns1:Mayo_Helena a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Mayo" ;
+    ns1:email "helena.mayo@vitoria.name" ;
+    ns1:exame_feito_em ns1:60b3ee0e67043c92ce84a97c ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Bend" ;
+    ns1:nome_próprio "Helena" ;
+    ns1:pratica ns1:Andebol .
+
+ns1:Mccall_Malinda a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Mccall" ;
+    ns1:email "malinda.mccall@scbraga.co.uk" ;
+    ns1:exame_feito_em ns1:60b3eeb939a5cb2da478d86c ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Winchester" ;
+    ns1:nome_próprio "Malinda" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Mccall_Preston a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Mccall" ;
+    ns1:email "preston.mccall@avcfamalicão.io" ;
+    ns1:exame_feito_em ns1:60b3ee81c4345661feac7a9a ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Mathews" ;
+    ns1:nome_próprio "Preston" ;
+    ns1:pratica ns1:Karaté .
+
+ns1:Mccarthy_Paige a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Mccarthy" ;
+    ns1:email "paige.mccarthy@acdrcrespos.co.uk" ;
+    ns1:exame_feito_em ns1:60b3ee0ef8b2c3b732bc0d82 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 32 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Brandywine" ;
+    ns1:nome_próprio "Paige" ;
+    ns1:pratica ns1:Parapente .
+
+ns1:Mcclain_Tanya a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Mcclain" ;
+    ns1:email "tanya.mcclain@gdgoma.us" ;
+    ns1:exame_feito_em ns1:60b3ee0e278b7161e71d9ceb ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 26 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Fivepointville" ;
+    ns1:nome_próprio "Tanya" ;
+    ns1:pratica ns1:SUP .
+
+ns1:Mccormick_Bonita a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Mccormick" ;
+    ns1:email "bonita.mccormick@gdgoma.tv" ;
+    ns1:exame_feito_em ns1:60b3ee816b42d22ea075aba7 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 35 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Marshall" ;
+    ns1:nome_próprio "Bonita" ;
+    ns1:pratica ns1:Esgrima .
+
+ns1:Mccray_Graves a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Mccray" ;
+    ns1:email "graves.mccray@abcbraga.us" ;
+    ns1:exame_feito_em ns1:60b3eeb96f9b421618f39954 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 22 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Kipp" ;
+    ns1:nome_próprio "Graves" ;
+    ns1:pratica ns1:Esgrima .
+
+ns1:Mcgee_Sanchez a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Mcgee" ;
+    ns1:email "sanchez.mcgee@acdrcrespos.net" ;
+    ns1:exame_feito_em ns1:60b3ee0e13085dc64e17e4b0 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Bascom" ;
+    ns1:nome_próprio "Sanchez" ;
+    ns1:pratica ns1:Ciclismo .
+
+ns1:Mcintyre_Patrick a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Mcintyre" ;
+    ns1:email "patrick.mcintyre@edviana.ca" ;
+    ns1:exame_feito_em ns1:60b3ee81e769b6603a6525c6 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 21 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Emory" ;
+    ns1:nome_próprio "Patrick" ;
+    ns1:pratica ns1:BTT .
+
+ns1:Mckinney_Janis a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Mckinney" ;
+    ns1:email "janis.mckinney@abcbraga.ca" ;
+    ns1:exame_feito_em ns1:60b3ee0e79c5349b29557a62 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 28 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Osage" ;
+    ns1:nome_próprio "Janis" ;
+    ns1:pratica ns1:BTT .
+
+ns1:Mcleod_Oliver a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Mcleod" ;
+    ns1:email "oliver.mcleod@scbraga.net" ;
+    ns1:exame_feito_em ns1:60b3eeb9a857578bd25302db ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Garnet" ;
+    ns1:nome_próprio "Oliver" ;
+    ns1:pratica ns1:Ténis .
+
+ns1:Medina_Viola a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Medina" ;
+    ns1:email "viola.medina@edviana.biz" ;
+    ns1:exame_feito_em ns1:60b3ee81146b3cd8954b7256 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 24 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Nipinnawasee" ;
+    ns1:nome_próprio "Viola" ;
+    ns1:pratica ns1:Esgrima .
+
+ns1:Mejia_Rosales a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Mejia" ;
+    ns1:email "rosales.mejia@clube de orientação do minho.org" ;
+    ns1:exame_feito_em ns1:60b3ee81bc1a4f4c3bc26de1 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Dale" ;
+    ns1:nome_próprio "Rosales" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Mercer_Barker a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Mercer" ;
+    ns1:email "barker.mercer@avcfamalicão.name" ;
+    ns1:exame_feito_em ns1:60b3ee81559385200672594d ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 34 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Grayhawk" ;
+    ns1:nome_próprio "Barker" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Merritt_Crawford a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Merritt" ;
+    ns1:email "crawford.merritt@scbraga.net" ;
+    ns1:exame_feito_em ns1:60b3eeb934a2174ec11d92a6 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 27 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Roy" ;
+    ns1:nome_próprio "Crawford" ;
+    ns1:pratica ns1:Ciclismo .
+
+ns1:Merritt_Malinda a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Merritt" ;
+    ns1:email "malinda.merritt@abcbraga.co.uk" ;
+    ns1:exame_feito_em ns1:60b3ee81c5073acaa4febef6 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Cecilia" ;
+    ns1:nome_próprio "Malinda" ;
+    ns1:pratica ns1:Ciclismo .
+
+ns1:Michael_Vasquez a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Michael" ;
+    ns1:email "vasquez.michael@vitoria.net" ;
+    ns1:exame_feito_em ns1:60b3ee0e30fc3c2042f955eb ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 27 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Munjor" ;
+    ns1:nome_próprio "Vasquez" ;
+    ns1:pratica ns1:Basquetebol .
+
+ns1:Miles_Roxanne a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Miles" ;
+    ns1:email "roxanne.miles@vitoria.biz" ;
+    ns1:exame_feito_em ns1:60b3ee0e74703dea724376f8 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 26 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Haring" ;
+    ns1:nome_próprio "Roxanne" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Mitchell_Callahan a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Mitchell" ;
+    ns1:email "callahan.mitchell@abcbraga.name" ;
+    ns1:exame_feito_em ns1:60b3eeb91accf4bd8b426245 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 24 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Wollochet" ;
+    ns1:nome_próprio "Callahan" ;
+    ns1:pratica ns1:Parapente .
+
+ns1:Montgomery_Whitehead a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Montgomery" ;
+    ns1:email "whitehead.montgomery@avcfamalicão.org" ;
+    ns1:exame_feito_em ns1:60b3ee0ee3bb3fd71f515d88 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 34 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Fairview" ;
+    ns1:nome_próprio "Whitehead" ;
+    ns1:pratica ns1:Parapente .
+
+ns1:Mooney_Herminia a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Mooney" ;
+    ns1:email "herminia.mooney@amigosmontanha.biz" ;
+    ns1:exame_feito_em ns1:60b3ee813c7547937e764cab ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 21 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Matheny" ;
+    ns1:nome_próprio "Herminia" ;
+    ns1:pratica ns1:Andebol .
+
+ns1:Moore_Sarah a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Moore" ;
+    ns1:email "sarah.moore@acdrcrespos.biz" ;
+    ns1:exame_feito_em ns1:60b3ee81e2dc932e4e6f7e51 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 35 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Morgandale" ;
+    ns1:nome_próprio "Sarah" ;
+    ns1:pratica ns1:Basquetebol .
+
+ns1:Morales_Sherry a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Morales" ;
+    ns1:email "sherry.morales@avcfamalicão.org" ;
+    ns1:exame_feito_em ns1:60b3ee0ee409ac878ba9b99b ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 26 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Waukeenah" ;
+    ns1:nome_próprio "Sherry" ;
+    ns1:pratica ns1:Atletismo .
+
+ns1:Morin_Larson a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Morin" ;
+    ns1:email "larson.morin@gdgoma.name" ;
+    ns1:exame_feito_em ns1:60b3ee0e53dad18808565be7 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 26 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Summerset" ;
+    ns1:nome_próprio "Larson" ;
+    ns1:pratica ns1:Andebol .
+
+ns1:Morrison_Alisa a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Morrison" ;
+    ns1:email "alisa.morrison@gdgoma.tv" ;
+    ns1:exame_feito_em ns1:60b3ee81e024b81dde892dd6 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 26 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Kiskimere" ;
+    ns1:nome_próprio "Alisa" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Morse_Tucker a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Morse" ;
+    ns1:email "tucker.morse@scbraga.net" ;
+    ns1:exame_feito_em ns1:60b3ee0e7ac2f667ececc242 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 26 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Tyhee" ;
+    ns1:nome_próprio "Tucker" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Morton_Arlene a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Morton" ;
+    ns1:email "arlene.morton@vitoria.name" ;
+    ns1:exame_feito_em ns1:60b3eeb9f7311f86c6a33646 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 34 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Wiscon" ;
+    ns1:nome_próprio "Arlene" ;
+    ns1:pratica ns1:Orientação .
+
+ns1:Mueller_Lambert a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Mueller" ;
+    ns1:email "lambert.mueller@acdrcrespos.info" ;
+    ns1:exame_feito_em ns1:60b3ee0e23a38b2da3f0a76e ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Oretta" ;
+    ns1:nome_próprio "Lambert" ;
+    ns1:pratica ns1:Basquetebol .
+
+ns1:Munoz_Carrillo a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Munoz" ;
+    ns1:email "carrillo.munoz@scbraga.biz" ;
+    ns1:exame_feito_em ns1:60b3ee8115745fe4ce8dbc5a ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 32 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Bordelonville" ;
+    ns1:nome_próprio "Carrillo" ;
+    ns1:pratica ns1:Esgrima .
+
+ns1:Neal_Monica a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Neal" ;
+    ns1:email "monica.neal@acrroriz.net" ;
+    ns1:exame_feito_em ns1:60b3ee8195bd88f9e936aca7 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Roberts" ;
+    ns1:nome_próprio "Monica" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Noble_Bird a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Noble" ;
+    ns1:email "bird.noble@acrroriz.biz" ;
+    ns1:exame_feito_em ns1:60b3ee81858e8c650b8d992f ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 21 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Lafferty" ;
+    ns1:nome_próprio "Bird" ;
+    ns1:pratica ns1:Karaté .
+
+ns1:Noel_Angelia a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Noel" ;
+    ns1:email "angelia.noel@edviana.co.uk" ;
+    ns1:exame_feito_em ns1:60b3ee0ef050e91efe68a668 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 34 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Martell" ;
+    ns1:nome_próprio "Angelia" ;
+    ns1:pratica ns1:Orientação .
+
+ns1:Noel_Rogers a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Noel" ;
+    ns1:email "rogers.noel@acdrcrespos.com" ;
+    ns1:exame_feito_em ns1:60b3eeb929306aeaff7f31a0 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 35 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Cresaptown" ;
+    ns1:nome_próprio "Rogers" ;
+    ns1:pratica ns1:BTT .
+
+ns1:Norton_Lane a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Norton" ;
+    ns1:email "lane.norton@abcbraga.io" ;
+    ns1:exame_feito_em ns1:60b3ee811a4429c17e036357 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 22 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Homestead" ;
+    ns1:nome_próprio "Lane" ;
+    ns1:pratica ns1:Patinagem .
+
+ns1:Odom_Doyle a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Odom" ;
+    ns1:email "doyle.odom@amigosmontanha.us" ;
+    ns1:exame_feito_em ns1:60b3ee818cd611e6bf56f2f1 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Newry" ;
+    ns1:nome_próprio "Doyle" ;
+    ns1:pratica ns1:Esgrima .
+
+ns1:Odonnell_Imelda a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Odonnell" ;
+    ns1:email "imelda.odonnell@avcfamalicão.us" ;
+    ns1:exame_feito_em ns1:60b3eeb95762eb38f4ae9a22 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Riviera" ;
+    ns1:nome_próprio "Imelda" ;
+    ns1:pratica ns1:Atletismo .
+
+ns1:Oliver_Lelia a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Oliver" ;
+    ns1:email "lelia.oliver@gdgoma.me" ;
+    ns1:exame_feito_em ns1:60b3eeb9c4c935218799831f ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Cedarville" ;
+    ns1:nome_próprio "Lelia" ;
+    ns1:pratica ns1:Ténis .
+
+ns1:Oneill_Chang a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Oneill" ;
+    ns1:email "chang.oneill@edviana.co.uk" ;
+    ns1:exame_feito_em ns1:60b3ee815b7d9a126c47165d ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 24 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Falconaire" ;
+    ns1:nome_próprio "Chang" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Orr_Tameka a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Orr" ;
+    ns1:email "tameka.orr@vitoria.tv" ;
+    ns1:exame_feito_em ns1:60b3eeb9abbaec58aed568da ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 24 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Klagetoh" ;
+    ns1:nome_próprio "Tameka" ;
+    ns1:pratica ns1:Ciclismo .
+
+ns1:Owen_Marisol a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Owen" ;
+    ns1:email "marisol.owen@acdrcrespos.name" ;
+    ns1:exame_feito_em ns1:60b3eeb9817b6dc6e2848304 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Soham" ;
+    ns1:nome_próprio "Marisol" ;
+    ns1:pratica ns1:Parapente .
+
+ns1:Pacheco_Jefferson a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Pacheco" ;
+    ns1:email "jefferson.pacheco@edviana.info" ;
+    ns1:exame_feito_em ns1:60b3eeb98614ea36f88963ba ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 34 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Strykersville" ;
+    ns1:nome_próprio "Jefferson" ;
+    ns1:pratica ns1:Dança .
+
+ns1:Page_Cynthia a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Page" ;
+    ns1:email "cynthia.page@acrroriz.biz" ;
+    ns1:exame_feito_em ns1:60b3ee0e03c621784bf7b2eb ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 22 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Forestburg" ;
+    ns1:nome_próprio "Cynthia" ;
+    ns1:pratica ns1:Equitação .
+
+ns1:Pate_Gwen a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Pate" ;
+    ns1:email "gwen.pate@amigosmontanha.com" ;
+    ns1:exame_feito_em ns1:60b3eeb935b59a6c217af521 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 26 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Snelling" ;
+    ns1:nome_próprio "Gwen" ;
+    ns1:pratica ns1:Karaté .
+
+ns1:Pearson_Jeri a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Pearson" ;
+    ns1:email "jeri.pearson@acrroriz.ca" ;
+    ns1:exame_feito_em ns1:60b3ee0e59e86eaf9b9a5372 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 29 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Falmouth" ;
+    ns1:nome_próprio "Jeri" ;
+    ns1:pratica ns1:Orientação .
+
+ns1:Peck_Carly a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Peck" ;
+    ns1:email "carly.peck@edviana.tv" ;
+    ns1:exame_feito_em ns1:60b3eeb9f0342bd19d6a5a39 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Byrnedale" ;
+    ns1:nome_próprio "Carly" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Pena_Mccullough a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Pena" ;
+    ns1:email "mccullough.pena@clube de orientação do minho.name" ;
+    ns1:exame_feito_em ns1:60b3ee8106e9b44af3270a40 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 27 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Sunwest" ;
+    ns1:nome_próprio "Mccullough" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Petersen_Annmarie a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Petersen" ;
+    ns1:email "annmarie.petersen@clube de orientação do minho.org" ;
+    ns1:exame_feito_em ns1:60b3eeb945accec6f3eb9c3d ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 22 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Twilight" ;
+    ns1:nome_próprio "Annmarie" ;
+    ns1:pratica ns1:Dança .
+
+ns1:Poole_Morris a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Poole" ;
+    ns1:email "morris.poole@avcfamalicão.tv" ;
+    ns1:exame_feito_em ns1:60b3ee0e6edaad4b8a63efae ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 34 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Steinhatchee" ;
+    ns1:nome_próprio "Morris" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Potts_Chandra a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Potts" ;
+    ns1:email "chandra.potts@amigosmontanha.tv" ;
+    ns1:exame_feito_em ns1:60b3ee81e69c16cc6108e7ad ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 32 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Albany" ;
+    ns1:nome_próprio "Chandra" ;
+    ns1:pratica ns1:Patinagem .
+
+ns1:Price_Amparo a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Price" ;
+    ns1:email "amparo.price@acdrcrespos.co.uk" ;
+    ns1:exame_feito_em ns1:60b3eeb916caa13610b8cadf ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Townsend" ;
+    ns1:nome_próprio "Amparo" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Ramsey_Deana a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Ramsey" ;
+    ns1:email "deana.ramsey@acrroriz.com" ;
+    ns1:exame_feito_em ns1:60b3ee81ef9b6d894223a9fd ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Gila" ;
+    ns1:nome_próprio "Deana" ;
+    ns1:pratica ns1:Andebol .
+
+ns1:Rasmussen_Josie a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Rasmussen" ;
+    ns1:email "josie.rasmussen@acdrcrespos.info" ;
+    ns1:exame_feito_em ns1:60b3eeb91c3038d321c60bb3 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 34 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Riverton" ;
+    ns1:nome_próprio "Josie" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Ratliff_Raquel a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Ratliff" ;
+    ns1:email "raquel.ratliff@abcbraga.ca" ;
+    ns1:exame_feito_em ns1:60b3ee0e242cedae88a5f12c ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Goldfield" ;
+    ns1:nome_próprio "Raquel" ;
+    ns1:pratica ns1:Patinagem .
+
+ns1:Ray_Stafford a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Ray" ;
+    ns1:email "stafford.ray@acdrcrespos.info" ;
+    ns1:exame_feito_em ns1:60b3ee8152b3f05331a47645 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 21 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Zeba" ;
+    ns1:nome_próprio "Stafford" ;
+    ns1:pratica ns1:Parapente .
+
+ns1:Raymond_Alfreda a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Raymond" ;
+    ns1:email "alfreda.raymond@abcbraga.tv" ;
+    ns1:exame_feito_em ns1:60b3ee0ed5225a2a93a69c3a ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Sultana" ;
+    ns1:nome_próprio "Alfreda" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Rhodes_Montgomery a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Rhodes" ;
+    ns1:email "montgomery.rhodes@vitoria.tv" ;
+    ns1:exame_feito_em ns1:60b3ee0ea96d47b79642735d ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Rivers" ;
+    ns1:nome_próprio "Montgomery" ;
+    ns1:pratica ns1:Atletismo .
+
+ns1:Rice_Christine a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Rice" ;
+    ns1:email "christine.rice@gdgoma.co.uk" ;
+    ns1:exame_feito_em ns1:60b3ee0eca6dd1525f201090 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Hayes" ;
+    ns1:nome_próprio "Christine" ;
+    ns1:pratica ns1:Orientação .
+
+ns1:Riley_Mavis a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Riley" ;
+    ns1:email "mavis.riley@amigosmontanha.com" ;
+    ns1:exame_feito_em ns1:60b3eeb90afb40019dea8a64 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Nescatunga" ;
+    ns1:nome_próprio "Mavis" ;
+    ns1:pratica ns1:Karaté .
+
+ns1:Rivas_Andrews a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Rivas" ;
+    ns1:email "andrews.rivas@abcbraga.us" ;
+    ns1:exame_feito_em ns1:60b3ee0e01ada8b23fc63b31 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 24 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Saticoy" ;
+    ns1:nome_próprio "Andrews" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Roberts_Kelsey a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Roberts" ;
+    ns1:email "kelsey.roberts@vitoria.biz" ;
+    ns1:exame_feito_em ns1:60b3ee0ebc5f8bcac6a4b89d ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 28 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Morgandale" ;
+    ns1:nome_próprio "Kelsey" ;
+    ns1:pratica ns1:Patinagem .
+
+ns1:Rodgers_Marlene a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Rodgers" ;
+    ns1:email "marlene.rodgers@scbraga.name" ;
+    ns1:exame_feito_em ns1:60b3eeb91ded4fa3db5fdf8e ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 27 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Levant" ;
+    ns1:nome_próprio "Marlene" ;
+    ns1:pratica ns1:Ténis .
+
+ns1:Rogers_Fuentes a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Rogers" ;
+    ns1:email "fuentes.rogers@scbraga.name" ;
+    ns1:exame_feito_em ns1:60b3eeb91dbe172db8fd8f61 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 28 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Grazierville" ;
+    ns1:nome_próprio "Fuentes" ;
+    ns1:pratica ns1:BTT .
+
+ns1:Rosario_Carissa a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Rosario" ;
+    ns1:email "carissa.rosario@clube de orientação do minho.org" ;
+    ns1:exame_feito_em ns1:60b3eeb9d027f625a1b63723 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Brookfield" ;
+    ns1:nome_próprio "Carissa" ;
+    ns1:pratica ns1:Esgrima .
+
+ns1:Rose_Mayra a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Rose" ;
+    ns1:email "mayra.rose@acdrcrespos.tv" ;
+    ns1:exame_feito_em ns1:60b3ee8154161dd7358b2e65 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Calpine" ;
+    ns1:nome_próprio "Mayra" ;
+    ns1:pratica ns1:Patinagem .
+
+ns1:Roth_Oneill a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Roth" ;
+    ns1:email "oneill.roth@edviana.net" ;
+    ns1:exame_feito_em ns1:60b3ee0ee7cb2701483df2c9 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Graball" ;
+    ns1:nome_próprio "Oneill" ;
+    ns1:pratica ns1:Andebol .
+
+ns1:Russell_Odonnell a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Russell" ;
+    ns1:email "odonnell.russell@gdgoma.co.uk" ;
+    ns1:exame_feito_em ns1:60b3eeb9cded7ae5d2724d52 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Alderpoint" ;
+    ns1:nome_próprio "Odonnell" ;
+    ns1:pratica ns1:BTT .
+
+ns1:Rutledge_Maxine a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Rutledge" ;
+    ns1:email "maxine.rutledge@amigosmontanha.ca" ;
+    ns1:exame_feito_em ns1:60b3ee0e94c479068389f5e3 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Caberfae" ;
+    ns1:nome_próprio "Maxine" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Salinas_Tina a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Salinas" ;
+    ns1:email "tina.salinas@vitoria.co.uk" ;
+    ns1:exame_feito_em ns1:60b3ee81fcb5c8f9970e2899 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 29 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Welda" ;
+    ns1:nome_próprio "Tina" ;
+    ns1:pratica ns1:SUP .
+
+ns1:Sampson_Travis a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Sampson" ;
+    ns1:email "travis.sampson@edviana.biz" ;
+    ns1:exame_feito_em ns1:60b3ee8131597dae8f73a11b ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 29 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Dotsero" ;
+    ns1:nome_próprio "Travis" ;
+    ns1:pratica ns1:Ténis .
+
+ns1:Sanders_Galloway a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Sanders" ;
+    ns1:email "galloway.sanders@acrroriz.me" ;
+    ns1:exame_feito_em ns1:60b3ee0e769aecb50db619f2 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Allendale" ;
+    ns1:nome_próprio "Galloway" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Sandoval_Bonnie a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Sandoval" ;
+    ns1:email "bonnie.sandoval@clube de orientação do minho.org" ;
+    ns1:exame_feito_em ns1:60b3ee0eee4b8338800e6003 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 22 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Shaft" ;
+    ns1:nome_próprio "Bonnie" ;
+    ns1:pratica ns1:Equitação .
+
+ns1:Sanford_Perry a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Sanford" ;
+    ns1:email "perry.sanford@vitoria.com" ;
+    ns1:exame_feito_em ns1:60b3ee0e7ded570068dce1d9 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 32 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Albany" ;
+    ns1:nome_próprio "Perry" ;
+    ns1:pratica ns1:Atletismo .
+
+ns1:Santana_Brennan a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Santana" ;
+    ns1:email "brennan.santana@vitoria.me" ;
+    ns1:exame_feito_em ns1:60b3ee0e059b32a47b518e93 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 29 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Villarreal" ;
+    ns1:nome_próprio "Brennan" ;
+    ns1:pratica ns1:BTT .
+
+ns1:Sargent_Moses a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Sargent" ;
+    ns1:email "moses.sargent@abcbraga.biz" ;
+    ns1:exame_feito_em ns1:60b3ee81051bf4a2138bb141 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Wildwood" ;
+    ns1:nome_próprio "Moses" ;
+    ns1:pratica ns1:Esgrima .
+
+ns1:Saunders_Parks a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Saunders" ;
+    ns1:email "parks.saunders@clube de orientação do minho.name" ;
+    ns1:exame_feito_em ns1:60b3eeb91977642e615c41e3 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 32 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Sheatown" ;
+    ns1:nome_próprio "Parks" ;
+    ns1:pratica ns1:Orientação .
+
+ns1:Schmidt_Gilda a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Schmidt" ;
+    ns1:email "gilda.schmidt@scbraga.me" ;
+    ns1:exame_feito_em ns1:60b3eeb948dd398953308f2d ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 29 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Enoree" ;
+    ns1:nome_próprio "Gilda" ;
+    ns1:pratica ns1:Dança .
+
+ns1:Schmidt_Thelma a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Schmidt" ;
+    ns1:email "thelma.schmidt@acrroriz.biz" ;
+    ns1:exame_feito_em ns1:60b3ee0eabfeddd7f84fd275 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Greenfields" ;
+    ns1:nome_próprio "Thelma" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Sexton_Bartlett a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Sexton" ;
+    ns1:email "bartlett.sexton@gdgoma.org" ;
+    ns1:exame_feito_em ns1:60b3ee0e8b4f7dca2601ddfc ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Rehrersburg" ;
+    ns1:nome_próprio "Bartlett" ;
+    ns1:pratica ns1:Atletismo .
+
+ns1:Shaffer_Sallie a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Shaffer" ;
+    ns1:email "sallie.shaffer@clube de orientação do minho.me" ;
+    ns1:exame_feito_em ns1:60b3ee0e536b83d9d562f9c8 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 24 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Brownlee" ;
+    ns1:nome_próprio "Sallie" ;
+    ns1:pratica ns1:Ciclismo .
+
+ns1:Sharp_Samantha a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Sharp" ;
+    ns1:email "samantha.sharp@acrroriz.us" ;
+    ns1:exame_feito_em ns1:60b3eeb9a9f081f26deada43 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Elliott" ;
+    ns1:nome_próprio "Samantha" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Shaw_Lynn a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Shaw" ;
+    ns1:email "lynn.shaw@clube de orientação do minho.com" ;
+    ns1:exame_feito_em ns1:60b3ee0effaf9b013df4203d ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 26 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Cutter" ;
+    ns1:nome_próprio "Lynn" ;
+    ns1:pratica ns1:SUP .
+
+ns1:Shelton_Bertha a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Shelton" ;
+    ns1:email "bertha.shelton@gdgoma.biz" ;
+    ns1:exame_feito_em ns1:60b3eeb93bfe7ecd8361f659 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 28 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Sedley" ;
+    ns1:nome_próprio "Bertha" ;
+    ns1:pratica ns1:Orientação .
+
+ns1:Shepherd_Cindy a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Shepherd" ;
+    ns1:email "cindy.shepherd@avcfamalicão.tv" ;
+    ns1:exame_feito_em ns1:60b3eeb97d329fb5b3d7379b ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Brule" ;
+    ns1:nome_próprio "Cindy" ;
+    ns1:pratica ns1:Ciclismo .
+
+ns1:Sherman_Blair a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Sherman" ;
+    ns1:email "blair.sherman@scbraga.tv" ;
+    ns1:exame_feito_em ns1:60b3ee8160bf5c46dcb3cfa7 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Waukeenah" ;
+    ns1:nome_próprio "Blair" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Silva_Valarie a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Silva" ;
+    ns1:email "valarie.silva@acdrcrespos.info" ;
+    ns1:exame_feito_em ns1:60b3eeb9de8d709dd3fd086f ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Lynn" ;
+    ns1:nome_próprio "Valarie" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Singleton_Evans a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Singleton" ;
+    ns1:email "evans.singleton@clube de orientação do minho.us" ;
+    ns1:exame_feito_em ns1:60b3ee0ee62c8f8a846459ea ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Sunwest" ;
+    ns1:nome_próprio "Evans" ;
+    ns1:pratica ns1:Orientação .
+
+ns1:Skinner_Felicia a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Skinner" ;
+    ns1:email "felicia.skinner@acdrcrespos.biz" ;
+    ns1:exame_feito_em ns1:60b3eeb9425c872217db611e ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Rosburg" ;
+    ns1:nome_próprio "Felicia" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Small_Alford a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Small" ;
+    ns1:email "alford.small@avcfamalicão.co.uk" ;
+    ns1:exame_feito_em ns1:60b3ee0e84beb8fe0be593a5 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 32 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Alamo" ;
+    ns1:nome_próprio "Alford" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Solis_Leila a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Solis" ;
+    ns1:email "leila.solis@acrroriz.net" ;
+    ns1:exame_feito_em ns1:60b3eeb972a330700a58a10a ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 34 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Glenville" ;
+    ns1:nome_próprio "Leila" ;
+    ns1:pratica ns1:Parapente .
+
+ns1:Stark_Kline a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Stark" ;
+    ns1:email "kline.stark@avcfamalicão.info" ;
+    ns1:exame_feito_em ns1:60b3eeb99c434fb1a7c7c633 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Tedrow" ;
+    ns1:nome_próprio "Kline" ;
+    ns1:pratica ns1:Equitação .
+
+ns1:Stewart_Opal a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Stewart" ;
+    ns1:email "opal.stewart@avcfamalicão.name" ;
+    ns1:exame_feito_em ns1:60b3ee0e59411e4e9d97d70a ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Dola" ;
+    ns1:nome_próprio "Opal" ;
+    ns1:pratica ns1:Basquetebol .
+
+ns1:Stokes_Bernard a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Stokes" ;
+    ns1:email "bernard.stokes@avcfamalicão.biz" ;
+    ns1:exame_feito_em ns1:60b3ee0e4a1e0233af16ac8c ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 34 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Sussex" ;
+    ns1:nome_próprio "Bernard" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Stone_Harmon a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Stone" ;
+    ns1:email "harmon.stone@amigosmontanha.com" ;
+    ns1:exame_feito_em ns1:60b3ee81525963fc4fd2cf9d ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 21 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Idledale" ;
+    ns1:nome_próprio "Harmon" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Strickland_Foster a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Strickland" ;
+    ns1:email "foster.strickland@clube de orientação do minho.me" ;
+    ns1:exame_feito_em ns1:60b3eeb90d885cf3327fe6bd ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 29 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Holtville" ;
+    ns1:nome_próprio "Foster" ;
+    ns1:pratica ns1:Patinagem .
+
+ns1:Sullivan_Elena a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Sullivan" ;
+    ns1:email "elena.sullivan@clube de orientação do minho.net" ;
+    ns1:exame_feito_em ns1:60b3ee81d13fde44c2e74aab ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 28 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Leola" ;
+    ns1:nome_próprio "Elena" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Talley_Becker a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Talley" ;
+    ns1:email "becker.talley@clube de orientação do minho.us" ;
+    ns1:exame_feito_em ns1:60b3eeb97a2511a770990f0f ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Valmy" ;
+    ns1:nome_próprio "Becker" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Terrell_Emily a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Terrell" ;
+    ns1:email "emily.terrell@gdgoma.org" ;
+    ns1:exame_feito_em ns1:60b3ee0ee00725274024d5a2 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 28 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Clay" ;
+    ns1:nome_próprio "Emily" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Trevino_Jewel a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Trevino" ;
+    ns1:email "jewel.trevino@acrroriz.us" ;
+    ns1:exame_feito_em ns1:60b3ee81411e7acd216d0bf0 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 29 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Garnet" ;
+    ns1:nome_próprio "Jewel" ;
+    ns1:pratica ns1:Patinagem .
+
+ns1:Tucker_Villarreal a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Tucker" ;
+    ns1:email "villarreal.tucker@avcfamalicão.biz" ;
+    ns1:exame_feito_em ns1:60b3ee81b5064ca4e9536d3c ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Tecolotito" ;
+    ns1:nome_próprio "Villarreal" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Tyson_Mcfarland a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Tyson" ;
+    ns1:email "mcfarland.tyson@amigosmontanha.org" ;
+    ns1:exame_feito_em ns1:60b3ee81a113b4cb68ef5906 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Kula" ;
+    ns1:nome_próprio "Mcfarland" ;
+    ns1:pratica ns1:Equitação .
+
+ns1:Underwood_Lucile a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Underwood" ;
+    ns1:email "lucile.underwood@avcfamalicão.ca" ;
+    ns1:exame_feito_em ns1:60b3ee81ed581129ff3b2087 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 34 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Innsbrook" ;
+    ns1:nome_próprio "Lucile" ;
+    ns1:pratica ns1:Andebol .
+
+ns1:Vaughn_Peters a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Vaughn" ;
+    ns1:email "peters.vaughn@acrroriz.com" ;
+    ns1:exame_feito_em ns1:60b3ee815852d8fc2dc33e8a ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 21 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Brandermill" ;
+    ns1:nome_próprio "Peters" ;
+    ns1:pratica ns1:Ténis .
+
+ns1:Velez_Langley a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Velez" ;
+    ns1:email "langley.velez@acrroriz.com" ;
+    ns1:exame_feito_em ns1:60b3ee81d7dbdba97369e927 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 33 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Neahkahnie" ;
+    ns1:nome_próprio "Langley" ;
+    ns1:pratica ns1:Andebol .
+
+ns1:Villarreal_Larsen a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Villarreal" ;
+    ns1:email "larsen.villarreal@scbraga.org" ;
+    ns1:exame_feito_em ns1:60b3ee813bd664873721a6a1 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Dawn" ;
+    ns1:nome_próprio "Larsen" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Walker_Fuentes a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Walker" ;
+    ns1:email "fuentes.walker@scbraga.io" ;
+    ns1:exame_feito_em ns1:60b3ee81d15fe413bd86d938 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 25 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Leming" ;
+    ns1:nome_próprio "Fuentes" ;
+    ns1:pratica ns1:Atletismo .
+
+ns1:Walsh_Mcintyre a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Walsh" ;
+    ns1:email "mcintyre.walsh@abcbraga.ca" ;
+    ns1:exame_feito_em ns1:60b3eeb9ab56338f42cdaf13 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Beechmont" ;
+    ns1:nome_próprio "Mcintyre" ;
+    ns1:pratica ns1:Atletismo .
+
+ns1:Walton_Shelton a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Walton" ;
+    ns1:email "shelton.walton@edviana.org" ;
+    ns1:exame_feito_em ns1:60b3eeb9c4b1d5f4d4a0099b ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 35 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Williston" ;
+    ns1:nome_próprio "Shelton" ;
+    ns1:pratica ns1:Parapente .
+
+ns1:Ward_Hayes a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Ward" ;
+    ns1:email "hayes.ward@edviana.biz" ;
+    ns1:exame_feito_em ns1:60b3eeb9080c70a07ef5c4ac ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 30 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Accoville" ;
+    ns1:nome_próprio "Hayes" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Ware_Darla a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Ware" ;
+    ns1:email "darla.ware@gdgoma.net" ;
+    ns1:exame_feito_em ns1:60b3ee81e32abefb2a9e8629 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 21 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Villarreal" ;
+    ns1:nome_próprio "Darla" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Warner_John a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Warner" ;
+    ns1:email "john.warner@clube de orientação do minho.co.uk" ;
+    ns1:exame_feito_em ns1:60b3ee81ec958ef30a9daa8d ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 22 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Veyo" ;
+    ns1:nome_próprio "John" ;
+    ns1:pratica ns1:Badminton .
+
+ns1:Waters_Sue a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Waters" ;
+    ns1:email "sue.waters@vitoria.net" ;
+    ns1:exame_feito_em ns1:60b3ee0e3bffb9b3df6f5ea4 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 32 ;
+    ns1:inscrito_no_clube ns1:Vitoria ;
+    ns1:morada "Carrizo" ;
+    ns1:nome_próprio "Sue" ;
+    ns1:pratica ns1:Andebol .
+
+ns1:Watson_Cheryl a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Watson" ;
+    ns1:email "cheryl.watson@gdgoma.net" ;
+    ns1:exame_feito_em ns1:60b3ee81f9666482a5c13406 ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Fairview" ;
+    ns1:nome_próprio "Cheryl" ;
+    ns1:pratica ns1:Orientação .
+
+ns1:Webb_Catalina a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Webb" ;
+    ns1:email "catalina.webb@abcbraga.us" ;
+    ns1:exame_feito_em ns1:60b3ee8186fff74d432c9259 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 35 ;
+    ns1:inscrito_no_clube ns1:ABCbraga ;
+    ns1:morada "Aurora" ;
+    ns1:nome_próprio "Catalina" ;
+    ns1:pratica ns1:Futebol .
+
+ns1:Weeks_Burke a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Weeks" ;
+    ns1:email "burke.weeks@amigosmontanha.net" ;
+    ns1:exame_feito_em ns1:60b3ee0e846df12b8f8e750d ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 29 ;
+    ns1:inscrito_no_clube ns1:AmigosMontanha ;
+    ns1:morada "Mapletown" ;
+    ns1:nome_próprio "Burke" ;
+    ns1:pratica ns1:Parapente .
+
+ns1:Wiggins_Stein a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Wiggins" ;
+    ns1:email "stein.wiggins@edviana.name" ;
+    ns1:exame_feito_em ns1:60b3ee0e66f3d4c3cc778b1e ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 35 ;
+    ns1:inscrito_no_clube ns1:EDViana ;
+    ns1:morada "Rosine" ;
+    ns1:nome_próprio "Stein" ;
+    ns1:pratica ns1:Atletismo .
+
+ns1:Wise_Justine a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Wise" ;
+    ns1:email "justine.wise@avcfamalicão.io" ;
+    ns1:exame_feito_em ns1:60b3ee81c0d4102a9f396149 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 31 ;
+    ns1:inscrito_no_clube ns1:AVCfamalicão ;
+    ns1:morada "Hondah" ;
+    ns1:nome_próprio "Justine" ;
+    ns1:pratica ns1:Ciclismo .
+
+ns1:Woods_Mckenzie a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Woods" ;
+    ns1:email "mckenzie.woods@acrroriz.biz" ;
+    ns1:exame_feito_em ns1:60b3ee8103ed6d19e90ce9f7 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 24 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Craig" ;
+    ns1:nome_próprio "Mckenzie" ;
+    ns1:pratica ns1:Ténis .
+
+ns1:Woodward_Sweet a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Woodward" ;
+    ns1:email "sweet.woodward@gdgoma.biz" ;
+    ns1:exame_feito_em ns1:60b3eeb9fbb0206c040aa4f1 ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 22 ;
+    ns1:inscrito_no_clube ns1:GDGoma ;
+    ns1:morada "Urie" ;
+    ns1:nome_próprio "Sweet" ;
+    ns1:pratica ns1:Equitação .
+
+ns1:Wyatt_Freeman a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Wyatt" ;
+    ns1:email "freeman.wyatt@acrroriz.org" ;
+    ns1:exame_feito_em ns1:60b3ee81a40cc7fc63be65ad ;
+    ns1:federado true ;
+    ns1:género "F" ;
+    ns1:idade 26 ;
+    ns1:inscrito_no_clube ns1:ACRroriz ;
+    ns1:morada "Bentonville" ;
+    ns1:nome_próprio "Freeman" ;
+    ns1:pratica ns1:Triatlo .
+
+ns1:Yang_Morrow a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Yang" ;
+    ns1:email "morrow.yang@acdrcrespos.info" ;
+    ns1:exame_feito_em ns1:60b3ee81e901a8c787b38008 ;
+    ns1:federado false ;
+    ns1:género "M" ;
+    ns1:idade 24 ;
+    ns1:inscrito_no_clube ns1:ACDRcrespos ;
+    ns1:morada "Tibbie" ;
+    ns1:nome_próprio "Morrow" ;
+    ns1:pratica ns1:Basquetebol .
+
+ns1:York_Shelia a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "York" ;
+    ns1:email "shelia.york@scbraga.com" ;
+    ns1:exame_feito_em ns1:60b3ee0ea3043984230726fc ;
+    ns1:federado true ;
+    ns1:género "M" ;
+    ns1:idade 21 ;
+    ns1:inscrito_no_clube ns1:SCBraga ;
+    ns1:morada "Escondida" ;
+    ns1:nome_próprio "Shelia" ;
+    ns1:pratica ns1:Orientação .
+
+ns1:Zamora_Britt a ns1:Atleta,
+        owl:NamedIndividual ;
+    ns1:apelido "Zamora" ;
+    ns1:email "britt.zamora@clube de orientação do minho.biz" ;
+    ns1:exame_feito_em ns1:60b3ee8138f5b0173e1bc637 ;
+    ns1:federado false ;
+    ns1:género "F" ;
+    ns1:idade 23 ;
+    ns1:inscrito_no_clube ns1:Clube_de_Orientação_do_Minho ;
+    ns1:morada "Rutherford" ;
+    ns1:nome_próprio "Britt" ;
+    ns1:pratica ns1:Ténis .
+
+ns1:apelido a owl:DatatypeProperty .
+
+ns1:dataEMD a owl:DatatypeProperty .
+
+ns1:email a owl:DatatypeProperty .
+
+ns1:emd_com_modalidade a owl:ObjectProperty .
+
+ns1:exame_feito_em a owl:ObjectProperty .
+
+ns1:federado a owl:DatatypeProperty .
+
+ns1:género a owl:DatatypeProperty .
+
+ns1:idade a owl:DatatypeProperty .
+
+ns1:inscrito_no_clube a owl:ObjectProperty ;
+    rdfs:domain ns1:Atleta ;
+    rdfs:range ns1:Clube .
+
+ns1:modalidade_de a owl:ObjectProperty ;
+    rdfs:domain ns1:Modalidade ;
+    rdfs:range ns1:Clube ;
+    owl:inverseOf ns1:tem_a_modalidade .
+
+ns1:morada a owl:DatatypeProperty .
+
+ns1:nome_clube a owl:DatatypeProperty .
+
+ns1:nome_modalidade a owl:DatatypeProperty .
+
+ns1:nome_prórprio a owl:DatatypeProperty .
+
+ns1:pratica a owl:ObjectProperty ;
+    owl:inverseOf ns1:é_praticada_por .
+
+ns1:resultado a owl:DatatypeProperty .
+
+ns1:60b3ee0e01ada8b23fc63b31 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-04-09" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado false .
+
+ns1:60b3ee0e03c621784bf7b2eb a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-05-30" ;
+    ns1:emd_com_modalidade ns1:Equitação ;
+    ns1:resultado false .
+
+ns1:60b3ee0e0539642b38645cb3 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-08-07" ;
+    ns1:emd_com_modalidade ns1:Orientação ;
+    ns1:resultado true .
+
+ns1:60b3ee0e059b32a47b518e93 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-02-06" ;
+    ns1:emd_com_modalidade ns1:BTT ;
+    ns1:resultado false .
+
+ns1:60b3ee0e0797a9f03b138d18 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-02-26" ;
+    ns1:emd_com_modalidade ns1:Dança ;
+    ns1:resultado true .
+
+ns1:60b3ee0e07cb41f968328e60 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-07-11" ;
+    ns1:emd_com_modalidade ns1:Karaté ;
+    ns1:resultado false .
+
+ns1:60b3ee0e0ee0185da196c9ab a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-10-08" ;
+    ns1:emd_com_modalidade ns1:Esgrima ;
+    ns1:resultado false .
+
+ns1:60b3ee0e13085dc64e17e4b0 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-05-13" ;
+    ns1:emd_com_modalidade ns1:Ciclismo ;
+    ns1:resultado false .
+
+ns1:60b3ee0e16fc834f28234ef4 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-03-16" ;
+    ns1:emd_com_modalidade ns1:Patinagem ;
+    ns1:resultado true .
+
+ns1:60b3ee0e172e761f8d52c213 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-02-15" ;
+    ns1:emd_com_modalidade ns1:Ciclismo ;
+    ns1:resultado false .
+
+ns1:60b3ee0e1f3d25c518678bd7 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-09-03" ;
+    ns1:emd_com_modalidade ns1:Atletismo ;
+    ns1:resultado false .
+
+ns1:60b3ee0e20e993d5010857a4 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-04-16" ;
+    ns1:emd_com_modalidade ns1:BTT ;
+    ns1:resultado false .
+
+ns1:60b3ee0e23a38b2da3f0a76e a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-07-11" ;
+    ns1:emd_com_modalidade ns1:Basquetebol ;
+    ns1:resultado false .
+
+ns1:60b3ee0e242cedae88a5f12c a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-07-31" ;
+    ns1:emd_com_modalidade ns1:Patinagem ;
+    ns1:resultado false .
+
+ns1:60b3ee0e25015995bacd5bed a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-01-29" ;
+    ns1:emd_com_modalidade ns1:Dança ;
+    ns1:resultado false .
+
+ns1:60b3ee0e2573d42d411cc591 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-01-04" ;
+    ns1:emd_com_modalidade ns1:Dança ;
+    ns1:resultado true .
+
+ns1:60b3ee0e2707c21708cc3418 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-04-25" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado true .
+
+ns1:60b3ee0e278b7161e71d9ceb a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-12-08" ;
+    ns1:emd_com_modalidade ns1:SUP ;
+    ns1:resultado false .
+
+ns1:60b3ee0e28ab1329e2ed0888 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-05-23" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado true .
+
+ns1:60b3ee0e2fac3611c3cd7291 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-01-22" ;
+    ns1:emd_com_modalidade ns1:BTT ;
+    ns1:resultado true .
+
+ns1:60b3ee0e30fc3c2042f955eb a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-09-15" ;
+    ns1:emd_com_modalidade ns1:Basquetebol ;
+    ns1:resultado false .
+
+ns1:60b3ee0e3b279f45e79cd6fa a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-04-24" ;
+    ns1:emd_com_modalidade ns1:Atletismo ;
+    ns1:resultado false .
+
+ns1:60b3ee0e3bffb9b3df6f5ea4 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-05-10" ;
+    ns1:emd_com_modalidade ns1:Andebol ;
+    ns1:resultado false .
+
+ns1:60b3ee0e3d4f8a3a439f8b7a a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-12-02" ;
+    ns1:emd_com_modalidade ns1:Esgrima ;
+    ns1:resultado true .
+
+ns1:60b3ee0e3d51473e1b41004b a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-03-24" ;
+    ns1:emd_com_modalidade ns1:BTT ;
+    ns1:resultado true .
+
+ns1:60b3ee0e3f165afa6f23a0eb a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-04-30" ;
+    ns1:emd_com_modalidade ns1:Ciclismo ;
+    ns1:resultado false .
+
+ns1:60b3ee0e3f327a6ba71f77b0 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-07-13" ;
+    ns1:emd_com_modalidade ns1:SUP ;
+    ns1:resultado true .
+
+ns1:60b3ee0e472001f8e05a40ee a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-11-10" ;
+    ns1:emd_com_modalidade ns1:Karaté ;
+    ns1:resultado true .
+
+ns1:60b3ee0e47a5478e9b66110d a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-10-28" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado true .
+
+ns1:60b3ee0e4a1e0233af16ac8c a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-12-29" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado false .
+
+ns1:60b3ee0e536b83d9d562f9c8 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-06-02" ;
+    ns1:emd_com_modalidade ns1:Ciclismo ;
+    ns1:resultado false .
+
+ns1:60b3ee0e538d62e10eba66b6 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-02-16" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado true .
+
+ns1:60b3ee0e53dad18808565be7 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-02-13" ;
+    ns1:emd_com_modalidade ns1:Andebol ;
+    ns1:resultado true .
+
+ns1:60b3ee0e54b12900f5e6c314 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-12-12" ;
+    ns1:emd_com_modalidade ns1:Atletismo ;
+    ns1:resultado false .
+
+ns1:60b3ee0e553355b77862ea98 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-04-12" ;
+    ns1:emd_com_modalidade ns1:SUP ;
+    ns1:resultado false .
+
+ns1:60b3ee0e559fb2fd0142f64c a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-02-04" ;
+    ns1:emd_com_modalidade ns1:Karaté ;
+    ns1:resultado true .
+
+ns1:60b3ee0e57b3659681466acf a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-11-09" ;
+    ns1:emd_com_modalidade ns1:Parapente ;
+    ns1:resultado false .
+
+ns1:60b3ee0e59411e4e9d97d70a a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-07-27" ;
+    ns1:emd_com_modalidade ns1:Basquetebol ;
+    ns1:resultado true .
+
+ns1:60b3ee0e59e86eaf9b9a5372 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-03-28" ;
+    ns1:emd_com_modalidade ns1:Orientação ;
+    ns1:resultado false .
+
+ns1:60b3ee0e62b59d062f2018a3 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-01-17" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado false .
+
+ns1:60b3ee0e63cc2530b136daef a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-03-22" ;
+    ns1:emd_com_modalidade ns1:Basquetebol ;
+    ns1:resultado false .
+
+ns1:60b3ee0e651ec286b869976d a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-05-10" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado true .
+
+ns1:60b3ee0e66f3d4c3cc778b1e a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-11-24" ;
+    ns1:emd_com_modalidade ns1:Atletismo ;
+    ns1:resultado true .
+
+ns1:60b3ee0e67043c92ce84a97c a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-10-09" ;
+    ns1:emd_com_modalidade ns1:Andebol ;
+    ns1:resultado false .
+
+ns1:60b3ee0e6ab8471af29e2014 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-06-12" ;
+    ns1:emd_com_modalidade ns1:Ciclismo ;
+    ns1:resultado true .
+
+ns1:60b3ee0e6cb88f8d26691e15 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-05-14" ;
+    ns1:emd_com_modalidade ns1:Karaté ;
+    ns1:resultado false .
+
+ns1:60b3ee0e6dbcbe60effe125d a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-06-22" ;
+    ns1:emd_com_modalidade ns1:SUP ;
+    ns1:resultado false .
+
+ns1:60b3ee0e6edaad4b8a63efae a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-05-19" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado false .
+
+ns1:60b3ee0e74703dea724376f8 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-06-03" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado true .
+
+ns1:60b3ee0e7524108bf9936414 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-07-14" ;
+    ns1:emd_com_modalidade ns1:Parapente ;
+    ns1:resultado true .
+
+ns1:60b3ee0e769aecb50db619f2 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-06-27" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado false .
+
+ns1:60b3ee0e79c5349b29557a62 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-11-03" ;
+    ns1:emd_com_modalidade ns1:BTT ;
+    ns1:resultado true .
+
+ns1:60b3ee0e7ac2f667ececc242 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-07-01" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado true .
+
+ns1:60b3ee0e7ded570068dce1d9 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-02-23" ;
+    ns1:emd_com_modalidade ns1:Atletismo ;
+    ns1:resultado true .
+
+ns1:60b3ee0e846df12b8f8e750d a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-09-14" ;
+    ns1:emd_com_modalidade ns1:Parapente ;
+    ns1:resultado true .
+
+ns1:60b3ee0e84beb8fe0be593a5 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-10-14" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado true .
+
+ns1:60b3ee0e8a311b08fca3541b a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-04-16" ;
+    ns1:emd_com_modalidade ns1:Ciclismo ;
+    ns1:resultado true .
+
+ns1:60b3ee0e8b4f7dca2601ddfc a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-12-17" ;
+    ns1:emd_com_modalidade ns1:Atletismo ;
+    ns1:resultado true .
+
+ns1:60b3ee0e926c1d538dfaabd3 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-01-27" ;
+    ns1:emd_com_modalidade ns1:Karaté ;
+    ns1:resultado true .
+
+ns1:60b3ee0e9488e742d1600f58 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-05-29" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado true .
+
+ns1:60b3ee0e94c479068389f5e3 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-10-10" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado true .
+
+ns1:60b3ee0e9dc10b681d5212b5 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-10-13" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado false .
+
+ns1:60b3ee0e9f0c3dbf2ecc854f a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-06-26" ;
+    ns1:emd_com_modalidade ns1:Dança ;
+    ns1:resultado false .
+
+ns1:60b3ee0ea0dc6768a6ca7192 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-03-26" ;
+    ns1:emd_com_modalidade ns1:BTT ;
+    ns1:resultado false .
+
+ns1:60b3ee0ea3043984230726fc a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-11-21" ;
+    ns1:emd_com_modalidade ns1:Orientação ;
+    ns1:resultado false .
+
+ns1:60b3ee0ea5d75fed720e4820 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-05-10" ;
+    ns1:emd_com_modalidade ns1:Patinagem ;
+    ns1:resultado true .
+
+ns1:60b3ee0ea6339abf19460649 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-04-07" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado false .
+
+ns1:60b3ee0ea96d47b79642735d a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-10-14" ;
+    ns1:emd_com_modalidade ns1:Atletismo ;
+    ns1:resultado true .
+
+ns1:60b3ee0ea9b4c2114abcf6d7 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-11-24" ;
+    ns1:emd_com_modalidade ns1:Andebol ;
+    ns1:resultado true .
+
+ns1:60b3ee0eabfeddd7f84fd275 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-05-17" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado true .
+
+ns1:60b3ee0eb2087f8cccef830d a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-03-01" ;
+    ns1:emd_com_modalidade ns1:SUP ;
+    ns1:resultado true .
+
+ns1:60b3ee0ebab436c1d23c2a84 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-03-01" ;
+    ns1:emd_com_modalidade ns1:Ciclismo ;
+    ns1:resultado true .
+
+ns1:60b3ee0ebc5f8bcac6a4b89d a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-04-09" ;
+    ns1:emd_com_modalidade ns1:Patinagem ;
+    ns1:resultado false .
+
+ns1:60b3ee0ec14a4ad7e917ed36 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-08-09" ;
+    ns1:emd_com_modalidade ns1:Orientação ;
+    ns1:resultado false .
+
+ns1:60b3ee0eca6dd1525f201090 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-05-18" ;
+    ns1:emd_com_modalidade ns1:Orientação ;
+    ns1:resultado false .
+
+ns1:60b3ee0ecf1638e25755912c a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-12-03" ;
+    ns1:emd_com_modalidade ns1:Esgrima ;
+    ns1:resultado false .
+
+ns1:60b3ee0ecfbe9bf6149ba53b a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-03-16" ;
+    ns1:emd_com_modalidade ns1:Esgrima ;
+    ns1:resultado true .
+
+ns1:60b3ee0ed16d4695ffdf5f17 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-09-13" ;
+    ns1:emd_com_modalidade ns1:Patinagem ;
+    ns1:resultado true .
+
+ns1:60b3ee0ed5225a2a93a69c3a a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-03-04" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado true .
+
+ns1:60b3ee0ed5dd8522cc53e7b0 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-04-22" ;
+    ns1:emd_com_modalidade ns1:Equitação ;
+    ns1:resultado true .
+
+ns1:60b3ee0ed7a60ecd07dadb9e a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-09-11" ;
+    ns1:emd_com_modalidade ns1:BTT ;
+    ns1:resultado true .
+
+ns1:60b3ee0ed8819374df399b72 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-10-10" ;
+    ns1:emd_com_modalidade ns1:Basquetebol ;
+    ns1:resultado false .
+
+ns1:60b3ee0eddf26117e9d32bcb a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-05-01" ;
+    ns1:emd_com_modalidade ns1:Ciclismo ;
+    ns1:resultado false .
+
+ns1:60b3ee0ee00725274024d5a2 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-07-27" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado true .
+
+ns1:60b3ee0ee3bb3fd71f515d88 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-04-11" ;
+    ns1:emd_com_modalidade ns1:Parapente ;
+    ns1:resultado true .
+
+ns1:60b3ee0ee3d27702cac0b7cd a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-02-26" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado false .
+
+ns1:60b3ee0ee3f58fda00f17cc6 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-01-13" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado true .
+
+ns1:60b3ee0ee409ac878ba9b99b a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-04-04" ;
+    ns1:emd_com_modalidade ns1:Atletismo ;
+    ns1:resultado false .
+
+ns1:60b3ee0ee48920a886a461e2 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-03-04" ;
+    ns1:emd_com_modalidade ns1:Karaté ;
+    ns1:resultado true .
+
+ns1:60b3ee0ee62c8f8a846459ea a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-08-02" ;
+    ns1:emd_com_modalidade ns1:Orientação ;
+    ns1:resultado true .
+
+ns1:60b3ee0ee78616dd040e4dca a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-11-26" ;
+    ns1:emd_com_modalidade ns1:Equitação ;
+    ns1:resultado false .
+
+ns1:60b3ee0ee7cb2701483df2c9 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-10-23" ;
+    ns1:emd_com_modalidade ns1:Andebol ;
+    ns1:resultado false .
+
+ns1:60b3ee0ee90bdefcc8703185 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-09-04" ;
+    ns1:emd_com_modalidade ns1:Ciclismo ;
+    ns1:resultado true .
+
+ns1:60b3ee0ee95a95d0c9bc3e5f a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-04-16" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado false .
+
+ns1:60b3ee0eee4b8338800e6003 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-10-18" ;
+    ns1:emd_com_modalidade ns1:Equitação ;
+    ns1:resultado false .
+
+ns1:60b3ee0ef050e91efe68a668 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-12-23" ;
+    ns1:emd_com_modalidade ns1:Orientação ;
+    ns1:resultado false .
+
+ns1:60b3ee0ef3bfaf77b4e67849 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-04-20" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado true .
+
+ns1:60b3ee0ef8b2c3b732bc0d82 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-10-27" ;
+    ns1:emd_com_modalidade ns1:Parapente ;
+    ns1:resultado false .
+
+ns1:60b3ee0efe55045feaaea0d0 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-11-22" ;
+    ns1:emd_com_modalidade ns1:Parapente ;
+    ns1:resultado true .
+
+ns1:60b3ee0effaf9b013df4203d a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-07-25" ;
+    ns1:emd_com_modalidade ns1:SUP ;
+    ns1:resultado false .
+
+ns1:60b3ee810078ab3f7321a731 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-02-29" ;
+    ns1:emd_com_modalidade ns1:Basquetebol ;
+    ns1:resultado false .
+
+ns1:60b3ee81034e5cb2050e882a a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-07-17" ;
+    ns1:emd_com_modalidade ns1:Ténis ;
+    ns1:resultado true .
+
+ns1:60b3ee8103ed6d19e90ce9f7 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-09-04" ;
+    ns1:emd_com_modalidade ns1:Ténis ;
+    ns1:resultado false .
+
+ns1:60b3ee81051bf4a2138bb141 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-10-31" ;
+    ns1:emd_com_modalidade ns1:Esgrima ;
+    ns1:resultado false .
+
+ns1:60b3ee81051fe3467036095a a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-12-21" ;
+    ns1:emd_com_modalidade ns1:Basquetebol ;
+    ns1:resultado false .
+
+ns1:60b3ee8106e9b44af3270a40 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-04-23" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado true .
+
+ns1:60b3ee811426bce48b453191 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-12-22" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado true .
+
+ns1:60b3ee81145de55fffb7bdfa a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-01-01" ;
+    ns1:emd_com_modalidade ns1:Atletismo ;
+    ns1:resultado false .
+
+ns1:60b3ee81146b3cd8954b7256 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-09-04" ;
+    ns1:emd_com_modalidade ns1:Esgrima ;
+    ns1:resultado false .
+
+ns1:60b3ee8115745fe4ce8dbc5a a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-07-06" ;
+    ns1:emd_com_modalidade ns1:Esgrima ;
+    ns1:resultado true .
+
+ns1:60b3ee8117de88dc519ae9d3 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-10-22" ;
+    ns1:emd_com_modalidade ns1:Parapente ;
+    ns1:resultado true .
+
+ns1:60b3ee811a2021b6b24ffbc2 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-09-14" ;
+    ns1:emd_com_modalidade ns1:BTT ;
+    ns1:resultado false .
+
+ns1:60b3ee811a4429c17e036357 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-04-27" ;
+    ns1:emd_com_modalidade ns1:Patinagem ;
+    ns1:resultado true .
+
+ns1:60b3ee8122f33125935e59d3 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-02-25" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado false .
+
+ns1:60b3ee8125e3c7f8ae2daa67 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-01-20" ;
+    ns1:emd_com_modalidade ns1:Ciclismo ;
+    ns1:resultado true .
+
+ns1:60b3ee8128adc82a45f8023d a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-06-18" ;
+    ns1:emd_com_modalidade ns1:BTT ;
+    ns1:resultado false .
+
+ns1:60b3ee812a4b8125a96689a0 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-04-28" ;
+    ns1:emd_com_modalidade ns1:Karaté ;
+    ns1:resultado false .
+
+ns1:60b3ee812d50aad901e7e243 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-07-31" ;
+    ns1:emd_com_modalidade ns1:Ciclismo ;
+    ns1:resultado true .
+
+ns1:60b3ee812f35f4ff3c2edecf a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-06-27" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado true .
+
+ns1:60b3ee8131597dae8f73a11b a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-10-30" ;
+    ns1:emd_com_modalidade ns1:Ténis ;
+    ns1:resultado true .
+
+ns1:60b3ee813611a9e67c3546a3 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-03-03" ;
+    ns1:emd_com_modalidade ns1:Parapente ;
+    ns1:resultado true .
+
+ns1:60b3ee81375cc4e9aba8bc6e a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-01-03" ;
+    ns1:emd_com_modalidade ns1:SUP ;
+    ns1:resultado true .
+
+ns1:60b3ee8138f5b0173e1bc637 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-08-25" ;
+    ns1:emd_com_modalidade ns1:Ténis ;
+    ns1:resultado false .
+
+ns1:60b3ee813905ebb273d5d9a0 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-03-09" ;
+    ns1:emd_com_modalidade ns1:Patinagem ;
+    ns1:resultado true .
+
+ns1:60b3ee813bd664873721a6a1 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-07-03" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado true .
+
+ns1:60b3ee813c7547937e764cab a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-06-26" ;
+    ns1:emd_com_modalidade ns1:Andebol ;
+    ns1:resultado false .
+
+ns1:60b3ee81411e7acd216d0bf0 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-09-18" ;
+    ns1:emd_com_modalidade ns1:Patinagem ;
+    ns1:resultado false .
+
+ns1:60b3ee81422fd173977583e5 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-04-22" ;
+    ns1:emd_com_modalidade ns1:BTT ;
+    ns1:resultado false .
+
+ns1:60b3ee81451b811209c3deef a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-06-30" ;
+    ns1:emd_com_modalidade ns1:Atletismo ;
+    ns1:resultado false .
+
+ns1:60b3ee8151ebf5ddaa5ca13c a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-01-02" ;
+    ns1:emd_com_modalidade ns1:Orientação ;
+    ns1:resultado false .
+
+ns1:60b3ee81525963fc4fd2cf9d a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-06-12" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado false .
+
+ns1:60b3ee8152b3f05331a47645 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-04-29" ;
+    ns1:emd_com_modalidade ns1:Parapente ;
+    ns1:resultado false .
+
+ns1:60b3ee8152ddb1911c44b96a a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-01-29" ;
+    ns1:emd_com_modalidade ns1:BTT ;
+    ns1:resultado false .
+
+ns1:60b3ee8154161dd7358b2e65 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-12-01" ;
+    ns1:emd_com_modalidade ns1:Patinagem ;
+    ns1:resultado true .
+
+ns1:60b3ee81559385200672594d a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-02-02" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado false .
+
+ns1:60b3ee815852d8fc2dc33e8a a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-01-17" ;
+    ns1:emd_com_modalidade ns1:Ténis ;
+    ns1:resultado false .
+
+ns1:60b3ee815b7d9a126c47165d a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-07-26" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado true .
+
+ns1:60b3ee815cb65367e6de0b3c a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-01-11" ;
+    ns1:emd_com_modalidade ns1:Andebol ;
+    ns1:resultado false .
+
+ns1:60b3ee815e7f792d741f2228 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-10-25" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado false .
+
+ns1:60b3ee8160bf5c46dcb3cfa7 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-09-06" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado false .
+
+ns1:60b3ee8162c5de4569ccfe2f a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-08-29" ;
+    ns1:emd_com_modalidade ns1:Esgrima ;
+    ns1:resultado false .
+
+ns1:60b3ee81655cc723f988a62d a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-02-19" ;
+    ns1:emd_com_modalidade ns1:SUP ;
+    ns1:resultado false .
+
+ns1:60b3ee816b42d22ea075aba7 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-01-29" ;
+    ns1:emd_com_modalidade ns1:Esgrima ;
+    ns1:resultado false .
+
+ns1:60b3ee816e416ff33c21634a a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-08-03" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado false .
+
+ns1:60b3ee817468bb467a39e2f8 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-08-11" ;
+    ns1:emd_com_modalidade ns1:Patinagem ;
+    ns1:resultado false .
+
+ns1:60b3ee817af5fb3fb1e153ef a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-06-23" ;
+    ns1:emd_com_modalidade ns1:Esgrima ;
+    ns1:resultado true .
+
+ns1:60b3ee817c1ce5b6cb67302a a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-12-31" ;
+    ns1:emd_com_modalidade ns1:Esgrima ;
+    ns1:resultado false .
+
+ns1:60b3ee817ca74f6cb607c6f9 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-12-09" ;
+    ns1:emd_com_modalidade ns1:Orientação ;
+    ns1:resultado false .
+
+ns1:60b3ee81828ee0dba6850475 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-05-28" ;
+    ns1:emd_com_modalidade ns1:BTT ;
+    ns1:resultado true .
+
+ns1:60b3ee8182b8712a2f15e41a a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-12-10" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado false .
+
+ns1:60b3ee81839f04840d199de9 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-12-30" ;
+    ns1:emd_com_modalidade ns1:Esgrima ;
+    ns1:resultado false .
+
+ns1:60b3ee81858e8c650b8d992f a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-09-06" ;
+    ns1:emd_com_modalidade ns1:Karaté ;
+    ns1:resultado true .
+
+ns1:60b3ee81864959e7fb8bc864 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-05-11" ;
+    ns1:emd_com_modalidade ns1:Patinagem ;
+    ns1:resultado false .
+
+ns1:60b3ee8186fff74d432c9259 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-06-25" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado false .
+
+ns1:60b3ee81874f8871966eedd1 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-02-04" ;
+    ns1:emd_com_modalidade ns1:Andebol ;
+    ns1:resultado false .
+
+ns1:60b3ee8187b3e7d863bbaf97 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-01-29" ;
+    ns1:emd_com_modalidade ns1:Dança ;
+    ns1:resultado true .
+
+ns1:60b3ee818cd611e6bf56f2f1 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-04-13" ;
+    ns1:emd_com_modalidade ns1:Esgrima ;
+    ns1:resultado true .
+
+ns1:60b3ee818db2661d700d6ea3 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-09-08" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado true .
+
+ns1:60b3ee818e25f41f67491f02 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-04-22" ;
+    ns1:emd_com_modalidade ns1:Orientação ;
+    ns1:resultado false .
+
+ns1:60b3ee81956a3fcc57d06c8c a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-07-05" ;
+    ns1:emd_com_modalidade ns1:Atletismo ;
+    ns1:resultado true .
+
+ns1:60b3ee8195bd88f9e936aca7 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-04-05" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado true .
+
+ns1:60b3ee81963e6ecf70e3d586 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-07-30" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado false .
+
+ns1:60b3ee819d5bb33e21ff7e16 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-02-26" ;
+    ns1:emd_com_modalidade ns1:Ténis ;
+    ns1:resultado true .
+
+ns1:60b3ee81a113b4cb68ef5906 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-05-19" ;
+    ns1:emd_com_modalidade ns1:Equitação ;
+    ns1:resultado true .
+
+ns1:60b3ee81a40cc7fc63be65ad a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-04-25" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado false .
+
+ns1:60b3ee81a545dd3ccaea41b0 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-04-25" ;
+    ns1:emd_com_modalidade ns1:SUP ;
+    ns1:resultado false .
+
+ns1:60b3ee81afbc52a666850b8c a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-02-14" ;
+    ns1:emd_com_modalidade ns1:Parapente ;
+    ns1:resultado false .
+
+ns1:60b3ee81b5064ca4e9536d3c a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-10-14" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado true .
+
+ns1:60b3ee81b71a63346d0243e7 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-10-10" ;
+    ns1:emd_com_modalidade ns1:Basquetebol ;
+    ns1:resultado true .
+
+ns1:60b3ee81bc1a4f4c3bc26de1 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-04-12" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado true .
+
+ns1:60b3ee81c0d4102a9f396149 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-02-08" ;
+    ns1:emd_com_modalidade ns1:Ciclismo ;
+    ns1:resultado false .
+
+ns1:60b3ee81c1515414ac1fb549 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-06-02" ;
+    ns1:emd_com_modalidade ns1:Ciclismo ;
+    ns1:resultado false .
+
+ns1:60b3ee81c4345661feac7a9a a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-02-19" ;
+    ns1:emd_com_modalidade ns1:Karaté ;
+    ns1:resultado false .
+
+ns1:60b3ee81c44446a9eceefd87 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-04-08" ;
+    ns1:emd_com_modalidade ns1:Andebol ;
+    ns1:resultado false .
+
+ns1:60b3ee81c5073acaa4febef6 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-12-29" ;
+    ns1:emd_com_modalidade ns1:Ciclismo ;
+    ns1:resultado false .
+
+ns1:60b3ee81cdbf91a4db1113eb a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-03-18" ;
+    ns1:emd_com_modalidade ns1:Andebol ;
+    ns1:resultado true .
+
+ns1:60b3ee81ce306eb25d963bb0 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-07-11" ;
+    ns1:emd_com_modalidade ns1:Esgrima ;
+    ns1:resultado false .
+
+ns1:60b3ee81d13fde44c2e74aab a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-08-15" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado false .
+
+ns1:60b3ee81d15fe413bd86d938 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-06-04" ;
+    ns1:emd_com_modalidade ns1:Atletismo ;
+    ns1:resultado false .
+
+ns1:60b3ee81d74bfab7c22b5eaa a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-01-31" ;
+    ns1:emd_com_modalidade ns1:Patinagem ;
+    ns1:resultado false .
+
+ns1:60b3ee81d7dbdba97369e927 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-04-12" ;
+    ns1:emd_com_modalidade ns1:Andebol ;
+    ns1:resultado false .
+
+ns1:60b3ee81d9e0e05421b4d08e a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-07-01" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado false .
+
+ns1:60b3ee81e024b81dde892dd6 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-06-30" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado false .
+
+ns1:60b3ee81e02e5fb35760bec3 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-05-14" ;
+    ns1:emd_com_modalidade ns1:Parapente ;
+    ns1:resultado false .
+
+ns1:60b3ee81e20d4412bdf4f468 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-02-02" ;
+    ns1:emd_com_modalidade ns1:Atletismo ;
+    ns1:resultado true .
+
+ns1:60b3ee81e2dc932e4e6f7e51 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-01-09" ;
+    ns1:emd_com_modalidade ns1:Basquetebol ;
+    ns1:resultado true .
+
+ns1:60b3ee81e32abefb2a9e8629 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-11-22" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado true .
+
+ns1:60b3ee81e62094c1d0bfca5c a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-08-09" ;
+    ns1:emd_com_modalidade ns1:Esgrima ;
+    ns1:resultado false .
+
+ns1:60b3ee81e69c16cc6108e7ad a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-01-18" ;
+    ns1:emd_com_modalidade ns1:Patinagem ;
+    ns1:resultado true .
+
+ns1:60b3ee81e769b6603a6525c6 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-12-20" ;
+    ns1:emd_com_modalidade ns1:BTT ;
+    ns1:resultado false .
+
+ns1:60b3ee81e901a8c787b38008 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-03-09" ;
+    ns1:emd_com_modalidade ns1:Basquetebol ;
+    ns1:resultado false .
+
+ns1:60b3ee81e97e332884e1299a a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-05-24" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado false .
+
+ns1:60b3ee81ea2bed08bf81e861 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-09-01" ;
+    ns1:emd_com_modalidade ns1:Esgrima ;
+    ns1:resultado false .
+
+ns1:60b3ee81ec958ef30a9daa8d a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-01-12" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado true .
+
+ns1:60b3ee81ed581129ff3b2087 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-01-05" ;
+    ns1:emd_com_modalidade ns1:Andebol ;
+    ns1:resultado true .
+
+ns1:60b3ee81ef9b6d894223a9fd a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-04-26" ;
+    ns1:emd_com_modalidade ns1:Andebol ;
+    ns1:resultado true .
+
+ns1:60b3ee81efda597f9d074638 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-01-09" ;
+    ns1:emd_com_modalidade ns1:Karaté ;
+    ns1:resultado false .
+
+ns1:60b3ee81f5035e13f1db0069 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-11-14" ;
+    ns1:emd_com_modalidade ns1:Karaté ;
+    ns1:resultado false .
+
+ns1:60b3ee81f9666482a5c13406 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-10-25" ;
+    ns1:emd_com_modalidade ns1:Orientação ;
+    ns1:resultado false .
+
+ns1:60b3ee81fcb5c8f9970e2899 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-07-27" ;
+    ns1:emd_com_modalidade ns1:SUP ;
+    ns1:resultado false .
+
+ns1:60b3eeb9077997c0e212f286 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-01-06" ;
+    ns1:emd_com_modalidade ns1:Atletismo ;
+    ns1:resultado true .
+
+ns1:60b3eeb9080a93e404ab974a a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-08-11" ;
+    ns1:emd_com_modalidade ns1:Equitação ;
+    ns1:resultado false .
+
+ns1:60b3eeb9080c70a07ef5c4ac a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-11-20" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado false .
+
+ns1:60b3eeb909f2540c651ec8ff a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-04-12" ;
+    ns1:emd_com_modalidade ns1:Andebol ;
+    ns1:resultado false .
+
+ns1:60b3eeb90afb40019dea8a64 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-09-27" ;
+    ns1:emd_com_modalidade ns1:Karaté ;
+    ns1:resultado true .
+
+ns1:60b3eeb90d885cf3327fe6bd a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-05-28" ;
+    ns1:emd_com_modalidade ns1:Patinagem ;
+    ns1:resultado false .
+
+ns1:60b3eeb90fc3f9678fed0903 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-09-09" ;
+    ns1:emd_com_modalidade ns1:Parapente ;
+    ns1:resultado true .
+
+ns1:60b3eeb910808af364c63729 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-12-14" ;
+    ns1:emd_com_modalidade ns1:Equitação ;
+    ns1:resultado false .
+
+ns1:60b3eeb91485796dedd2444b a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-02-04" ;
+    ns1:emd_com_modalidade ns1:SUP ;
+    ns1:resultado true .
+
+ns1:60b3eeb916caa13610b8cadf a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-08-30" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado true .
+
+ns1:60b3eeb91977642e615c41e3 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-12-31" ;
+    ns1:emd_com_modalidade ns1:Orientação ;
+    ns1:resultado true .
+
+ns1:60b3eeb91ab516aa15e1199a a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-10-16" ;
+    ns1:emd_com_modalidade ns1:Parapente ;
+    ns1:resultado true .
+
+ns1:60b3eeb91accf4bd8b426245 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-11-27" ;
+    ns1:emd_com_modalidade ns1:Parapente ;
+    ns1:resultado false .
+
+ns1:60b3eeb91afe89807606d176 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-03-16" ;
+    ns1:emd_com_modalidade ns1:Esgrima ;
+    ns1:resultado false .
+
+ns1:60b3eeb91c3038d321c60bb3 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-05-07" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado true .
+
+ns1:60b3eeb91dbe172db8fd8f61 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-02-07" ;
+    ns1:emd_com_modalidade ns1:BTT ;
+    ns1:resultado true .
+
+ns1:60b3eeb91ded4fa3db5fdf8e a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-10-26" ;
+    ns1:emd_com_modalidade ns1:Ténis ;
+    ns1:resultado false .
+
+ns1:60b3eeb9217c0274b8a1022b a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-03-12" ;
+    ns1:emd_com_modalidade ns1:Dança ;
+    ns1:resultado false .
+
+ns1:60b3eeb9235de1538781611d a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-05-03" ;
+    ns1:emd_com_modalidade ns1:Basquetebol ;
+    ns1:resultado false .
+
+ns1:60b3eeb929306aeaff7f31a0 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-02-04" ;
+    ns1:emd_com_modalidade ns1:BTT ;
+    ns1:resultado false .
+
+ns1:60b3eeb92a2f391cda5b305e a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-12-03" ;
+    ns1:emd_com_modalidade ns1:Karaté ;
+    ns1:resultado true .
+
+ns1:60b3eeb92b1debc068c42080 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-10-06" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado false .
+
+ns1:60b3eeb933e50bd455af89a9 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-08-30" ;
+    ns1:emd_com_modalidade ns1:Patinagem ;
+    ns1:resultado false .
+
+ns1:60b3eeb934a2174ec11d92a6 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-08-18" ;
+    ns1:emd_com_modalidade ns1:Ciclismo ;
+    ns1:resultado true .
+
+ns1:60b3eeb9354e8a0e1817c201 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-09-26" ;
+    ns1:emd_com_modalidade ns1:BTT ;
+    ns1:resultado true .
+
+ns1:60b3eeb935b59a6c217af521 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-09-24" ;
+    ns1:emd_com_modalidade ns1:Karaté ;
+    ns1:resultado true .
+
+ns1:60b3eeb939a5cb2da478d86c a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-06-09" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado false .
+
+ns1:60b3eeb93a24ff700a3928d5 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-01-13" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado false .
+
+ns1:60b3eeb93bfe7ecd8361f659 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-10-22" ;
+    ns1:emd_com_modalidade ns1:Orientação ;
+    ns1:resultado true .
+
+ns1:60b3eeb9425c872217db611e a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-09-09" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado false .
+
+ns1:60b3eeb944e8f43647ed05f2 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-03-04" ;
+    ns1:emd_com_modalidade ns1:SUP ;
+    ns1:resultado true .
+
+ns1:60b3eeb945accec6f3eb9c3d a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-12-13" ;
+    ns1:emd_com_modalidade ns1:Dança ;
+    ns1:resultado false .
+
+ns1:60b3eeb9468961b15e8e1277 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-01-09" ;
+    ns1:emd_com_modalidade ns1:Basquetebol ;
+    ns1:resultado true .
+
+ns1:60b3eeb948dd398953308f2d a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-07-01" ;
+    ns1:emd_com_modalidade ns1:Dança ;
+    ns1:resultado true .
+
+ns1:60b3eeb94b33eaa274778def a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-12-20" ;
+    ns1:emd_com_modalidade ns1:Parapente ;
+    ns1:resultado false .
+
+ns1:60b3eeb94d27b52fe1b15f19 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-08-06" ;
+    ns1:emd_com_modalidade ns1:Orientação ;
+    ns1:resultado true .
+
+ns1:60b3eeb95632a2a2915ae72b a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-07-27" ;
+    ns1:emd_com_modalidade ns1:SUP ;
+    ns1:resultado false .
+
+ns1:60b3eeb95762eb38f4ae9a22 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-01-18" ;
+    ns1:emd_com_modalidade ns1:Atletismo ;
+    ns1:resultado true .
+
+ns1:60b3eeb95b00f32d469ef4b2 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-09-20" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado false .
+
+ns1:60b3eeb966fd425e94c59395 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-02-16" ;
+    ns1:emd_com_modalidade ns1:Orientação ;
+    ns1:resultado true .
+
+ns1:60b3eeb967d2dd4be3e2c87d a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-07-12" ;
+    ns1:emd_com_modalidade ns1:Karaté ;
+    ns1:resultado true .
+
+ns1:60b3eeb968346da5d651b20d a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-07-25" ;
+    ns1:emd_com_modalidade ns1:Andebol ;
+    ns1:resultado true .
+
+ns1:60b3eeb96b4950f33f42c5b6 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-12-19" ;
+    ns1:emd_com_modalidade ns1:Parapente ;
+    ns1:resultado true .
+
+ns1:60b3eeb96e988bb711c0c940 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-09-29" ;
+    ns1:emd_com_modalidade ns1:BTT ;
+    ns1:resultado false .
+
+ns1:60b3eeb96f9b421618f39954 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-10-13" ;
+    ns1:emd_com_modalidade ns1:Esgrima ;
+    ns1:resultado false .
+
+ns1:60b3eeb972a330700a58a10a a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-08-19" ;
+    ns1:emd_com_modalidade ns1:Parapente ;
+    ns1:resultado false .
+
+ns1:60b3eeb97a2511a770990f0f a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-08-23" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado false .
+
+ns1:60b3eeb97aabcddbffca43f3 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-03-29" ;
+    ns1:emd_com_modalidade ns1:Equitação ;
+    ns1:resultado true .
+
+ns1:60b3eeb97aecf09da8650e19 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-04-30" ;
+    ns1:emd_com_modalidade ns1:SUP ;
+    ns1:resultado false .
+
+ns1:60b3eeb97b17e786bdf88e29 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-12-18" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado false .
+
+ns1:60b3eeb97c9c1d91087c47a4 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-08-23" ;
+    ns1:emd_com_modalidade ns1:Atletismo ;
+    ns1:resultado false .
+
+ns1:60b3eeb97d329fb5b3d7379b a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-07-15" ;
+    ns1:emd_com_modalidade ns1:Ciclismo ;
+    ns1:resultado true .
+
+ns1:60b3eeb9817b6dc6e2848304 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-07-15" ;
+    ns1:emd_com_modalidade ns1:Parapente ;
+    ns1:resultado true .
+
+ns1:60b3eeb983fb3181e8f43d12 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-05-05" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado false .
+
+ns1:60b3eeb9860033876d65f5f7 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-01-08" ;
+    ns1:emd_com_modalidade ns1:Ténis ;
+    ns1:resultado false .
+
+ns1:60b3eeb98614ea36f88963ba a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-04-08" ;
+    ns1:emd_com_modalidade ns1:Dança ;
+    ns1:resultado true .
+
+ns1:60b3eeb9868c63b27774163f a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-06-28" ;
+    ns1:emd_com_modalidade ns1:Atletismo ;
+    ns1:resultado false .
+
+ns1:60b3eeb99c434fb1a7c7c633 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-03-22" ;
+    ns1:emd_com_modalidade ns1:Equitação ;
+    ns1:resultado false .
+
+ns1:60b3eeb99d4b85092734ded4 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-03-08" ;
+    ns1:emd_com_modalidade ns1:Andebol ;
+    ns1:resultado false .
+
+ns1:60b3eeb9a2085e98659a2f5b a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-04-09" ;
+    ns1:emd_com_modalidade ns1:Basquetebol ;
+    ns1:resultado true .
+
+ns1:60b3eeb9a57cc0f98a998c9a a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-08-26" ;
+    ns1:emd_com_modalidade ns1:Patinagem ;
+    ns1:resultado true .
+
+ns1:60b3eeb9a78530cac96a3f79 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-04-17" ;
+    ns1:emd_com_modalidade ns1:Dança ;
+    ns1:resultado false .
+
+ns1:60b3eeb9a78fd4bfe9e36453 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-06-09" ;
+    ns1:emd_com_modalidade ns1:Orientação ;
+    ns1:resultado true .
+
+ns1:60b3eeb9a857578bd25302db a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-05-25" ;
+    ns1:emd_com_modalidade ns1:Ténis ;
+    ns1:resultado true .
+
+ns1:60b3eeb9a9f081f26deada43 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-12-21" ;
+    ns1:emd_com_modalidade ns1:Triatlo ;
+    ns1:resultado true .
+
+ns1:60b3eeb9ab56338f42cdaf13 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-07-02" ;
+    ns1:emd_com_modalidade ns1:Atletismo ;
+    ns1:resultado true .
+
+ns1:60b3eeb9abbaec58aed568da a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-03-01" ;
+    ns1:emd_com_modalidade ns1:Ciclismo ;
+    ns1:resultado false .
+
+ns1:60b3eeb9af56ea737b79ac30 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-07-21" ;
+    ns1:emd_com_modalidade ns1:Equitação ;
+    ns1:resultado false .
+
+ns1:60b3eeb9b701a941937c0dd8 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-08-12" ;
+    ns1:emd_com_modalidade ns1:Andebol ;
+    ns1:resultado false .
+
+ns1:60b3eeb9bc3d74e0cb400631 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-10-18" ;
+    ns1:emd_com_modalidade ns1:Equitação ;
+    ns1:resultado true .
+
+ns1:60b3eeb9bc920eef418c62ac a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-03-23" ;
+    ns1:emd_com_modalidade ns1:Andebol ;
+    ns1:resultado false .
+
+ns1:60b3eeb9bfd86db079523f51 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-11-25" ;
+    ns1:emd_com_modalidade ns1:Dança ;
+    ns1:resultado true .
+
+ns1:60b3eeb9c05f073a238c4aa6 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-09-24" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado false .
+
+ns1:60b3eeb9c4b1d5f4d4a0099b a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-06-22" ;
+    ns1:emd_com_modalidade ns1:Parapente ;
+    ns1:resultado true .
+
+ns1:60b3eeb9c4c935218799831f a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-02-08" ;
+    ns1:emd_com_modalidade ns1:Ténis ;
+    ns1:resultado false .
+
+ns1:60b3eeb9c65ee38149a83dfc a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-01-24" ;
+    ns1:emd_com_modalidade ns1:Orientação ;
+    ns1:resultado false .
+
+ns1:60b3eeb9c7550e5dc5a5ddb1 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-05-28" ;
+    ns1:emd_com_modalidade ns1:Orientação ;
+    ns1:resultado true .
+
+ns1:60b3eeb9c82e74bc1831a3be a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-02-06" ;
+    ns1:emd_com_modalidade ns1:Patinagem ;
+    ns1:resultado true .
+
+ns1:60b3eeb9cc832d080dd2c0e0 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-05-03" ;
+    ns1:emd_com_modalidade ns1:Ciclismo ;
+    ns1:resultado false .
+
+ns1:60b3eeb9cded7ae5d2724d52 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-11-21" ;
+    ns1:emd_com_modalidade ns1:BTT ;
+    ns1:resultado true .
+
+ns1:60b3eeb9cf9c078af09a7b74 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-01-12" ;
+    ns1:emd_com_modalidade ns1:Esgrima ;
+    ns1:resultado true .
+
+ns1:60b3eeb9d027f625a1b63723 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-01-02" ;
+    ns1:emd_com_modalidade ns1:Esgrima ;
+    ns1:resultado true .
+
+ns1:60b3eeb9d7265f5ab15e4fed a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-12-10" ;
+    ns1:emd_com_modalidade ns1:SUP ;
+    ns1:resultado true .
+
+ns1:60b3eeb9d9f01093dc14973f a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-05-08" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado true .
+
+ns1:60b3eeb9dbbc9f23e5c888ac a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-11-01" ;
+    ns1:emd_com_modalidade ns1:Dança ;
+    ns1:resultado false .
+
+ns1:60b3eeb9dd4dc919156890ee a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-01-10" ;
+    ns1:emd_com_modalidade ns1:Equitação ;
+    ns1:resultado false .
+
+ns1:60b3eeb9de8d709dd3fd086f a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-11-06" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado false .
+
+ns1:60b3eeb9e387855b0de81d09 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-06-27" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado false .
+
+ns1:60b3eeb9e6ca114d8ab96bc4 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-08-31" ;
+    ns1:emd_com_modalidade ns1:Dança ;
+    ns1:resultado true .
+
+ns1:60b3eeb9e81cdbbee14cab97 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-07-15" ;
+    ns1:emd_com_modalidade ns1:Dança ;
+    ns1:resultado true .
+
+ns1:60b3eeb9e966a3cf1239840a a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-06-29" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado false .
+
+ns1:60b3eeb9ec44aba1040d2e1e a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-02-06" ;
+    ns1:emd_com_modalidade ns1:Patinagem ;
+    ns1:resultado false .
+
+ns1:60b3eeb9edcbd2a0befa0a74 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2021-02-20" ;
+    ns1:emd_com_modalidade ns1:Dança ;
+    ns1:resultado false .
+
+ns1:60b3eeb9ef81456a2178baca a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-02-24" ;
+    ns1:emd_com_modalidade ns1:Dança ;
+    ns1:resultado true .
+
+ns1:60b3eeb9f0342bd19d6a5a39 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-10-22" ;
+    ns1:emd_com_modalidade ns1:Futebol ;
+    ns1:resultado true .
+
+ns1:60b3eeb9f430b0e9e81165c4 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-02-18" ;
+    ns1:emd_com_modalidade ns1:Dança ;
+    ns1:resultado true .
+
+ns1:60b3eeb9f7311f86c6a33646 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-12-09" ;
+    ns1:emd_com_modalidade ns1:Orientação ;
+    ns1:resultado true .
+
+ns1:60b3eeb9fa4e587712a640d4 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2020-11-04" ;
+    ns1:emd_com_modalidade ns1:Badminton ;
+    ns1:resultado true .
+
+ns1:60b3eeb9fbb0206c040aa4f1 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-10-20" ;
+    ns1:emd_com_modalidade ns1:Equitação ;
+    ns1:resultado false .
+
+ns1:60b3eeb9fc87ff10010ae517 a ns1:EMD,
+        owl:NamedIndividual ;
+    ns1:dataEMD "2019-08-25" ;
+    ns1:emd_com_modalidade ns1:SUP ;
+    ns1:resultado true .
+
+ns1:tem_a_modalidade a owl:ObjectProperty .
+
+ns1:é_praticada_por a owl:ObjectProperty ;
+    rdfs:domain ns1:Modalidade ;
+    rdfs:range ns1:Atleta .
+
+ns1:Clube a owl:Class .
+
+ns1:Modalidade a owl:Class .
+
+ns1:GDGoma a ns1:Clube,
+        owl:NamedIndividual ;
+    ns1:nome_clube "GDGoma" ;
+    ns1:tem_a_modalidade ns1:Andebol,
+        ns1:Atletismo,
+        ns1:BTT,
+        ns1:Basquetebol,
+        ns1:Ciclismo,
+        ns1:Dança,
+        ns1:Equitação,
+        ns1:Esgrima,
+        ns1:Futebol,
+        ns1:Orientação,
+        ns1:Parapente,
+        ns1:Patinagem,
+        ns1:SUP,
+        ns1:Triatlo,
+        ns1:Ténis .
+
+ns1:Vitoria a ns1:Clube,
+        owl:NamedIndividual ;
+    ns1:nome_clube "Vitoria" ;
+    ns1:tem_a_modalidade ns1:Andebol,
+        ns1:Atletismo,
+        ns1:BTT,
+        ns1:Badminton,
+        ns1:Basquetebol,
+        ns1:Ciclismo,
+        ns1:Dança,
+        ns1:Orientação,
+        ns1:Patinagem,
+        ns1:SUP,
+        ns1:Triatlo .
+
+ns1:EDViana a ns1:Clube,
+        owl:NamedIndividual ;
+    ns1:nome_clube "EDViana" ;
+    ns1:tem_a_modalidade ns1:Andebol,
+        ns1:Atletismo,
+        ns1:BTT,
+        ns1:Basquetebol,
+        ns1:Dança,
+        ns1:Esgrima,
+        ns1:Futebol,
+        ns1:Karaté,
+        ns1:Orientação,
+        ns1:Parapente,
+        ns1:SUP,
+        ns1:Triatlo,
+        ns1:Ténis .
+
+ns1:Ténis a ns1:Modalidade,
+        owl:NamedIndividual ;
+    ns1:nome_modalidade "Ténis" .
+
+ns1:SCBraga a ns1:Clube,
+        owl:NamedIndividual ;
+    ns1:nome_clube "SCBraga" ;
+    ns1:tem_a_modalidade ns1:Atletismo,
+        ns1:BTT,
+        ns1:Badminton,
+        ns1:Ciclismo,
+        ns1:Dança,
+        ns1:Equitação,
+        ns1:Esgrima,
+        ns1:Futebol,
+        ns1:Karaté,
+        ns1:Orientação,
+        ns1:Parapente,
+        ns1:Patinagem,
+        ns1:SUP,
+        ns1:Triatlo,
+        ns1:Ténis .
+
+ns1:ABCbraga a ns1:Clube,
+        owl:NamedIndividual ;
+    ns1:nome_clube "ABCbraga" ;
+    ns1:tem_a_modalidade ns1:Andebol,
+        ns1:Atletismo,
+        ns1:BTT,
+        ns1:Badminton,
+        ns1:Ciclismo,
+        ns1:Dança,
+        ns1:Equitação,
+        ns1:Esgrima,
+        ns1:Futebol,
+        ns1:Karaté,
+        ns1:Orientação,
+        ns1:Parapente,
+        ns1:Patinagem,
+        ns1:SUP,
+        ns1:Triatlo .
+
+ns1:ACRroriz a ns1:Clube,
+        owl:NamedIndividual ;
+    ns1:nome_clube "ACRroriz" ;
+    ns1:tem_a_modalidade ns1:Andebol,
+        ns1:BTT,
+        ns1:Badminton,
+        ns1:Basquetebol,
+        ns1:Dança,
+        ns1:Equitação,
+        ns1:Futebol,
+        ns1:Karaté,
+        ns1:Orientação,
+        ns1:Parapente,
+        ns1:Patinagem,
+        ns1:SUP,
+        ns1:Triatlo,
+        ns1:Ténis .
+
+ns1:ACDRcrespos a ns1:Clube,
+        owl:NamedIndividual ;
+    ns1:nome_clube "ACDRcrespos" ;
+    ns1:tem_a_modalidade ns1:Andebol,
+        ns1:Atletismo,
+        ns1:BTT,
+        ns1:Badminton,
+        ns1:Basquetebol,
+        ns1:Ciclismo,
+        ns1:Dança,
+        ns1:Equitação,
+        ns1:Esgrima,
+        ns1:Futebol,
+        ns1:Orientação,
+        ns1:Parapente,
+        ns1:Patinagem,
+        ns1:SUP,
+        ns1:Triatlo .
+
+ns1:Basquetebol a ns1:Modalidade,
+        owl:NamedIndividual ;
+    ns1:nome_modalidade "Basquetebol" .
+
+ns1:Clube_de_Orientação_do_Minho a ns1:Clube,
+        owl:NamedIndividual ;
+    ns1:nome_clube "Clube de Orientação do Minho" ;
+    ns1:tem_a_modalidade ns1:Andebol,
+        ns1:Atletismo,
+        ns1:Badminton,
+        ns1:Basquetebol,
+        ns1:Ciclismo,
+        ns1:Dança,
+        ns1:Equitação,
+        ns1:Esgrima,
+        ns1:Futebol,
+        ns1:Karaté,
+        ns1:Orientação,
+        ns1:Patinagem,
+        ns1:SUP,
+        ns1:Triatlo,
+        ns1:Ténis .
+
+ns1:Equitação a ns1:Modalidade,
+        owl:NamedIndividual ;
+    ns1:nome_modalidade "Equitação" .
+
+ns1:AmigosMontanha a ns1:Clube,
+        owl:NamedIndividual ;
+    ns1:nome_clube "AmigosMontanha" ;
+    ns1:tem_a_modalidade ns1:Andebol,
+        ns1:Atletismo,
+        ns1:BTT,
+        ns1:Badminton,
+        ns1:Ciclismo,
+        ns1:Dança,
+        ns1:Equitação,
+        ns1:Esgrima,
+        ns1:Futebol,
+        ns1:Karaté,
+        ns1:Orientação,
+        ns1:Parapente,
+        ns1:Patinagem,
+        ns1:SUP .
+
+ns1:Karaté a ns1:Modalidade,
+        owl:NamedIndividual ;
+    ns1:nome_modalidade "Karaté" .
+
+ns1:AVCfamalicão a ns1:Clube,
+        owl:NamedIndividual ;
+    ns1:nome_clube "AVCfamalicão" ;
+    ns1:tem_a_modalidade ns1:Andebol,
+        ns1:Atletismo,
+        ns1:BTT,
+        ns1:Badminton,
+        ns1:Basquetebol,
+        ns1:Ciclismo,
+        ns1:Dança,
+        ns1:Equitação,
+        ns1:Esgrima,
+        ns1:Futebol,
+        ns1:Karaté,
+        ns1:Parapente,
+        ns1:Patinagem,
+        ns1:SUP,
+        ns1:Triatlo,
+        ns1:Ténis .
+
+ns1:SUP a ns1:Modalidade,
+        owl:NamedIndividual ;
+    ns1:nome_modalidade "SUP" .
+
+ns1:Ciclismo a ns1:Modalidade,
+        owl:NamedIndividual ;
+    ns1:nome_modalidade "Ciclismo" .
+
+ns1:Dança a ns1:Modalidade,
+        owl:NamedIndividual ;
+    ns1:nome_modalidade "Dança" .
+
+ns1:Andebol a ns1:Modalidade,
+        owl:NamedIndividual ;
+    ns1:nome_modalidade "Andebol" .
+
+ns1:Atletismo a ns1:Modalidade,
+        owl:NamedIndividual ;
+    ns1:nome_modalidade "Atletismo" .
+
+ns1:BTT a ns1:Modalidade,
+        owl:NamedIndividual ;
+    ns1:nome_modalidade "BTT" .
+
+ns1:Patinagem a ns1:Modalidade,
+        owl:NamedIndividual ;
+    ns1:nome_modalidade "Patinagem" .
+
+ns1:Parapente a ns1:Modalidade,
+        owl:NamedIndividual ;
+    ns1:nome_modalidade "Parapente" .
+
+ns1:Orientação a ns1:Modalidade,
+        owl:NamedIndividual ;
+    ns1:nome_modalidade "Orientação" .
+
+ns1:Esgrima a ns1:Modalidade,
+        owl:NamedIndividual ;
+    ns1:nome_modalidade "Esgrima" .
+
+ns1:Badminton a ns1:Modalidade,
+        owl:NamedIndividual ;
+    ns1:nome_modalidade "Badminton" .
+
+ns1:Triatlo a ns1:Modalidade,
+        owl:NamedIndividual ;
+    ns1:nome_modalidade "Triatlo" .
+
+ns1:Futebol a ns1:Modalidade,
+        owl:NamedIndividual ;
+    ns1:nome_modalidade "Futebol" .
+
+ns1:EMD a owl:Class .
+
+ns1:Atleta a owl:Class .
+

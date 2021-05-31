@@ -1,0 +1,55 @@
+COMENTÁRIO
+Apesar de no ficheiro .ttl ter o campo :nome_próprio do atleta
+tanto o graphdb como o protege não estão a fazer o load desse campo.
+Dessa maneira usei apenas o campo apelido. 
+No caso do exercício em que pede o nome do atleta, faria um 
+BIND(CONCAT(STR( ?nome_próprio ), STR(?apelido)) ) AS ?nome ) .
+para obter o nome do atleta.
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX noInferences: <http://www.ontotext.com/explicit>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX : <http://di.uminho.pt/prc2021/teste#>
+
+--------- 1 ---------
+select (count(?emd) as ?num) where { 
+    ?emd rdf:type :EMD.
+}
+
+--------- 2 ---------
+select (count(?emd) as ?num) where { 
+    ?emd rdf:type :EMD.
+    ?emd :resultado true
+}
+
+--------- 3 ---------
+select (count(?atleta) as ?num) ?genero where { 
+    ?atleta rdf:type :Atleta.
+    ?atleta :género ?genero.
+}group by ?genero
+
+--------- 4 ---------
+select (count(?atleta) as ?num) ?mod where { 
+    ?atleta rdf:type :Atleta.
+    ?atleta :pratica ?modalidade.
+    ?modalidade :nome_modalidade ?mod
+}group by ?mod
+
+--------- 5 ---------
+select (count(?atleta) as ?num) where { 
+    ?atleta rdf:type :Atleta.
+    ?atleta :federado true.
+    ?atleta :inscrito_no_clube ?clube.
+    ?clube :nome_clube "GDGoma".
+}
+
+--------- 6 ---------
+select (count(?atleta) as ?num) where { 
+    ?atleta rdf:type :Atleta.
+    ?atleta :género "F".
+    ?atleta :pratica ?modalidade.
+    ?modalidade :nome_modalidade "Triatlo".
+}
